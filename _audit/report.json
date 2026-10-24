@@ -1,0 +1,404 @@
+{
+ "desktop": {
+  "h": 19104,
+  "w": 1440,
+  "overflowX": false,
+  "sw": 1440,
+  "checks": {
+   "offenders": [
+    "hero-blob blob-orange [1070..1510]",
+    "hero-blob blob-violet [-90..310]",
+    "brand-ribbon-track [0..4148]",
+    "brand-ribbon-group [0..2074]",
+    "ribbon-brand-card [1350..1656]",
+    "client-logo-vector komal-logo [1375..1449]",
+    "komal-title [1375..1449]",
+    "ribbon-brand-info [1470..1631]",
+    "STRONG [1489..1613]",
+    "SPAN [1489..1613]",
+    "ribbon-brand-card [1680..2050]",
+    "client-logo-vector himat-logo [1705..1811]",
+    "himat-icon [1745..1771]",
+    "himat-title [1705..1811]"
+   ],
+   "tapSmall": [
+    "A \"View Monthly Packa\" 178x30",
+    "A \"About\" 56x33",
+    "A \"Pillars\" 56x33",
+    "A \"Services\" 73x33",
+    "A \"Our Work\" 77x33",
+    "A \"How We Work\" 105x33",
+    "A \"Clients\" 62x33",
+    "A \"Pricing\" 62x33",
+    "A \"Why Us\" 67x33",
+    "A \"+91 85114 10817\" 112x19",
+    "A \"theblankstateteam@\" 217x19",
+    "A \"THEBLANKSTATE.COM\" 164x19",
+    "A \"+91 85114 10817\" 97x16",
+    "A \"01. Build (Web & S\" 171x17"
+   ],
+   "overlap": [],
+   "textClip": [],
+   "emptyText": 0,
+   "fixedList": [
+    {
+     "cls": "floating-actions",
+     "rect": [
+      1364,
+      756,
+      1418,
+      878
+     ]
+    }
+   ],
+   "grids": {
+    "hero": "621.156px 550.844px",
+    "work": "393.328px 393.328px 393.344px",
+    "process": "394.656px 394.672px 394.656px",
+    "pillars": "290px 290px 290px 290px",
+    "quote": "288.5px 288.5px 288.5px 288.5px",
+    "why": "392px 392px 392px",
+    "serviceRow": "618.438px 559.547px",
+    "ecoNodes": "266.656px 266.672px 266.656px",
+    "tabs": "none",
+    "features": "MISSING:.service-feature-grid"
+   },
+   "nav": {
+    "links": "flex",
+    "mobileBtn": "none",
+    "cta": "flex"
+   },
+   "eco": {
+    "lines": 5,
+    "live": true,
+    "ringW": 388
+   },
+   "dividerSvgH": "92px",
+   "splits": true,
+   "doodles": 14,
+   "sectionHeights": {
+    "hero": 1163,
+    "clients": 639,
+    "about": 982,
+    "marquee": 91,
+    "pillars": 969,
+    "services": 4013,
+    "work": 1422,
+    "process": 971,
+    "quotation": 2961,
+    "why": 1083,
+    "ecosystem": 923,
+    "faq": 680,
+    "contact": 1055,
+    "footer": 1022
+   },
+   "tabsDisplay": "flex",
+   "rowCount": 5,
+   "rowOpacity": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "1"
+   ]
+  },
+  "shots": [
+   "desktop_00_fold.png",
+   "desktop_hero.png",
+   "desktop_clients.png",
+   "desktop_about.png",
+   "desktop_marquee.png",
+   "desktop_pillars.png",
+   "desktop_services_0.png",
+   "desktop_services_1.png",
+   "desktop_services_2.png",
+   "desktop_work.png",
+   "desktop_process.png",
+   "desktop_quotation_0.png",
+   "desktop_quotation_1.png",
+   "desktop_why.png",
+   "desktop_ecosystem.png",
+   "desktop_faq.png",
+   "desktop_contact.png",
+   "desktop_footer.png"
+  ]
+ },
+ "tablet": {
+  "h": 25033,
+  "w": 834,
+  "overflowX": false,
+  "sw": 834,
+  "checks": {
+   "offenders": [
+    "hero-blob blob-orange [464..904]",
+    "hero-blob blob-violet [-90..310]",
+    "brand-ribbon-track [0..4148]",
+    "brand-ribbon-group [0..2074]",
+    "ribbon-brand-card [839..1326]",
+    "client-logo-vector gajjar-logo [864..1060]",
+    "gajjar-mark [864..897]",
+    "gf-g [871..882]",
+    "gf-f [882..891]",
+    "gajjar-text [906..1060]",
+    "gajjar-title [906..1060]",
+    "gajjar-badge [906..1060]",
+    "ribbon-brand-info [1107..1301]",
+    "STRONG [1126..1284]"
+   ],
+   "tapSmall": [
+    "A \"View Monthly Packa\" 178x30",
+    "A \"About\" 56x33",
+    "A \"Pillars\" 56x33",
+    "A \"Services\" 73x33",
+    "A \"Our Work\" 77x33",
+    "A \"How We Work\" 105x33",
+    "A \"Clients\" 62x33",
+    "A \"Pricing\" 62x33",
+    "A \"Why Us\" 67x33",
+    "A \"+91 85114 10817\" 112x19",
+    "A \"theblankstateteam@\" 217x19",
+    "A \"THEBLANKSTATE.COM\" 164x19",
+    "A \"+91 85114 10817\" 97x16",
+    "A \"01. Build (Web & S\" 171x17"
+   ],
+   "overlap": [],
+   "textClip": [],
+   "emptyText": 0,
+   "fixedList": [
+    {
+     "cls": "floating-actions",
+     "rect": [
+      758,
+      968,
+      812,
+      1090
+     ]
+    }
+   ],
+   "grids": {
+    "hero": "786px",
+    "work": "380px 380px",
+    "process": "381px 381px",
+    "pillars": "381px 381px",
+    "quote": "380px 380px",
+    "why": "379px 379px",
+    "serviceRow": "786px",
+    "ecoNodes": "242px 242px 242px",
+    "tabs": "none",
+    "features": "MISSING:.service-feature-grid"
+   },
+   "nav": {
+    "links": "flex",
+    "mobileBtn": "none",
+    "cta": "flex"
+   },
+   "eco": {
+    "lines": 5,
+    "live": true,
+    "ringW": 388
+   },
+   "dividerSvgH": "92px",
+   "splits": true,
+   "doodles": 14,
+   "sectionHeights": {
+    "hero": 1584,
+    "clients": 620,
+    "about": 1163,
+    "marquee": 76,
+    "pillars": 1343,
+    "services": 6343,
+    "work": 1771,
+    "process": 1216,
+    "quotation": 3738,
+    "why": 1274,
+    "ecosystem": 876,
+    "faq": 877,
+    "contact": 1792,
+    "footer": 1228
+   },
+   "tabsDisplay": "flex",
+   "rowCount": 5,
+   "rowOpacity": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "1"
+   ]
+  },
+  "shots": [
+   "tablet_00_fold.png",
+   "tablet_hero_0.png",
+   "tablet_hero_1.png",
+   "tablet_clients.png",
+   "tablet_about.png",
+   "tablet_marquee.png",
+   "tablet_pillars.png",
+   "tablet_services_0.png",
+   "tablet_services_1.png",
+   "tablet_services_2.png",
+   "tablet_services_3.png",
+   "tablet_services_4.png",
+   "tablet_work_0.png",
+   "tablet_work_1.png",
+   "tablet_process.png",
+   "tablet_quotation_0.png",
+   "tablet_quotation_1.png",
+   "tablet_quotation_2.png",
+   "tablet_why.png",
+   "tablet_ecosystem.png",
+   "tablet_faq.png",
+   "tablet_contact_0.png",
+   "tablet_contact_1.png",
+   "tablet_footer.png"
+  ]
+ },
+ "mobile": {
+  "h": 35147,
+  "w": 390,
+  "overflowX": false,
+  "sw": 390,
+  "checks": {
+   "offenders": [
+    "hero-blob blob-orange [20..460]",
+    "hero-blob blob-violet [-90..310]",
+    "brand-ribbon-track [0..4088]",
+    "brand-ribbon-group [0..2044]",
+    "ribbon-brand-card [360..803]",
+    "client-logo-vector plusmark-logo [385..511]",
+    "plusmark-icon [385..409]",
+    "[object SVGAnimatedString] [385..409]",
+    "[object SVGAnimatedString] [387..407]",
+    "[object SVGAnimatedString] [391..403]",
+    "plusmark-text [416..511]",
+    "plusmark-title [416..511]",
+    "trademark [504..511]",
+    "plusmark-tag [416..511]"
+   ],
+   "tapSmall": [
+    "A \"View Monthly Packa\" 178x30",
+    "A \"+91 85114 10817\" 112x19",
+    "A \"theblankstateteam@\" 217x19",
+    "A \"THEBLANKSTATE.COM\" 164x19",
+    "A \"+91 85114 10817\" 97x16",
+    "A \"01. Build (Web & S\" 171x17",
+    "A \"02. Sell (Marketpl\" 149x17",
+    "A \"03. Advertise (Met\" 195x17",
+    "A \"04. Grow (SEO & Ma\" 152x17",
+    "A \"05. Social Media M\" 195x17",
+    "A \"Social Media (₹12,\" 172x17",
+    "A \"Performance Market\" 242x17",
+    "A \"E-Commerce Retaine\" 143x17",
+    "A \"Custom Business So\" 173x17"
+   ],
+   "overlap": [],
+   "textClip": [],
+   "emptyText": 0,
+   "fixedList": [
+    {
+     "cls": "nav-links",
+     "rect": [
+      16,
+      -266,
+      374,
+      53
+     ]
+    },
+    {
+     "cls": "floating-actions",
+     "rect": [
+      320,
+      706,
+      374,
+      828
+     ]
+    }
+   ],
+   "grids": {
+    "hero": "342px",
+    "work": "342px",
+    "process": "342px",
+    "pillars": "342px",
+    "quote": "342px",
+    "why": "342px",
+    "serviceRow": "342px",
+    "ecoNodes": "322px",
+    "tabs": "none",
+    "features": "MISSING:.service-feature-grid"
+   },
+   "nav": {
+    "links": "flex",
+    "mobileBtn": "flex",
+    "cta": "none"
+   },
+   "eco": {
+    "lines": 5,
+    "live": true,
+    "ringW": 0
+   },
+   "dividerSvgH": "56px",
+   "splits": true,
+   "doodles": 13,
+   "sectionHeights": {
+    "hero": 1955,
+    "clients": 733,
+    "about": 1653,
+    "marquee": 61,
+    "pillars": 2221,
+    "services": 7663,
+    "work": 3156,
+    "process": 1933,
+    "quotation": 6901,
+    "why": 2066,
+    "ecosystem": 1231,
+    "faq": 927,
+    "contact": 2149,
+    "footer": 1737
+   },
+   "tabsDisplay": "flex",
+   "rowCount": 5,
+   "rowOpacity": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "1"
+   ]
+  },
+  "shots": [
+   "mobile_00_fold.png",
+   "mobile_hero_0.png",
+   "mobile_hero_1.png",
+   "mobile_clients.png",
+   "mobile_about_0.png",
+   "mobile_about_1.png",
+   "mobile_marquee.png",
+   "mobile_pillars_0.png",
+   "mobile_pillars_1.png",
+   "mobile_services_0.png",
+   "mobile_services_1.png",
+   "mobile_services_2.png",
+   "mobile_services_3.png",
+   "mobile_services_4.png",
+   "mobile_services_5.png",
+   "mobile_work_0.png",
+   "mobile_work_1.png",
+   "mobile_work_2.png",
+   "mobile_process_0.png",
+   "mobile_process_1.png",
+   "mobile_quotation_0.png",
+   "mobile_quotation_1.png",
+   "mobile_quotation_2.png",
+   "mobile_quotation_3.png",
+   "mobile_quotation_4.png",
+   "mobile_why_0.png",
+   "mobile_why_1.png",
+   "mobile_ecosystem.png",
+   "mobile_faq.png",
+   "mobile_contact_0.png",
+   "mobile_contact_1.png",
+   "mobile_footer_0.png",
+   "mobile_footer_1.png"
+  ]
+ }
+}

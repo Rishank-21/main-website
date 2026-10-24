@@ -1,0 +1,2140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>The Blank State | Digital Growth Company — We Build. We Market. We Grow.</title>
+    <meta name="title" content="The Blank State | Digital Growth Company — We Build. We Market. We Grow.">
+    <meta name="description"
+        content="The Blank State is a full-stack digital growth company helping businesses build websites & software, sell across e-commerce marketplaces, run performance marketing (Meta & Google Ads), scale SEO, and master social media.">
+    <meta name="keywords"
+        content="The Blank State, digital growth company, website development, software development, e-commerce management, amazon seller management, flipkart account management, performance marketing, meta ads, google ads agency, SEO agency, social media management, Ahmedabad digital marketing">
+    <meta name="author" content="The Blank State">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://theblankstate.com/">
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#ECE4D6">
+    <meta name="msapplication-TileColor" content="#ECE4D6">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://theblankstate.com/">
+    <meta property="og:title" content="The Blank State | Digital Growth Company">
+    <meta property="og:description"
+        content="We Build. We Market. We Grow. A single, dependable digital growth partner for modern businesses, manufacturers, and e-commerce brands.">
+    <meta property="og:image" content="https://theblankstate.com/assets/og-image.png">
+    <meta property="og:site_name" content="The Blank State">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://theblankstate.com/">
+    <meta name="twitter:title" content="The Blank State | Digital Growth Company">
+    <meta name="twitter:description"
+        content="We Build. We Market. We Grow. Websites, E-Commerce, Meta & Google Ads, SEO, and Social Media under one roof.">
+    <meta name="twitter:image" content="https://theblankstate.com/assets/og-image.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Google AdSense -->
+    <meta name="google-adsense-account" content="ca-pub-1118281305976257">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1118281305976257"
+        crossorigin="anonymous"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Structured Data - Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "The Blank State",
+        "alternateName": "The Blank State - Digital Growth Company",
+        "url": "https://theblankstate.com",
+        "logo": "https://theblankstate.com/assets/logo.png",
+        "description": "The Blank State helps businesses build websites & software, sell online, run performance marketing, and manage social media.",
+        "telephone": ["+918511410817"],
+        "email": "theblankstateteam@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "B1, The Blank State (REA Digital Seva), Dharmbhumi 3 Rasta, Narolgam",
+            "addressLocality": "Ahmedabad",
+            "postalCode": "382405",
+            "addressRegion": "Gujarat",
+            "addressCountry": "IN"
+        },
+        "hasMap": "https://www.google.com/maps/place/REA+DIGITAL+SEVA,+Dharmbhumi,+3+rasta,+Narolgam,+Ahmedabad,+Gujarat+382405/data=!4m2!3m1!1s0x395e8fdd2fb1693d:0xcd2723d610aa2731!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjI4LjMYACCenQoqqQEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwODI1MDI1LDEwMDgyMDIzNywxMDA4MjI0OTQsMTAwODI3OTc1QgJJTg%3D%3D&skid=4872bc57-e890-4a19-b775-65b9f625f72f",
+        "priceRange": "₹₹",
+        "sameAs": [
+            "https://instagram.com/theblankstate"
+        ]
+    }
+    </script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="brand-logo">
+                <span class="logo-mark">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+                        <rect x="3" y="3" width="18" height="18" rx="4" />
+                        <line x1="3" y1="9" x2="21" y2="9" />
+                        <line x1="9" y1="21" x2="9" y2="9" />
+                    </svg>
+                </span>
+                <div class="logo-text-group">
+                    <span class="logo-name">THE BLANK STATE</span>
+                </div>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Our Work</a></li>
+                <li><a href="#pillars">Pillars</a></li>
+                <li><a href="#process">How We Work</a></li>
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#quotation">Pricing</a></li>
+                <li><a href="#why-us">Why Us</a></li>
+                <li class="nav-mobile-cta">
+                    <a href="https://wa.me/918511410817?text=Hi%20The%20Blank%20State%2C%20I%20would%20like%20to%20discuss%20digital%20growth%20services."
+                        target="_blank" class="btn btn-primary btn-sm">
+                        WhatsApp Us
+                    </a>
+                </li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="https://wa.me/918511410817?text=Hi%20The%20Blank%20State%2C%20I%20would%20like%20to%20discuss%20digital%20growth%20services%20for%20my%20business."
+                    target="_blank" class="btn btn-primary nav-cta-btn">
+                    <svg class="icon-whatsapp" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.15c-1.49 0-2.95-.4-4.22-1.16l-.3-.18-3.13.82.83-3.05-.2-.31a8.17 8.17 0 0 1-1.25-4.36c0-4.54 3.7-8.24 8.27-8.24 2.2 0 4.28.86 5.84 2.42a8.217 8.217 0 0 1 2.42 5.83c0 4.55-3.7 8.23-8.26 8.23zm4.53-6.17c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.79.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.16.04-.31-.02-.43s-.56-1.35-.77-1.85c-.2-.48-.41-.42-.56-.43h-.48c-.16 0-.43.06-.66.31-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.16 1.73 2.64 4.2 3.7.59.25 1.05.4 1.41.51.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.11-.23-.17-.48-.3z" />
+                    </svg>
+                    <span>Talk to Us</span>
+                </a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="mhero">
+            <div class="mhero-copy">
+                <p class="hero-kicker mhero-kicker">The Blank State — Digital Growth Company</p>
+
+                <h1 class="hero-headline mhero-headline">Turn a <span class="hero-key">blank state</span> into <span class="hero-key hero-key-alt">momentum.</span></h1>
+
+                <p class="hero-lead mhero-lead">
+                    We build websites, software &amp; growth systems that help ambitious businesses build, sell, and scale — all under one roof.
+                </p>
+
+                <div class="hero-actions mhero-actions">
+                    <a href="#contact" class="btn btn-primary btn-lg">
+                        <span>Start a project</span>
+                        <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </a>
+                    <a href="#work" class="btn btn-ghost btn-lg">
+                        <span>See our work</span>
+                    </a>
+                </div>
+
+                <!-- Hero Trust Strip -->
+                <div class="hero-trust-strip">
+                    <div class="hero-stat">
+                        <span class="hero-stat-num">5+</span>
+                        <span class="hero-stat-label">Happy Clients</span>
+                    </div>
+                    <div class="hero-stat-divider"></div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-num">5</span>
+                        <span class="hero-stat-label">Service Verticals</span>
+                    </div>
+                    <div class="hero-stat-divider"></div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-num">3+</span>
+                        <span class="hero-stat-label">Years Delivering Growth</span>
+                    </div>
+                    <div class="hero-stat-divider"></div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-num">1</span>
+                        <span class="hero-stat-label">Dependable Partner</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="strings-stage" id="stringsStage" aria-hidden="true">
+                <svg class="strings-svg" data-strings xmlns="http://www.w3.org/2000/svg"></svg>
+                <span class="string-chip" data-row="1" data-key="1" style="--fx:.05;--fy:.02;--sd:.14">
+                    <svg class="chip-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg>
+                    Websites
+                </span>
+                <span class="string-chip" data-row="1" data-key="1" style="--fx:.38;--fy:.04;--sd:-.12">
+                    <svg class="chip-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14l4-8 4 6 3-4 5 10z"/></svg>
+                    Paid Ads
+                </span>
+                <span class="string-chip" data-row="1" style="--fx:.70;--fy:.01;--sd:.16">Branding</span>
+
+                <span class="string-chip" data-row="2" data-key="1" style="--fx:.12;--fy:.30;--sd:-.10">
+                    <svg class="chip-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6l-5 6 5 6M16 6l5 6-5 6"/></svg>
+                    Software
+                </span>
+                <span class="string-chip" data-row="2" data-key="1" style="--fx:.45;--fy:.33;--sd:.12">
+                    <svg class="chip-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M16.5 16.5L21 21"/></svg>
+                    SEO
+                </span>
+                <span class="string-chip" data-row="2" style="--fx:.78;--fy:.29;--sd:-.14">Content</span>
+
+                <span class="string-chip" data-row="3" style="--fx:.06;--fy:.58;--sd:.12">E-commerce</span>
+                <span class="string-chip" data-row="3" style="--fx:.40;--fy:.61;--sd:-.12">Automation</span>
+                <span class="string-chip" data-row="3" style="--fx:.72;--fy:.57;--sd:.14">Analytics</span>
+
+                <span class="string-chip" data-row="4" style="--fx:.18;--fy:.85;--sd:-.12">Marketplaces</span>
+                <span class="string-chip" data-row="4" style="--fx:.48;--fy:.88;--sd:.10">UI / UX</span>
+                <span class="string-chip" data-row="4" style="--fx:.79;--fy:.84;--sd:-.14">Support</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Brands That Trust Us -->
+    <!-- Shape divider -->
+    <div class="section-divider" data-shape="wave" data-bg="#151524" data-fill="#ffffff" data-c1="#F26522" data-c2="#FF8950" aria-hidden="true"></div>
+    <section class="section brands-section" id="clients">
+        <div class="container">
+            <div class="section-header-centered brands-head">
+                <div class="brands-badge">TRUSTED CLIENTS</div>
+                <h2 class="section-heading">Brands That <span class="text-accent">Trust Us</span></h2>
+                <p class="section-subheading">Manufacturers, retailers and growing enterprises across apparel, furniture and writing &amp; display systems — one dependable partner for their digital growth.</p>
+            </div>
+        </div>
+
+        <!-- Hairline brand band (Mistral style) -->
+    <svg class="doodle doodle-chain" viewBox="0 0 222 86" aria-hidden="true" focusable="false">
+        <rect class="dl" pathLength="1" x="14" y="26" width="86" height="34" rx="17"/>
+        <rect class="dl" pathLength="1" x="120" y="26" width="86" height="34" rx="17"/>
+        <path class="dl accent" pathLength="1" d="M100,43 h20"/>
+        <path class="dl" pathLength="1" d="M60,12 v10 M55,17 h10"/>
+        <path class="dl" pathLength="1" d="M163,66 v10 M158,71 h10"/>
+        <circle class="dot" cx="8" cy="43" r="3"/>
+        <circle class="dot accent" cx="214" cy="43" r="3"/>
+    </svg>
+        <div class="brand-band">
+            <div class="brand-band-row">
+                <div class="brand-cell">
+                    <div class="client-logo-vector nihar-logo">
+                        <span class="nihar-name">Nihar<span class="trademark">™</span></span>
+                        <span class="nihar-sub">c r e a t i o n</span>
+                    </div>
+                    <div class="brand-cell-meta">
+                        <strong>Nihar Creation™</strong>
+                        <span>Apparel & Textiles</span>
+                    </div>
+                </div>
+
+                <div class="brand-cell">
+                    <div class="client-logo-vector plusmark-logo">
+                        <div class="plusmark-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12,2 2,22 22,22" />
+                                <polygon points="12,7 6,19 18,19" fill="#ffffff" />
+                            </svg>
+                        </div>
+                        <div class="plusmark-text">
+                            <span class="plusmark-title">PLUSMARK<span class="trademark">®</span></span>
+                            <span class="plusmark-tag">WRITING & DISPLAY</span>
+                        </div>
+                    </div>
+                    <div class="brand-cell-meta">
+                        <strong>PLUSMARK®</strong>
+                        <span>Writing & Display Systems</span>
+                    </div>
+                </div>
+
+                <div class="brand-cell">
+                    <div class="client-logo-vector gajjar-logo">
+                        <div class="gajjar-mark">
+                            <span class="gf-g">G</span><span class="gf-f">F</span>
+                        </div>
+                        <div class="gajjar-text">
+                            <span class="gajjar-title">GAJJAR FURNITURES</span>
+                            <span class="gajjar-badge">CONTRACTOR</span>
+                        </div>
+                    </div>
+                    <div class="brand-cell-meta">
+                        <strong>Gajjar Furnitures</strong>
+                        <span>Furniture Contractor</span>
+                    </div>
+                </div>
+
+                <div class="brand-cell">
+                    <div class="client-logo-vector komal-logo">
+                        <div class="komal-crest">
+                            <span class="k-monogram">K</span>
+                        </div>
+                        <span class="komal-title">KOMAL</span>
+                        <span class="komal-sub">CREATION</span>
+                    </div>
+                    <div class="brand-cell-meta">
+                        <strong>Komal Creation</strong>
+                        <span>Apparel & Fashion</span>
+                    </div>
+                </div>
+
+                <div class="brand-cell">
+                    <div class="client-logo-vector himat-logo">
+                        <div class="himat-icon">H</div>
+                        <span class="himat-title">HIMAT TEXTILE</span>
+                        <span class="himat-sub">B2B Garment Supplier</span>
+                    </div>
+                    <div class="brand-cell-meta">
+                        <strong>Himat Textile</strong>
+                        <span>B2B Garment Supplier</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Client Trust Quote Banner -->
+            <div class="client-quote-banner">
+                <p>“Helping businesses build, sell, and grow in the digital world.”</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <h2 class="section-heading">We Build Digital Solutions That Drive <span class="text-accent">Business Growth.</span></h2>
+            
+    <svg class="doodle doodle-faces" viewBox="0 0 660 172" aria-hidden="true" focusable="false">
+        <defs><path id="bsProfile" pathLength="1" d="M96,6 C74,12 62,30 64,48 C65,58 57,64 51,72 C47,79 55,82 60,84 C57,89 60,94 66,96 C63,103 70,111 80,114 C86,118 88,136 86,156"/></defs>
+        <use class="dl" href="#bsProfile" transform="translate(0,0)"/>
+        <use class="dl" href="#bsProfile" transform="translate(92,6)"/>
+        <use class="dl" href="#bsProfile" transform="translate(184,2)"/>
+        <use class="dl" href="#bsProfile" transform="translate(276,8)"/>
+        <use class="dl" href="#bsProfile" transform="translate(460,4)"/>
+        <use class="dl" href="#bsProfile" transform="translate(552,10)"/>
+        <use class="dl accent" href="#bsProfile" transform="translate(368,0)"/>
+        <use class="dl accent2" href="#bsProfile" transform="translate(371,4)"/>
+        <path class="dl accent" pathLength="1" d="M430,0 C426,22 420,34 414,44"/>
+        <path class="dl accent2" pathLength="1" d="M436,0 C432,24 426,36 419,47"/>
+
+    </svg>
+            <!-- Hand-drawn illustration: same crowd, one drawn in colour -->
+            <div class="about-grid">
+                <div class="about-card-narrative">
+                    <p class="about-lead-paragraph">
+                        <strong>THE BLANK STATE</strong> is a digital growth company that helps businesses build a stronger digital presence, sell online, reach the right customers, and grow with the support of modern technology and digital marketing.
+                    </p>
+                    <p class="about-sub-paragraph">
+                        We work as a single, dependable partner — bringing together website and software development, e-commerce management, performance advertising, search visibility, and social media under one roof, so businesses can focus on running their operations while their digital growth is handled with clarity and consistency.
+                    </p>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Services Breakdown -->
+    <!-- Shape divider -->
+    <div class="section-divider" data-shape="wave" data-bg="#ffffff" data-fill="#fafafa" data-c1="#F26522" data-c2="#EC4899" aria-hidden="true"></div>
+    <section class="section services-section" id="services">
+        <div class="container">
+            <div class="section-header-centered">
+                <h2 class="section-heading">Comprehensive Digital Growth Services</h2>
+                <p class="section-subheading">Select any service domain to explore our capabilities, deliverables, and operational execution.</p>
+            </div>
+
+    <svg class="doodle doodle-services" viewBox="0 0 230 92" aria-hidden="true" focusable="false">
+        <path class="dl" pathLength="1" d="M12,30 C58,12 122,14 178,44"/>
+        <path class="dl accent" pathLength="1" d="M178,44 l-17,-3 M178,44 l-5,-16"/>
+        <path class="dl accent2" pathLength="1" d="M198,14 v16 M190,22 h16"/>
+        <path class="dl" pathLength="1" d="M22,66 c16,-12 30,12 46,0 c14,-10 26,8 40,2"/>
+        <circle class="dot" cx="8" cy="31" r="3.4"/>
+        <circle class="dot accent" cx="216" cy="66" r="3"/>
+    </svg>
+
+            <!-- Mistral-style sticky index + hairline service rows -->
+            <div class="svc-mistral">
+                <aside class="svc-index" aria-label="Service sections">
+                    <ul>
+                        <li><a href="#row-build" class="svc-index-link is-active" data-svc-row="row-build"><span class="svc-index-num">01</span><span class="svc-index-label">Web &amp; Software</span></a></li>
+                        <li><a href="#row-sell" class="svc-index-link" data-svc-row="row-sell"><span class="svc-index-num">02</span><span class="svc-index-label">E-Commerce &amp; Marketplaces</span></a></li>
+                        <li><a href="#row-advertise" class="svc-index-link" data-svc-row="row-advertise"><span class="svc-index-num">03</span><span class="svc-index-label">Performance Marketing</span></a></li>
+                        <li><a href="#row-seo" class="svc-index-link" data-svc-row="row-seo"><span class="svc-index-num">04</span><span class="svc-index-label">SEO &amp; Google Maps</span></a></li>
+                        <li><a href="#row-social" class="svc-index-link" data-svc-row="row-social"><span class="svc-index-num">05</span><span class="svc-index-label">Social Media</span></a></li>
+                    </ul>
+                </aside>
+                <div class="service-rows svc-rows">
+                <article class="service-row" id="row-build" style="--row-accent:#F26522">
+                    <div class="service-row-text">
+                        <span class="service-row-eyebrow">Website &amp; Software Development</span>
+                        <h3 class="service-row-heading">Websites That Work.<br><em>Software That Scales.</em></h3>
+                        <p class="service-row-copy">Your website is your brand's stage. We design immersive, high-performing sites and custom software that impress, engage, and convert visitors into loyal customers.</p>
+                        <div class="service-row-chips">
+                            <span>Corporate Websites</span><span>E-Commerce Stores</span><span>ERP &amp; CRM</span><span>Mobile Apps</span>
+                        </div>
+                        <a href="#tab-build" class="btn btn-outline btn-know" data-tab-link="build">Know More &rarr;</a>
+                    </div>
+                    <div class="service-row-visual">
+<svg class="doodle doodle-row" viewBox="0 0 58 58" aria-hidden="true" focusable="false">
+<path class="dl" pathLength="1" d="M14,8 L14,44 L24,34 L30,48 L37,45 L31,31 L44,31 Z"/><path class="dl accent" pathLength="1" d="M46,10 a12,12 0 0 1 4,10"/><path class="dl accent" pathLength="1" d="M52,2 a18,18 0 0 1 6,16"/>
+    </svg>
+                        <div class="mock-browser">
+                            <div class="mock-browser-bar"><span></span><span></span><span></span><i>theblankstate.com</i></div>
+                            <div class="mock-browser-body">
+                                <div class="mock-hero-block"></div>
+                                <div class="mock-line w-80"></div>
+                                <div class="mock-line w-60"></div>
+                                <div class="mock-cards"><span></span><span></span><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="service-row" id="row-sell" style="--row-accent:#7C4B9B">
+                    <div class="service-row-text">
+                        <span class="service-row-eyebrow">E-Commerce &amp; Marketplace Management</span>
+                        <h3 class="service-row-heading">List Once.<br><em>Sell Everywhere.</em></h3>
+                        <p class="service-row-copy">From product listings to marketplace growth — we run your Amazon, Flipkart, Meesho and Myntra operations end-to-end, so every listing is sharper and every order counts.</p>
+                        <div class="service-row-chips">
+                            <span>Account Management</span><span>A+ Content</span><span>Sponsored Ads</span><span>Account Health</span>
+                        </div>
+                        <a href="#tab-sell" class="btn btn-outline btn-know" data-tab-link="sell">Know More &rarr;</a>
+                    </div>
+                    <div class="service-row-visual">
+<svg class="doodle doodle-row" viewBox="0 0 58 58" aria-hidden="true" focusable="false">
+<path class="dl" pathLength="1" d="M6,10 h9 l6,26 h26 l7,-19 H20"/><circle class="dot" cx="24" cy="45" r="3.2"/><circle class="dot" cx="44" cy="45" r="3.2"/><path class="dl accent" pathLength="1" d="M34,4 v8 M30,8 h8"/>
+    </svg>
+                        <div class="mock-market-grid">
+                            <div class="mock-tile"><span class="mock-tile-img"></span><span class="mock-tile-line"></span><span class="mock-tile-price">₹</span></div>
+                            <div class="mock-tile hot"><span class="mock-tile-img"></span><span class="mock-tile-line"></span><span class="mock-tile-price">₹</span></div>
+                            <div class="mock-tile"><span class="mock-tile-img"></span><span class="mock-tile-line"></span><span class="mock-tile-price">₹</span></div>
+                            <div class="mock-tile"><span class="mock-tile-img"></span><span class="mock-tile-line"></span><span class="mock-tile-price">₹</span></div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="service-row" id="row-advertise" style="--row-accent:#14B8A6">
+                    <div class="service-row-text">
+                        <span class="service-row-eyebrow">Performance Marketing — Meta &amp; Google Ads</span>
+                        <h3 class="service-row-heading">Clicks Are Noise.<br><em>Conversions Are Signal.</em></h3>
+                        <p class="service-row-copy">Stop spending on arbitrary clicks. We build high-converting paid funnels engineered around measurable results — qualified leads, verified sales, and sustainable ROAS.</p>
+                        <div class="service-row-chips">
+                            <span>Meta Ads</span><span>Google Ads</span><span>Retargeting</span><span>Pixel &amp; CAPI</span>
+                        </div>
+                        <a href="#tab-advertise" class="btn btn-outline btn-know" data-tab-link="advertise">Know More &rarr;</a>
+                    </div>
+                    <div class="service-row-visual">
+<svg class="doodle doodle-row" viewBox="0 0 58 58" aria-hidden="true" focusable="false">
+<path class="dl" pathLength="1" d="M8,22 v12 h9 l17,11 V11 L17,22 Z"/><path class="dl accent" pathLength="1" d="M42,18 a11,11 0 0 1 0,20"/><path class="dl accent" pathLength="1" d="M49,12 a19,19 0 0 1 0,32"/>
+    </svg>
+                        <div class="mock-chart">
+                            <div class="mock-chart-head"><strong>ROAS</strong><span>6.4x</span></div>
+                            <div class="mock-bars">
+                                <span style="--h:32%"></span><span style="--h:48%"></span><span style="--h:40%"></span><span style="--h:66%"></span><span style="--h:58%"></span><span style="--h:82%"></span><span class="peak" style="--h:100%"></span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="service-row" id="row-seo" style="--row-accent:#EC4899">
+                    <div class="service-row-text">
+                        <span class="service-row-eyebrow">SEO &amp; Google Maps Growth</span>
+                        <h3 class="service-row-heading">Be Found First.<br><em>Grow Forever.</em></h3>
+                        <p class="service-row-copy">Rank on page 1 of Google and dominate your local geography. When customers search nearby, your phone should ring before your competitors'.</p>
+                        <div class="service-row-chips">
+                            <span>Technical SEO</span><span>Local Pack</span><span>GBP Optimization</span><span>Reviews</span>
+                        </div>
+                        <a href="#tab-seo" class="btn btn-outline btn-know" data-tab-link="seo">Know More &rarr;</a>
+                    </div>
+                    <div class="service-row-visual">
+<svg class="doodle doodle-row" viewBox="0 0 58 58" aria-hidden="true" focusable="false">
+<circle class="dl" pathLength="1" cx="24" cy="24" r="15"/><path class="dl" pathLength="1" d="M35,35 L50,50"/><path class="dl accent" pathLength="1" d="M24,15 l2.6,6.4 6.9,.6 -5.2,4.5 1.5,6.8 -5.8,-3.5 -5.8,3.5 1.5,-6.8 -5.2,-4.5 6.9,-.6 Z"/>
+    </svg>
+                        <div class="mock-search">
+                            <div class="mock-search-bar">your business + services nearby</div>
+                            <div class="mock-result top"><span class="mock-pin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></span><div><strong>Your Business</strong><span class="mock-stars">★★★★★</span></div><em>#1</em></div>
+                            <div class="mock-result"><div><strong>Competitor 1</strong><span class="mock-line-dim"></span></div><em>#4</em></div>
+                            <div class="mock-result"><div><strong>Competitor 2</strong><span class="mock-line-dim"></span></div><em>#7</em></div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="service-row" id="row-social" style="--row-accent:#F59E0B">
+                    <div class="service-row-text">
+                        <span class="service-row-eyebrow">Social Media Management</span>
+                        <h3 class="service-row-heading">Feeds Scroll Past.<br><em>Stories Stick.</em></h3>
+                        <p class="service-row-copy">Transform your profiles into trusted brand hubs. Every reel, post and story is planned around a clear content calendar and a consistent visual identity.</p>
+                        <div class="service-row-chips">
+                            <span>Reels</span><span>Carousels</span><span>Content Calendar</span><span>Community Growth</span>
+                        </div>
+                        <a href="#tab-social" class="btn btn-outline btn-know" data-tab-link="social">Know More &rarr;</a>
+                    </div>
+                    <div class="service-row-visual">
+<svg class="doodle doodle-row" viewBox="0 0 58 58" aria-hidden="true" focusable="false">
+<path class="dl" pathLength="1" d="M28,50 C8,36 10,18 20,18 C26,18 28,25 28,25 C28,25 30,18 36,18 C46,18 48,36 28,50 Z"/><path class="dl accent" pathLength="1" d="M46,8 v10 M41,13 h10"/><circle class="dot" cx="8" cy="14" r="3"/>
+    </svg>
+                        <div class="mock-phone">
+                            <div class="mock-phone-top"><span class="mock-avatar"></span><span class="mock-line-dim"></span></div>
+                            <div class="mock-phone-grid">
+                                <span></span><span class="hot"></span><span></span><span></span><span></span><span class="hot"></span><span></span><span></span><span class="hot"></span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                </div>
+            </div>
+
+            <!-- Service Category Navigation Tabs -->
+            <div class="service-tabs-wrapper">
+                <div class="service-tabs" role="tablist">
+                    <button class="service-tab active" data-tab="build" role="tab">01. Web & Software</button>
+                    <button class="service-tab" data-tab="sell" role="tab">02. E-Commerce & Marketplaces</button>
+                    <button class="service-tab" data-tab="advertise" role="tab">03. Performance Marketing</button>
+                    <button class="service-tab" data-tab="seo" role="tab">04. SEO & Google Maps</button>
+                    <button class="service-tab" data-tab="social" role="tab">05. Social Media Management</button>
+                </div>
+            </div>
+
+            <!-- Tab Content 1: Web & Software -->
+            <div class="tab-panel active" id="tab-build">
+                <div class="service-panel-grid" id="services-build">
+                    <div class="service-panel-main">
+                        <div class="service-pill-tag">01 • WEB & SOFTWARE SOLUTIONS</div>
+                        <h3 class="service-panel-title">Build a Digital Presence That Works for Your Business</h3>
+                        <p class="service-panel-intro">
+                            From high-speed corporate websites to customized ERP dashboards, we design software and web interfaces around how your business actually works — secure, scalable, and intuitive.
+                        </p>
+
+                        <div class="service-features-grid">
+                            <div class="service-feature-card">
+                                <h4>Website Development</h4>
+                                <ul>
+                                    <li>Business & Corporate Websites</li>
+                                    <li>E-Commerce Websites (Shopify / Custom)</li>
+                                    <li>High-Converting Landing Pages</li>
+                                    <li>Portfolio Websites & Product Showcases</li>
+                                    <li>Website Redesign & Speed Optimization</li>
+                                    <li>Ongoing Website Maintenance & Security</li>
+                                </ul>
+                            </div>
+
+                            <div class="service-feature-card">
+                                <h4>Custom Software Solutions</h4>
+                                <ul>
+                                    <li>Custom Business Software</li>
+                                    <li>CRM (Customer Relationship Management)</li>
+                                    <li>ERP (Enterprise Resource Planning)</li>
+                                    <li>Billing & Invoicing Software</li>
+                                    <li>Inventory & Stock Management Systems</li>
+                                    <li>HR Management & School/Institute Systems</li>
+                                    <li>Admin Dashboards & Web Applications</li>
+                                </ul>
+                            </div>
+
+                            <div class="service-feature-card">
+                                <h4>Mobile App Development</h4>
+                                <ul>
+                                    <li>Android Apps (Kotlin / Flutter)</li>
+                                    <li>iOS Applications</li>
+                                    <li>Cross-Platform Mobile Apps</li>
+                                    <li>E-Commerce Shopping Apps</li>
+                                    <li>Internal Business Operations Apps</li>
+                                    <li>Custom Feature Development & APIs</li>
+                                </ul>
+                            </div>
+
+                            <div class="service-feature-card">
+                                <h4>Technology & Infrastructure</h4>
+                                <ul>
+                                    <li>Domain Registration & Cloud Hosting</li>
+                                    <li>SSL Certificate Setup & Hardening</li>
+                                    <li>Payment Gateway Integration (Razorpay/Stripe)</li>
+                                    <li>REST API & Third-Party Integrations</li>
+                                    <li>Database Management & Automatic Backups</li>
+                                    <li>24/7 Security Monitoring & Bug Support</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-panel-side">
+                        <div class="service-highlight-box">
+                            <div class="highlight-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13,2 4,14 11,14 10,22 20,10 13,10"/></svg></div>
+                            <h4>Responsive by Design</h4>
+                            <p>Clean, responsive interfaces built around clear navigation, fast loading, and an unforgettable first impression on every device.</p>
+                            <hr class="highlight-divider">
+                            <ul class="highlight-bullets">
+                                <li><strong>Fast Loading:</strong> Optimised builds that keep visitors engaged.</li>
+                                <li><strong>Clear Navigation:</strong> Intuitive structures that guide every visitor.</li>
+                                <li><strong>SEO-Ready Structure:</strong> Built to support organic search visibility from day one.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Content 2: E-Commerce & Marketplaces -->
+            <div class="tab-panel" id="tab-sell">
+                <div class="service-panel-grid" id="services-sell">
+                    <div class="service-panel-main">
+                        <div class="service-pill-tag">02 • E-COMMERCE & MARKETPLACE MANAGEMENT</div>
+                        <h3 class="service-panel-title">From Product Listing to Marketplace Growth</h3>
+                        <p class="service-panel-intro">
+                            We assist manufacturers and direct sellers in establishing and scaling profitable storefronts across India's largest e-commerce ecosystems.
+                        </p>
+
+                        <!-- Marketplaces Badges -->
+                        <div class="marketplaces-badge-row">
+                            <span class="m-badge">AMAZON</span>
+                            <span class="m-badge">FLIPKART</span>
+                            <span class="m-badge">MEESHO</span>
+                            <span class="m-badge">MYNTRA</span>
+                            <span class="m-badge-light">+ Other Marketplaces</span>
+                        </div>
+
+                        <div class="service-features-grid">
+                            <div class="service-feature-card">
+                                <h4>Account Management</h4>
+                                <ul>
+                                    <li>Seller Account Setup & Verification</li>
+                                    <li>End-to-End Account Management</li>
+                                    <li>Catalogue & Taxonomy Management</li>
+                                    <li>Product Listing & Bulk Uploads</li>
+                                    <li>Category Mapping & Brand Approvals</li>
+                                    <li>Product Variations & SKU Architecture</li>
+                                </ul>
+                            </div>
+
+                            <div class="service-feature-card">
+                                <h4>Product Optimization</h4>
+                                <ul>
+                                    <li>High-Impact Product Titles</li>
+                                    <li>Compelling Product Descriptions</li>
+                                    <li>Benefit-Driven Bullet Points</li>
+                                    <li>High-Volume Search & Backend Keywords</li>
+                                    <li>Product Image Guidelines & Infographics</li>
+                                    <li>A+ Content (EBC) & Brand Store Design</li>
+                                    <li>Listing SEO & Search Ranking</li>
+                                </ul>
+                            </div>
+
+                            <div class="service-feature-card">
+                                <h4>Operations & Health</h4>
+                                <ul>
+                                    <li>Order Processing & Dispatch Tracking</li>
+                                    <li>Inventory & Stock Sync Management</li>
+                                    <li>Return & Replacement Management</li>
+                                    <li>Cancellation Rate Reduction</li>
+                                    <li>Account Health & Policy Compliance</li>
+                                    <li>Seller Performance & Customer Queries</li>
+                                </ul>
+                            </div>
+
+                            <div class="service-feature-card">
+                                <h4>Marketplace Ads & Analytics</h4>
+                                <ul>
+                                    <li>Sponsored Product & Brand Ads</li>
+                                    <li>Sponsored Display Advertising</li>
+                                    <li>Campaign Optimization & Negative Keywords</li>
+                                    <li>Bid Optimization & Target ROAS Control</li>
+                                    <li>Competitor Pricing & Buy-Box Strategies</li>
+                                    <li>Monthly Sales & Performance Reports</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-panel-side">
+                        <div class="service-highlight-box">
+                            <div class="highlight-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="3 17 9 11 13 15 21 7"/><polyline points="15 7 21 7 21 13"/></svg></div>
+                            <h4>Marketplace Operations at a Glance</h4>
+                            <div class="metric-list">
+                                <div class="metric-row">
+                                    <span class="m-label">SALES</span>
+                                    <span class="m-desc">Tracked across all marketplaces</span>
+                                </div>
+                                <div class="metric-row">
+                                    <span class="m-label">ORDERS</span>
+                                    <span class="m-desc">Managed end-to-end seamlessly</span>
+                                </div>
+                                <div class="metric-row">
+                                    <span class="m-label">PRODUCTS</span>
+                                    <span class="m-desc">Optimised continuously for conversions</span>
+                                </div>
+                                <div class="metric-row">
+                                    <span class="m-label">GROWTH</span>
+                                    <span class="m-desc">Reviewed & scaled month over month</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Content 3: Performance Marketing -->
+            <div class="tab-panel" id="tab-advertise">
+                <div class="service-panel-grid" id="services-advertise">
+                    <div class="service-panel-main">
+                        <div class="service-pill-tag">03 • PERFORMANCE MARKETING</div>
+                        <h3 class="service-panel-title">Reach the Right People. Drive Real Results.</h3>
+                        <p class="service-panel-intro">
+                            Stop spending on arbitrary clicks. We build high-converting paid funnels across Meta (Facebook & Instagram) and Google that generate qualified inquiries, leads, and direct sales.
+                        </p>
+
+                        <div class="service-features-grid">
+                            <div class="service-feature-card">
+                                <h4>Meta Ads (Facebook & Instagram)</h4>
+                                <ul>
+                                    <li>High-Intent Lead Generation Campaigns</li>
+                                    <li>Direct E-Commerce Sales Campaigns</li>
+                                    <li>Targeted Website Traffic Campaigns</li>
+                                    <li>Engagement & Follower Building</li>
+                                    <li>App Promotion & Installation Ads</li>
+                                    <li>Structured Retargeting & Dynamic Ads</li>
+                                    <li>Custom & Lookalike Audiences</li>
+                                </ul>
+                            </div>
+
+                            <div class="service-feature-card">
+                                <h4>Google Ads & Search</h4>
+                                <ul>
+                                    <li>Google Search (High-Intent Keywords)</li>
+                                    <li>Display Banner Advertising</li>
+                                    <li>Google Shopping Ads for E-Commerce</li>
+                                    <li>YouTube Video Ads</li>
+                                    <li>Performance Max (PMax) Campaigns</li>
+                                    <li>Remarketing Campaigns</li>
+                                    <li>Local Call & Store Visit Campaigns</li>
+                                </ul>
+                            </div>
+
+                            <div class="service-feature-card">
+                                <h4>Campaign Management</h4>
+                                <ul>
+                                    <li>Deep Market & Competitor Research</li>
+                                    <li>Audience Demographic & Interest Profiling</li>
+                                    <li>Ad Creative Conception & Copywriting</li>
+                                    <li>A/B Testing (Creatives, Hooks, Audiences)</li>
+                                    <li>Budget Allocation & Bid Pacing</li>
+                                    <li>Conversion Rate Optimization (CRO)</li>
+                                </ul>
+                            </div>
+
+                            <div class="service-feature-card">
+                                <h4>Tracking & Attribution</h4>
+                                <ul>
+                                    <li>Meta Pixel & Conversion API (CAPI) Setup</li>
+                                    <li>Google Tag Manager (GTM) Integration</li>
+                                    <li>Google Analytics (GA4) Custom Events</li>
+                                    <li>End-to-End Conversion Tracking</li>
+                                    <li>Transparent Bi-Weekly/Monthly Reports</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Funnel Diagram -->
+                        <div class="funnel-container">
+                            <h4 class="funnel-title">OUR 6-STAGE CAMPAIGN FUNNEL</h4>
+                            <div class="funnel-steps">
+                                <div class="funnel-step"><span class="f-num">01</span><span class="f-name">RESEARCH</span></div>
+                                <div class="funnel-step"><span class="f-num">02</span><span class="f-name">STRATEGY</span></div>
+                                <div class="funnel-step"><span class="f-num">03</span><span class="f-name">CREATE</span></div>
+                                <div class="funnel-step"><span class="f-num">04</span><span class="f-name">LAUNCH</span></div>
+                                <div class="funnel-step"><span class="f-num">05</span><span class="f-name">OPTIMIZE</span></div>
+                                <div class="funnel-step"><span class="f-num">06</span><span class="f-name">SCALE</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-panel-side">
+                        <div class="service-highlight-box">
+                            <div class="highlight-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.4" fill="currentColor" stroke="none"/></svg></div>
+                            <h4>Audiences Built to Convert</h4>
+                            <p>We combine custom and lookalike audiences with clear creative and structured retargeting, so every campaign reaches people who are genuinely likely to respond.</p>
+                            <div class="ad-metric-preview">
+                                <div class="preview-item">
+                                    <span class="p-num">REACH</span>
+                                    <div class="bar-fill bar-1"></div>
+                                </div>
+                                <div class="preview-item">
+                                    <span class="p-num">ENGAGEMENT</span>
+                                    <div class="bar-fill bar-2"></div>
+                                </div>
+                                <div class="preview-item">
+                                    <span class="p-num">CONVERSIONS</span>
+                                    <div class="bar-fill bar-3"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Content 4: SEO & Google Maps -->
+            <div class="tab-panel" id="tab-seo">
+                <div class="service-panel-grid" id="services-grow">
+                    <div class="service-panel-main">
+                        <div class="service-pill-tag">04 • SEO & GOOGLE MAPS GROWTH</div>
+                        <h3 class="service-panel-title">Be Discovered Where Your Customers Are Searching</h3>
+                        <p class="service-panel-intro">
+                            Rank on page 1 of Google and dominate your local geography with Google Maps optimization to capture ready-to-buy organic commercial intent.
+                        </p>
+
+                        <div class="service-features-grid">
+                            <div class="service-feature-card">
+                                <h4>Full SEO Services</h4>
+                                <ul>
+                                    <li>Comprehensive Technical SEO Audit</li>
+                                    <li>High-Intent Commercial Keyword Research</li>
+                                    <li>On-Page SEO (Meta tags, H1-H6, Schema)</li>
+                                    <li>Technical SEO (Speed, Mobile, Sitemap)</li>
+                                    <li>High-Authority Off-Page Link Building</li>
+                                    <li>Competitor Gap Analysis</li>
+                                    <li>Google Search Console & GA4 Setup</li>
+                                    <li>Monthly Keyword Ranking Reports</li>
+                                </ul>
+                            </div>
+
+                            <div class="service-feature-card">
+                                <h4>Google Maps / Business Profile</h4>
+                                <ul>
+                                    <li>Google Business Profile Setup & Claiming</li>
+                                    <li>Complete Profile Verification & Optimization</li>
+                                    <li>Primary & Secondary Category Optimization</li>
+                                    <li>Service and Product Menu Additions</li>
+                                    <li>Weekly Google Posts & Announcements</li>
+                                    <li>Review Generation & Reputation Management</li>
+                                    <li>Local Geotagged Keyword Optimization</li>
+                                    <li>Top 3 Local Pack Ranking Strategy</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Pathway Diagram -->
+                        <div class="pathway-box">
+                            <h4>SEARCH-TO-BUSINESS PATHWAY</h4>
+                            <div class="pathway-flow">
+                                <div class="pathway-node">SEARCH</div>
+                                <div class="pathway-connector">&rarr;</div>
+                                <div class="pathway-node">VISIBILITY</div>
+                                <div class="pathway-connector">&rarr;</div>
+                                <div class="pathway-node">TRAFFIC</div>
+                                <div class="pathway-connector">&rarr;</div>
+                                <div class="pathway-node">LEADS</div>
+                                <div class="pathway-connector">&rarr;</div>
+                                <div class="pathway-node highlight">BUSINESS</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-panel-side">
+                        <div class="service-highlight-box">
+                            <div class="highlight-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+                            <h4>Dominate Local Searches</h4>
+                            <p>When potential clients search for your services nearby, an optimized Google Business Profile ensures your phone rings before your competitors'.</p>
+                            <hr class="highlight-divider">
+                            <div class="local-seo-check">
+                                <div class="check-item">✓ Verified NAP Consistency</div>
+                                <div class="check-item">✓ High-Converting Review Strategy</div>
+                                <div class="check-item">✓ Local Citation Building</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Content 5: Social Media -->
+            <div class="tab-panel" id="tab-social">
+                <div class="service-panel-grid">
+                    <div class="service-panel-main">
+                        <div class="service-pill-tag">05 • SOCIAL MEDIA MANAGEMENT</div>
+                        <h3 class="service-panel-title">Manage. Engage. Grow.</h3>
+                        <p class="service-panel-intro">
+                            Transform your social profiles into trusted brand hubs. Every post and reel is planned around a clear content calendar and a consistent visual identity across platforms.
+                        </p>
+
+                        <div class="service-features-grid">
+                            <div class="service-feature-card">
+                                <h4>Strategic Planning</h4>
+                                <ul>
+                                    <li>Brand Identity & Voice Strategy</li>
+                                    <li>Content Pillars & Monthly Themes</li>
+                                    <li>Competitor Content Analysis</li>
+                                    <li>Target Audience Research & Timing</li>
+                                    <li>Structured Monthly Content Calendar</li>
+                                </ul>
+                            </div>
+
+                            <div class="service-feature-card">
+                                <h4>Content Creation</h4>
+                                <ul>
+                                    <li>Short-Form Reels & Video Production</li>
+                                    <li>High-Value Carousel Posts</li>
+                                    <li>Single Image & Graphic Posts</li>
+                                    <li>Stories & Engagement Polls</li>
+                                    <li>Product & Service Showcase Creatives</li>
+                                    <li>Festival, Holiday & Milestone Posts</li>
+                                    <li>Educational & Thought-Leadership Content</li>
+                                </ul>
+                            </div>
+
+                            <div class="service-feature-card">
+                                <h4>Account Management</h4>
+                                <ul>
+                                    <li>Active Management: Instagram & Facebook</li>
+                                    <li>LinkedIn & YouTube Channel Care</li>
+                                    <li>Scheduled Publishing at Peak Hours</li>
+                                    <li>Captions & Hashtag Research</li>
+                                    <li>Community Engagement & Moderation</li>
+                                    <li>Direct Message (DM) & Comment Management</li>
+                                </ul>
+                            </div>
+
+                            <div class="service-feature-card">
+                                <h4>Growth & Reporting</h4>
+                                <ul>
+                                    <li>Organic Follower Growth Strategy</li>
+                                    <li>Viral Audio & Reel Trend Integration</li>
+                                    <li>Influencer Collaboration Coordination</li>
+                                    <li>Monthly Analytics & Engagement Reports</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-panel-side">
+                        <div class="service-highlight-box">
+                            <div class="highlight-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.6"/><line x1="10.5" y1="18.4" x2="13.5" y2="18.4"/></svg></div>
+                            <h4>A Consistent, On-Brand Grid</h4>
+                            <p>Every post is planned around a clear content calendar and an aesthetically cohesive visual layout that builds authority.</p>
+                            <div class="grid-mockup-preview">
+                                <div class="mockup-cell"></div>
+                                <div class="mockup-cell"></div>
+                                <div class="mockup-cell"></div>
+                                <div class="mockup-cell"></div>
+                                <div class="mockup-cell highlight"></div>
+                                <div class="mockup-cell"></div>
+                                <div class="mockup-cell"></div>
+                                <div class="mockup-cell"></div>
+                                <div class="mockup-cell"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How We Work Process Section -->
+    <!-- Our Work / Proof of Work Section -->
+    <!-- Shape divider -->
+    <div class="section-divider" data-shape="wave" data-bg="#ffffff" data-fill="#fafafa" data-c1="#F26522" data-c2="#7C4B9B" aria-hidden="true"></div>
+    <section class="section work-section" id="work">
+        <div class="container">
+            <div class="section-header-centered">
+                <h2 class="section-heading">Websites, Software &amp; Apps We Ship</h2>
+                <p class="section-subheading">A snapshot of what we build for manufacturers, retailers and growing brands — screens, dashboards and storefronts designed to convert.</p>
+            </div>
+
+    <svg class="doodle doodle-work" viewBox="0 0 236 100" aria-hidden="true" focusable="false">
+        <path class="dl" pathLength="1" d="M14,16 C60,13 118,14 168,15 L169,80 C118,82 60,81 15,81 Z"/>
+        <path class="dl" pathLength="1" d="M15,29 C62,28 120,28 168,29"/>
+        <circle class="dot" cx="24" cy="22" r="2.4"/>
+        <circle class="dot" cx="33" cy="22" r="2.4"/>
+        <circle class="dot" cx="42" cy="22" r="2.4"/>
+        <path class="dl accent" pathLength="1" d="M112,42 L112,72 L120,64 L126,77 L133,74 L127,61 L139,60 Z"/>
+        <path class="dl accent2" pathLength="1" d="M196,34 v16 M188,42 h16"/>
+        <circle class="dot accent" cx="206" cy="72" r="3"/>
+    </svg>
+
+            <div class="work-filters" role="tablist" aria-label="Filter work">
+                <button class="work-filter active" type="button" data-filter="all">All Work</button>
+                <button class="work-filter" type="button" data-filter="web">Websites</button>
+                <button class="work-filter" type="button" data-filter="software">Software</button>
+                <button class="work-filter" type="button" data-filter="app">Apps</button>
+                <button class="work-filter" type="button" data-filter="growth">Growth</button>
+            </div>
+
+            <div class="work-grid">
+                <article class="work-card" data-cat="web">
+                    <div class="work-thumb thumb-web">
+                        <div class="wt-bar"><i></i><i></i><i></i></div>
+                        <div class="wt-hero"></div>
+                        <div class="wt-lines"><span></span><span></span></div>
+                        <div class="wt-cards"><span></span><span></span><span></span></div>
+                    </div>
+                    <div class="work-meta">
+                        <span class="work-tag">Corporate Website</span>
+                        <h3 class="work-title">Nihar Creation™</h3>
+                        <p class="work-desc">Apparel brand showcase with enquiry-first layout, lookbook gallery and WhatsApp lead flow.</p>
+                        <span class="work-cta">View case &rarr;</span>
+                    </div>
+                </article>
+                <article class="work-card" data-cat="web">
+                    <div class="work-thumb thumb-web">
+                        <div class="wt-bar"><i></i><i></i><i></i></div>
+                        <div class="wt-hero"></div>
+                        <div class="wt-lines"><span></span><span></span></div>
+                        <div class="wt-cards"><span></span><span></span><span></span></div>
+                    </div>
+                    <div class="work-meta">
+                        <span class="work-tag">Catalogue Website</span>
+                        <h3 class="work-title">Gajjar Furnitures</h3>
+                        <p class="work-desc">Contractor catalogue site with product ranges, project gallery and quote requests.</p>
+                        <span class="work-cta">View case &rarr;</span>
+                    </div>
+                </article>
+                <article class="work-card" data-cat="software">
+                    <div class="work-thumb thumb-soft">
+                        <div class="wt-bar"><i></i><i></i><i></i></div>
+                        <div class="wt-hero"></div>
+                        <div class="wt-lines"><span></span><span></span></div>
+                        <div class="wt-cards"><span></span><span></span><span></span></div>
+                    </div>
+                    <div class="work-meta">
+                        <span class="work-tag">ERP Dashboard</span>
+                        <h3 class="work-title">Himat Textile B2B</h3>
+                        <p class="work-desc">Order, stock and dispatch dashboard that replaced spreadsheets for a garment supplier.</p>
+                        <span class="work-cta">View case &rarr;</span>
+                    </div>
+                </article>
+                <article class="work-card" data-cat="software">
+                    <div class="work-thumb thumb-soft">
+                        <div class="wt-bar"><i></i><i></i><i></i></div>
+                        <div class="wt-hero"></div>
+                        <div class="wt-lines"><span></span><span></span></div>
+                        <div class="wt-cards"><span></span><span></span><span></span></div>
+                    </div>
+                    <div class="work-meta">
+                        <span class="work-tag">Store Manager</span>
+                        <h3 class="work-title">PLUSMARK®</h3>
+                        <p class="work-desc">Listing, inventory and order manager synced across marketplaces in one panel.</p>
+                        <span class="work-cta">View case &rarr;</span>
+                    </div>
+                </article>
+                <article class="work-card" data-cat="app">
+                    <div class="work-thumb thumb-app">
+                        <div class="wt-bar"><i></i><i></i><i></i></div>
+                        <div class="wt-hero"></div>
+                        <div class="wt-lines"><span></span><span></span></div>
+                        <div class="wt-cards"><span></span><span></span><span></span></div>
+                    </div>
+                    <div class="work-meta">
+                        <span class="work-tag">Mobile App UI</span>
+                        <h3 class="work-title">Client Booking App</h3>
+                        <p class="work-desc">Cross-platform booking and tracking app with service history and notifications.</p>
+                        <span class="work-cta">View case &rarr;</span>
+                    </div>
+                </article>
+                <article class="work-card" data-cat="growth">
+                    <div class="work-thumb thumb-growth">
+                        <div class="wt-bar"><i></i><i></i><i></i></div>
+                        <div class="wt-hero"><i></i><i></i><i></i><i></i><i></i></div>
+                        <div class="wt-lines"><span></span><span></span></div>
+                        <div class="wt-cards"><span></span><span></span><span></span></div>
+                    </div>
+                    <div class="work-meta">
+                        <span class="work-tag">Growth Dashboard</span>
+                        <h3 class="work-title">Maps + Ads Performance</h3>
+                        <p class="work-desc">Live reporting view for local rankings, ad spend efficiency and inbound leads.</p>
+                        <span class="work-cta">View case &rarr;</span>
+                    </div>
+                </article>
+            </div>
+
+            <p class="work-note">Want the live links and full case studies? We walk you through them in your free discovery session.</p>
+        </div>
+    </section>
+
+    <!-- Four Pillars Section -->
+    <!-- Shape divider -->
+    <div class="section-divider" data-shape="diagonal" data-bg="#111111" data-fill="#fafafa" data-c1="#FF8950" data-c2="#C191FF" aria-hidden="true"></div>
+    <section class="section pillars-section" id="pillars">
+        <div class="container">
+            <div class="section-header-centered">
+                <h2 class="section-heading">Our Four Pillars</h2>
+                <p class="section-subheading">Everything your business requires to transition from traditional operations to a thriving digital enterprise.</p>
+            </div>
+
+    <svg class="doodle doodle-nodes" viewBox="0 0 1000 66" aria-hidden="true" focusable="false">
+        <path class="dl" pathLength="1" d="M40,34 C170,6 300,60 460,32 C620,6 760,58 960,30"/>
+        <circle class="dot" cx="40" cy="34" r="5"/>
+        <circle class="dot accent" cx="346" cy="44" r="5"/>
+        <circle class="dot accent2" cx="653" cy="22" r="5"/>
+        <circle class="dot" cx="960" cy="30" r="5"/>
+        <path class="dl" pathLength="1" d="M944,16 l16,14 -18,10"/>
+    </svg>
+            <div class="pillars-grid">
+                <!-- Pillar 01 -->
+                <div class="pillar-card pillar-1">
+                    <div class="pillar-top">
+                        <span class="pillar-number">01</span>
+                        <span class="pillar-badge">DEVELOP</span>
+                    </div>
+                    <div class="pillar-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" />
+                            <line x1="8" y1="21" x2="16" y2="21" />
+                            <line x1="12" y1="17" x2="12" y2="21" />
+                        </svg>
+                    </div>
+                    <h3 class="pillar-title">BUILD</h3>
+                    <p class="pillar-subtitle">Websites, Software & Apps</p>
+                    <p class="pillar-desc">Custom web platforms, high-conversion landing pages, operational ERPs, and mobile applications built for performance.</p>
+                    <a href="#services" class="pillar-link" data-tab-link="build">View Build Services &rarr;</a>
+                </div>
+
+                <!-- Pillar 02 -->
+                <div class="pillar-card pillar-2">
+                    <div class="pillar-top">
+                        <span class="pillar-number">02</span>
+                        <span class="pillar-badge">COMMERCE</span>
+                    </div>
+                    <div class="pillar-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="9" cy="21" r="1" />
+                            <circle cx="20" cy="21" r="1" />
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+                        </svg>
+                    </div>
+                    <h3 class="pillar-title">SELL</h3>
+                    <p class="pillar-subtitle">E-Commerce & Marketplaces</p>
+                    <p class="pillar-desc">End-to-end management for Amazon, Flipkart, Meesho, and Myntra with catalogue optimization and order workflows.</p>
+                    <a href="#services" class="pillar-link" data-tab-link="sell">View Marketplace Services &rarr;</a>
+                </div>
+
+                <!-- Pillar 03 -->
+                <div class="pillar-card pillar-3">
+                    <div class="pillar-top">
+                        <span class="pillar-number">03</span>
+                        <span class="pillar-badge">ACQUISITION</span>
+                    </div>
+                    <div class="pillar-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10" />
+                            <circle cx="12" cy="12" r="6" />
+                            <circle cx="12" cy="12" r="2" />
+                        </svg>
+                    </div>
+                    <h3 class="pillar-title">ADVERTISE</h3>
+                    <p class="pillar-subtitle">Meta & Google Performance Ads</p>
+                    <p class="pillar-desc">Targeted paid ad campaigns designed for lead generation, verified sales, and sustainable return on ad spend (ROAS).</p>
+                    <a href="#services" class="pillar-link" data-tab-link="advertise">View Ad Campaigns &rarr;</a>
+                </div>
+
+                <!-- Pillar 04 -->
+                <div class="pillar-card pillar-4">
+                    <div class="pillar-top">
+                        <span class="pillar-number">04</span>
+                        <span class="pillar-badge">RETENTION</span>
+                    </div>
+                    <div class="pillar-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 20V10" />
+                            <path d="M12 20V4" />
+                            <path d="M6 20v-6" />
+                        </svg>
+                    </div>
+                    <h3 class="pillar-title">GROW</h3>
+                    <p class="pillar-subtitle">SEO, Maps & Social Media</p>
+                    <p class="pillar-desc">Dominating organic Google searches, ranking on Google Maps, and crafting consistent viral reels and social feeds.</p>
+                    <a href="#services" class="pillar-link" data-tab-link="seo">View Growth Services &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shape divider -->
+    <div class="section-divider" data-shape="wave" data-bg="#fafafa" data-fill="#111111" data-c1="#C191FF" data-c2="#7C4B9B" aria-hidden="true"></div>
+    <div class="statement-marquee" aria-hidden="true">
+        <div class="statement-marquee-track">
+            <span class="statement-item">WE BUILD</span><span class="statement-dot">✦</span>
+            <span class="statement-item">WE MARKET</span><span class="statement-dot">✦</span>
+            <span class="statement-item">WE GROW</span><span class="statement-dot">✦</span>
+            <span class="statement-item">NO BORING OUTPUT</span><span class="statement-dot">✦</span>
+            <span class="statement-item">BUILT FOR RESULTS</span><span class="statement-dot">✦</span>
+            <span class="statement-item">WE BUILD</span><span class="statement-dot">✦</span>
+            <span class="statement-item">WE MARKET</span><span class="statement-dot">✦</span>
+            <span class="statement-item">WE GROW</span><span class="statement-dot">✦</span>
+            <span class="statement-item">NO BORING OUTPUT</span><span class="statement-dot">✦</span>
+            <span class="statement-item">BUILT FOR RESULTS</span><span class="statement-dot">✦</span>
+        </div>
+    </div>
+
+    <!-- Shape divider -->
+    <div class="section-divider" data-shape="wave" data-bg="#111111" data-fill="#fafafa" data-c1="#F26522" data-c2="#EC4899" aria-hidden="true"></div>
+    <section class="section process-section" id="process">
+        <div class="container">
+            <div class="section-header-centered">
+                <h2 class="section-heading">How We Grow Your Business</h2>
+                <p class="section-subheading">A structured, accountable 6-stage roadmap designed for predictable, sustainable business expansion.</p>
+            </div>
+
+    <svg class="doodle doodle-process" viewBox="0 0 1040 80" aria-hidden="true" focusable="false">
+        <path class="dl" pathLength="1" d="M30,44 C220,8 400,72 600,34 C780,0 900,60 1010,26"/>
+        <path class="dl accent" pathLength="1" d="M994,12 l18,14 -20,12"/>
+        <circle class="dot" cx="30" cy="44" r="4.5"/>
+        <circle class="dot accent" cx="315" cy="42" r="4.5"/>
+        <circle class="dot accent2" cx="600" cy="34" r="4.5"/>
+        <circle class="dot" cx="820" cy="34" r="4.5"/>
+    </svg>
+            <div class="process-timeline">
+                <div class="process-step-item">
+                    <div class="step-badge">01</div>
+                    <div class="step-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 2a9 9 0 1 0 0 18 9 9 0 0 0 0-18Z M11 6v5l3 3"/></svg></div>
+                    <div class="step-detail">
+                        <h4 class="step-title">DISCOVER</h4>
+                        <p class="step-desc">Understand your business model, target market, current pain points, and commercial growth goals.</p>
+                    </div>
+                </div>
+
+                <div class="process-step-item">
+                    <div class="step-badge">02</div>
+                    <div class="step-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M3 12h12M3 17h7"/></svg></div>
+                    <div class="step-detail">
+                        <h4 class="step-title">STRATEGIZE</h4>
+                        <p class="step-desc">Formulate the ideal digital roadmap — mapping out website needs, marketplace channels, and ad funnels.</p>
+                    </div>
+                </div>
+
+                <div class="process-step-item">
+                    <div class="step-badge">03</div>
+                    <div class="step-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16M6 16V8l6-4 6 4v8"/></svg></div>
+                    <div class="step-detail">
+                        <h4 class="step-title">CREATE</h4>
+                        <p class="step-desc">Build the core assets: websites, software dashboards, ad creatives, reels, and product listings.</p>
+                    </div>
+                </div>
+
+                <div class="process-step-item">
+                    <div class="step-badge">04</div>
+                    <div class="step-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6m0 0 3-3m-3 3L9 5M5 12v8h14v-8"/></svg></div>
+                    <div class="step-detail">
+                        <h4 class="step-title">EXECUTE</h4>
+                        <p class="step-desc">Launch campaigns, publish content, manage marketplace catalogues, and handle live technical operations.</p>
+                    </div>
+                </div>
+
+                <div class="process-step-item">
+                    <div class="step-badge">05</div>
+                    <div class="step-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18a8 8 0 1 1 16 0M8 14l3-3 2 2 4-5"/></svg></div>
+                    <div class="step-detail">
+                        <h4 class="step-title">OPTIMIZE</h4>
+                        <p class="step-desc">Continuously track metrics, run A/B split tests, prune poor performers, and maximize ROAS and conversions.</p>
+                    </div>
+                </div>
+
+                <div class="process-step-item">
+                    <div class="step-badge">06</div>
+                    <div class="step-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8M21 7v6M21 7h-6"/></svg></div>
+                    <div class="step-detail">
+                        <h4 class="step-title">GROW</h4>
+                        <p class="step-desc">Scale successful campaigns and revenue channels for sustainable, long-term business compounding.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Quotations & Packages Section -->
+    <!-- Shape divider -->
+    <div class="section-divider" data-shape="wave" data-bg="#fafafa" data-fill="#ffffff" data-c1="#7C4B9B" data-c2="#C191FF" aria-hidden="true"></div>
+    <section class="section quotation-section" id="quotation">
+        <div class="container">
+            <div class="section-header-centered">
+                <h2 class="section-heading">Service Quotations & Packages</h2>
+                <p class="section-subheading">Clear starting estimates for development projects and predictable monthly growth retainers.</p>
+            </div>
+
+            <!-- Part 1: Website & Software Development Quotations -->
+            <div class="quote-sub-header">
+                <span class="sub-label">DEVELOPMENT QUOTATIONS</span>
+                <h3 class="sub-title">Websites & Custom Software</h3>
+            </div>
+
+            <!-- Estimate Disclaimer Box -->
+            <div class="estimate-disclaimer-box">
+                <span class="disclaimer-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><line x1="12" y1="11.5" x2="12" y2="17"/><circle cx="12" cy="7.6" r="0.9" fill="currentColor" stroke="none"/></svg></span>
+                <p>
+                    <strong>Estimate Disclaimer:</strong> All pricing listed below represents starting estimates. The final project investment will be tailored to your specific business requirements, custom features, design complexity, and operational scope.
+                </p>
+            </div>
+
+            <!-- Development Quotes Grid (4 Cards) -->
+    <svg class="doodle doodle-quote" viewBox="0 0 130 120" aria-hidden="true" focusable="false">
+        <path class="dl" pathLength="1" d="M26,12 h46 l22,22 v78 H26 Z"/>
+        <path class="dl" pathLength="1" d="M72,12 v22 h22"/>
+        <path class="dl" pathLength="1" d="M38,52 h46 M38,66 h46 M38,80 h28"/>
+        <g transform="rotate(-38 96 96)"><rect class="dl accent" pathLength="1" x="74" y="86" width="40" height="22" rx="5"/><circle class="dot accent" cx="82" cy="97" r="2.6"/></g>
+        <path class="dl accent2" pathLength="1" d="M14,30 l6,-6 M18,44 h8"/>
+    </svg>
+            <div class="web-quote-grid">
+                <!-- Web Package 1: Basic Intro Website -->
+                <div class="quote-card">
+                    <div class="quote-header">
+                        <div class="quote-badge">STARTER PRESENCE</div>
+                        <h4 class="quote-title">Basic Intro Website</h4>
+                        <div class="quote-price-wrap">
+                            <span class="currency">₹</span>
+                            <span class="amount">9,000</span>
+                            <span class="period">(Estimate)</span>
+                        </div>
+                        <p class="quote-deliverable-summary">
+                            <strong>3 to 4 Pages</strong> (Home, About, Services, Contact)
+                        </p>
+                    </div>
+
+                    <div class="quote-body">
+                        <h5 class="deliverables-heading">WHAT'S INCLUDED:</h5>
+                        <ul class="quote-checklist">
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>3–4 Clean Pages</strong>
+                                    <span>Professional corporate & business introduction</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Mobile Responsive</strong>
+                                    <span>Smooth layout on smartphones, tablets, & laptops</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Contact & WhatsApp Form</strong>
+                                    <span>Direct inquiry generation for leads</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Fast Loading & Basic SEO</strong>
+                                    <span>Optimized meta tags and Google Maps embed</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="quote-footer">
+                        <a href="https://wa.me/918511410817?text=Hi%20The%20Blank%20State%2C%20I%20am%20interested%20in%20the%20Basic%20Intro%20Website%20(%E2%82%B99%2C000%20estimate)."
+                            target="_blank" class="btn btn-secondary btn-block">
+                            <span>Inquire for ₹9K Website</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Web Package 2: Interactive Website -->
+                <div class="quote-card featured-card">
+                    <div class="quote-header">
+                        <div class="quote-badge badge-accent">DYNAMIC & INTERACTIVE</div>
+                        <h4 class="quote-title">Interactive Website</h4>
+                        <div class="quote-price-wrap">
+                            <span class="currency">₹</span>
+                            <span class="amount" style="font-size: 2.15rem;">15K – 20K</span>
+                            <span class="period">(Estimate)</span>
+                        </div>
+                        <p class="quote-deliverable-summary">
+                            <strong>User Login, Media & Admin Panel</strong>
+                        </p>
+                    </div>
+
+                    <div class="quote-body">
+                        <h5 class="deliverables-heading">WHAT'S INCLUDED:</h5>
+                        <ul class="quote-checklist">
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>User Login & Accounts</strong>
+                                    <span>Secure customer/client authentication</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Photos & Videos Showcase</strong>
+                                    <span>Interactive multimedia galleries & media views</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Save / Bookmark Options</strong>
+                                    <span>Users can save favorite items, posts, or media</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Dedicated Admin Dashboard</strong>
+                                    <span>Full control to upload, manage, & edit content</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="quote-footer">
+                        <a href="https://wa.me/918511410817?text=Hi%20The%20Blank%20State%2C%20I%20am%20interested%20in%20the%20Interactive%20Website%20with%20Login%20%26%20Admin%20Panel%20(%E2%82%B915K-20K%20estimate)."
+                            target="_blank" class="btn btn-primary btn-block">
+                            <span>Inquire for Interactive Site</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Web Package 3: Full E-Commerce -->
+                <div class="quote-card featured-card accent-card">
+                    <div class="quote-header">
+                        <div class="quote-badge">FULL ONLINE STORE</div>
+                        <h4 class="quote-title">Full E-Commerce</h4>
+                        <div class="quote-price-wrap">
+                            <span class="currency">₹</span>
+                            <span class="amount">40,000</span>
+                            <span class="period">(Estimate)</span>
+                        </div>
+                        <p class="quote-deliverable-summary">
+                            <strong>Complete Store with Full Admin</strong>
+                        </p>
+                    </div>
+
+                    <div class="quote-body">
+                        <h5 class="deliverables-heading">WHAT'S INCLUDED:</h5>
+                        <ul class="quote-checklist">
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Full Product Catalogue</strong>
+                                    <span>Categories, variations, search & filters</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Cart & Payment Gateway</strong>
+                                    <span>UPI, Cards, NetBanking (Razorpay/Stripe)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Complete Admin Panel</strong>
+                                    <span>Order processing, inventory & customer tracking</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Coupons & Discounts</strong>
+                                    <span>Promotional codes, invoices, & notifications</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="quote-footer">
+                        <a href="https://wa.me/918511410817?text=Hi%20The%20Blank%20State%2C%20I%20am%20interested%20in%20the%20Full%20E-Commerce%20Store%20(%E2%82%B940%2C000%20estimate)."
+                            target="_blank" class="btn btn-primary btn-block">
+                            <span>Inquire for ₹40K E-Commerce</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Web Package 4: Custom Software -->
+                <div class="quote-card">
+                    <div class="quote-header">
+                        <div class="quote-badge">CUSTOM BUSINESS TECH</div>
+                        <h4 class="quote-title">Custom Software</h4>
+                        <div class="quote-price-wrap">
+                            <span class="currency">₹</span>
+                            <span class="amount" style="font-size: 2.2rem;">15,000+</span>
+                            <span class="period">(Starts From)</span>
+                        </div>
+                        <p class="quote-deliverable-summary">
+                            <strong>Built According to Your Needs</strong>
+                        </p>
+                    </div>
+
+                    <div class="quote-body">
+                        <h5 class="deliverables-heading">WHAT'S INCLUDED:</h5>
+                        <ul class="quote-checklist">
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>ERP / CRM / Billing Systems</strong>
+                                    <span>Designed around your exact business workflow</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Inventory & Order Tracking</strong>
+                                    <span>Stock monitoring, billing & dispatch systems</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Role-Based User Permissions</strong>
+                                    <span>Admin, staff, manager, & accounts logins</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Automated Reports & Exports</strong>
+                                    <span>Excel/PDF reports and analytics dashboards</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="quote-footer">
+                        <a href="https://wa.me/918511410817?text=Hi%20The%20Blank%20State%2C%20I%20need%20custom%20business%20software%20(starts%20at%20%E2%82%B915%2C000%20estimate)."
+                            target="_blank" class="btn btn-secondary btn-block">
+                            <span>Get Software Estimate</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Part 2: Monthly Marketing Retainers -->
+            <div class="quote-sub-header">
+                <span class="sub-label">MONTHLY GROWTH RETAINERS</span>
+                <h3 class="sub-title">Performance Marketing & Social Media</h3>
+            </div>
+
+            <!-- Quotation Cards Grid -->
+            <div class="quotation-grid">
+                <!-- Package 1: Social Media Management -->
+                <div class="quote-card featured-card">
+                    <div class="quote-header">
+                        <div class="quote-badge">ORGANIC GROWTH</div>
+                        <h3 class="quote-title">1. Social Media Management</h3>
+                        <div class="quote-price-wrap">
+                            <span class="currency">₹</span>
+                            <span class="amount">12,000</span>
+                            <span class="period">/ month</span>
+                        </div>
+                        <p class="quote-deliverable-summary">
+                            <strong>18 Organic Content Pieces / Month</strong> (10 Reels + 8 Feed Posts)
+                        </p>
+                    </div>
+
+                    <div class="quote-body">
+                        <h5 class="deliverables-heading">WHAT'S INCLUDED:</h5>
+                        <ul class="quote-checklist">
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>10 Reels / Month</strong>
+                                    <span>High-quality video concepts, hooks, and trend integration</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>8 Social Media Posts / Month</strong>
+                                    <span>Carousels, product showcases, and branding graphics</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Captions + Hashtag Research</strong>
+                                    <span>Included with optimized reach keywords</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Monthly Content Planning</strong>
+                                    <span>Included strategic calendar aligned to business goals</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Reel Editing & Designing</strong>
+                                    <span>Included with professional pacing and sound design</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Posting & Scheduling</strong>
+                                    <span>Included at peak audience engagement hours</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="quote-footer">
+                        <a href="https://wa.me/918511410817?text=Hi%20The%20Blank%20State%2C%20I%20want%20to%20get%20started%20with%20the%20Social%20Media%20Management%20package%20(%E2%82%B912%2C000%2Fmonth)."
+                            target="_blank" class="btn btn-primary btn-block">
+                            <span>Get Started With Social Media</span>
+                            <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Package 2: Performance Marketing -->
+                <div class="quote-card featured-card accent-card">
+                    <div class="quote-header">
+                        <div class="quote-badge badge-accent">PAID ACQUISITION</div>
+                        <h3 class="quote-title">2. Performance Marketing</h3>
+                        <div class="quote-price-wrap">
+                            <span class="currency">₹</span>
+                            <span class="amount">10,000</span>
+                            <span class="period">/ month</span>
+                        </div>
+                        <p class="quote-deliverable-summary">
+                            <strong>3–5 Creative Ads / Month + Meta Ads Management</strong>
+                        </p>
+                    </div>
+
+                    <div class="quote-body">
+                        <h5 class="deliverables-heading">WHAT'S INCLUDED:</h5>
+                        <ul class="quote-checklist">
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>3–5 Creative Ads / Month</strong>
+                                    <span>Engineered for conversions and low cost per acquisition</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Meta Ads Setup & Pixel</strong>
+                                    <span>Included tracking setup, CAPI, and custom events</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Audience Targeting</strong>
+                                    <span>Included interest, demographic, and lookalike profiling</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Continuous Ad Testing</strong>
+                                    <span>Included creative A/B testing and angle iteration</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Monitoring & Optimization</strong>
+                                    <span>Included daily budget pacing and ROAS management</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div>
+                                    <strong>Performance Reporting</strong>
+                                    <span>Included transparent bi-weekly & monthly breakdowns</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="quote-footer">
+                        <a href="https://wa.me/918511410817?text=Hi%20The%20Blank%20State%2C%20I%20want%20to%20get%20started%20with%20the%20Performance%20Marketing%20package%20(%E2%82%B910%2C000%2Fmonth)."
+                            target="_blank" class="btn btn-primary btn-block">
+                            <span>Get Started With Performance Ads</span>
+                            <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Important Terms & Bundling Notice -->
+            <div class="quote-notes-box">
+                <div class="note-item">
+                    <span class="note-bullet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4.2L6 21z"/></svg></span>
+                    <p><strong>Ad Budget Notice:</strong> Meta Ads Budget is separate from the ₹10,000 Performance Marketing fee. The client will pay the actual advertising spend directly to Meta.</p>
+                </div>
+                <div class="note-item">
+                    <span class="note-bullet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 7h3a5 5 0 0 1 0 10h-3"/><path d="M9 17H6A5 5 0 0 1 6 7h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></span>
+                    <p><strong>Combined Power:</strong> Social Media Management and Performance Marketing are separate services and can be taken individually or together for full-funnel digital dominance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why The Blank State Section -->
+    <!-- Shape divider -->
+    <div class="section-divider" data-shape="wave" data-bg="#ffffff" data-fill="#fafafa" data-c1="#FF8950" data-c2="#F26522" aria-hidden="true"></div>
+    <section class="section why-section" id="why-us">
+        <div class="container">
+            <div class="section-header-centered">
+                <h2 class="section-heading">One Partner. Complete Digital Growth.</h2>
+                <p class="section-subheading">Here is why leading manufacturers, brands, and contractors rely on us for their technological and marketing operations.</p>
+            </div>
+
+    <svg class="doodle doodle-shield" viewBox="0 0 110 106" aria-hidden="true" focusable="false">
+        <path class="dl" pathLength="1" d="M52,8 L92,23 C92,58 77,84 52,98 C27,84 12,58 12,23 Z"/>
+        <path class="dl accent" pathLength="1" d="M33,50 l15,16 26,-30"/>
+        <path class="dl accent2" pathLength="1" d="M100,14 v10 M95,19 h10"/>
+        <circle class="dot" cx="6" cy="70" r="3"/>
+    </svg>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.5.4.8 1 .9 1.6l.1.5h5l.1-.5c.1-.6.4-1.2.9-1.6A6 6 0 0 0 12 3Z"/></svg></div>
+                    <h3 class="why-title">Creative Thinking</h3>
+                    <p class="why-desc">Fresh, disruptive ideas that cut through the noise and make your business stand out in crowded markets.</p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm8 4-2 .5.4 1.9-1.6 1.3-1.5 1.2.6 1.9-1.9.7-1.1-1.6h-1.8L10 20l-1.9-.7.6-1.9L7.2 16l-1.6-1.3.4-1.9L4 12.3v-1.6l2-.5-.4-1.9L9.2 7l1.5-1.2-.6-1.9 1.9-.7 1.1 1.6h1.8L18 4l1.9.7-.6 1.9 1.5 1.2 1.6 1.3-.4 1.9 2 .5Z"/></svg></div>
+                    <h3 class="why-title">Technology Driven</h3>
+                    <p class="why-desc">Modern, robust, and scalable digital solutions that perform reliably under heavy commercial loads.</p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10m5 10V4m5 16v-7m5 7V8"/></svg></div>
+                    <h3 class="why-title">Performance Focused</h3>
+                    <p class="why-desc">Strategies rigorously engineered around measurable commercial results: leads, sales, ROAS, and revenue.</p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V6l8-3 8 3v15M4 21h16M9 21v-4h6v4M8 9h2m4 0h2M8 13h2m4 0h2"/></svg></div>
+                    <h3 class="why-title">Business Understanding</h3>
+                    <p class="why-desc">We take the time to understand your operational reality, margins, and supply chain — not just vanity digital metrics.</p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 0 1 13.7-5.7L20 8M20 12a8 8 0 0 1-13.7 5.7L4 16M20 4v4h-4M4 20v-4h4"/></svg></div>
+                    <h3 class="why-title">End-to-End Solutions</h3>
+                    <p class="why-desc">No more managing four different agencies. Technology, e-commerce, advertising, and content all under one roof.</p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 12 4 9l3-3 3 1h4l3-1 3 3-3 3M7 12l3 3 2-2 2 2 2-2 2 2"/></svg></div>
+                    <h3 class="why-title">Long-Term Partnership</h3>
+                    <p class="why-desc">We grow with your business as an invested strategic ally, continuously exploring new avenues to unlock growth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Ecosystem Hub (Catalogue Page 15 visual) -->
+    <!-- Shape divider -->
+    <div class="section-divider" data-shape="scallop" data-bg="#fafafa" data-fill="#ffffff" data-c1="#14B8A6" data-c2="#7C4B9B" aria-hidden="true"></div>
+    <section class="section ecosystem-section">
+        <div class="container">
+            <div class="section-header-centered">
+                <h2 class="section-heading">Everything Your Business Needs To Go Digital</h2>
+                <p class="section-subheading">An interconnected digital architecture centered around your enterprise growth.</p>
+            </div>
+
+            <svg class="doodle doodle-hub" viewBox="0 0 236 84" aria-hidden="true" focusable="false">
+                <path class="dl" pathLength="1" d="M18,16 C44,44 92,58 114,68"/>
+                <path class="dl accent" pathLength="1" d="M118,12 C118,32 118,50 118,64"/>
+                <path class="dl" pathLength="1" d="M218,16 C192,44 144,58 122,68"/>
+                <path class="dl accent2" pathLength="1" d="M118,72 l-10,7 M118,72 l10,7 M118,71 v10"/>
+                <circle class="dot" cx="18" cy="13" r="3"/>
+                <circle class="dot accent2" cx="118" cy="9" r="3.4"/>
+                <circle class="dot" cx="218" cy="13" r="3"/>
+            </svg>
+
+            <div class="ecosystem-container">
+                <div class="eco-ring eco-ring-1" aria-hidden="true"></div>
+                <div class="eco-ring eco-ring-2" aria-hidden="true"></div>
+                <svg class="eco-links" aria-hidden="true"></svg>
+                <div class="ecosystem-center-hub">
+                    <div class="hub-circle">
+                        <span class="hub-name">THE BLANK STATE</span>
+                        <span class="hub-sub">DIGITAL CORE</span>
+                    </div>
+                </div>
+
+                <div class="ecosystem-satellite-nodes">
+                    <div class="eco-node node-build"><span class="node-dot" aria-hidden="true"></span>
+                        <div class="node-label">BUILD</div>
+                        <span class="node-detail">Websites • Software • Mobile Apps</span>
+                    </div>
+                    <div class="eco-node node-sell"><span class="node-dot" aria-hidden="true"></span>
+                        <div class="node-label">SELL</div>
+                        <span class="node-detail">Amazon • Flipkart • Meesho • Myntra</span>
+                    </div>
+                    <div class="eco-node node-market"><span class="node-dot" aria-hidden="true"></span>
+                        <div class="node-label">MARKET</div>
+                        <span class="node-detail">Meta Ads • Google Ads • Performance</span>
+                    </div>
+                    <div class="eco-node node-found"><span class="node-dot" aria-hidden="true"></span>
+                        <div class="node-label">GET FOUND</div>
+                        <span class="node-detail">SEO • Google Maps • Local Pack</span>
+                    </div>
+                    <div class="eco-node node-engage"><span class="node-dot" aria-hidden="true"></span>
+                        <div class="node-label">ENGAGE</div>
+                        <span class="node-detail">Social Media • Reels • Brand Content</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <!-- Shape divider -->
+    <div class="section-divider" data-shape="zigzag" data-bg="#ffffff" data-fill="#fafafa" data-c1="#EC4899" data-c2="#C191FF" aria-hidden="true"></div>
+    <section class="section faq-section" id="faq">
+        <div class="container faq-container">
+            <div class="faq-heading-col">
+                <h2 class="section-heading">Frequently<br>Asked Questions</h2>
+                <p class="faq-heading-note">Everything you need to know before starting your digital growth journey with us.</p>
+                <svg class="doodle doodle-question" viewBox="0 0 112 112" aria-hidden="true" focusable="false">
+                    <path class="dl" pathLength="1" d="M32,28 C32,11 62,9 66,28 C70,45 49,49 49,66"/>
+                    <circle class="dot" cx="49" cy="82" r="4.5"/>
+                    <path class="dl accent" pathLength="1" d="M49,2 a44,44 0 1 1 -0.5,0"/>
+                    <path class="dl accent2" pathLength="1" d="M86,96 l12,-12 M92,104 l14,-14"/>
+                </svg>
+                <a href="#contact" class="faq-cta">Still unsure? Ask us directly &rarr;</a>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" type="button" aria-expanded="false">
+                        <span>What services does The Blank State offer?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We offer website &amp; software development, e-commerce and marketplace management, Meta &amp; Google performance ads, SEO &amp; Google Maps optimization, and social media management — everything your business needs to build, sell, and grow online under one roof.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" type="button" aria-expanded="false">
+                        <span>Why should I choose The Blank State over hiring multiple agencies?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>One partner means one accountable strategy. Instead of coordinating a web agency, an ads team, and a social freelancer, you get a single growth roadmap where development, commerce, advertising, and content all reinforce each other.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" type="button" aria-expanded="false">
+                        <span>How does pricing work for ads and monthly retainers?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our monthly retainer (₹10,000 for Performance Marketing, ₹12,000 for Social Media) covers strategy, creatives, management, and reporting. Your actual ad spend is paid directly to Meta or Google — we never mark it up.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" type="button" aria-expanded="false">
+                        <span>How long does it take to build a website or software?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>A basic business website goes live in 5–7 days. Interactive and e-commerce builds typically take 2–4 weeks depending on features. Custom software timelines are set after a discovery call — you get a clear roadmap before we start.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" type="button" aria-expanded="false">
+                        <span>Do you manage Amazon and Flipkart accounts end-to-end?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes — from seller account setup and verification to catalogue, listings, A+ content, sponsored ads, order operations, and account health. We report on sales, orders, products, and growth every month.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" type="button" aria-expanded="false">
+                        <span>Why is SEO and Google Maps important for my business?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Most buying journeys start with a search. Ranking on page 1 and in the local map pack puts ready-to-buy customers in front of you before they ever see a competitor — organic visibility that keeps working even when ad budgets pause.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Consultation Section -->
+    <!-- Shape divider -->
+    <div class="section-divider" data-shape="wave" data-bg="#fafafa" data-fill="#111111" data-c1="#F26522" data-c2="#C191FF" aria-hidden="true"></div>
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="contact-card-wrapper">
+                <div class="contact-info-side">
+                    <h2 class="contact-headline">Let's Build Your Digital Growth.</h2>
+                    <p class="contact-sub">
+                        Your Business. Our Digital Expertise. Get in touch with us today for a free discovery session and personalized growth quotation.
+                    </p>
+
+    <svg class="doodle doodle-plane" viewBox="0 0 112 96" aria-hidden="true" focusable="false">
+        <path class="dl" pathLength="1" d="M14,50 L96,14 L66,88 L46,58 Z"/>
+        <path class="dl" pathLength="1" d="M96,14 L46,58 L42,74"/>
+        <path class="dl accent" pathLength="1" d="M4,86 C22,90 34,80 40,68"/>
+        <circle class="dot accent2" cx="104" cy="8" r="3.4"/>
+        <path class="dl accent2" pathLength="1" d="M78,42 v12 M72,48 h12"/>
+    </svg>
+                    <div class="contact-details-list">
+                        <div class="contact-detail-item">
+                            <span class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+                            <div>
+                                <span class="detail-label">PHONE & WHATSAPP</span>
+                                <div class="detail-val">
+                                    <a href="tel:+918511410817">+91 85114 10817</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail-item">
+                            <span class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2,6 10,7 10,-7"/></svg></span>
+                            <div>
+                                <span class="detail-label">EMAIL ADDRESS</span>
+                                <div class="detail-val">
+                                    <a href="mailto:theblankstateteam@gmail.com">theblankstateteam@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail-item">
+                            <span class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+                            <div>
+                                <span class="detail-label">OFFICE LOCATION</span>
+                                <div class="detail-val">
+                                    <a href="https://www.google.com/maps/place/REA+DIGITAL+SEVA,+Dharmbhumi,+3+rasta,+Narolgam,+Ahmedabad,+Gujarat+382405/data=!4m2!3m1!1s0x395e8fdd2fb1693d:0xcd2723d610aa2731!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjI4LjMYACCenQoqqQEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwODI1MDI1LDEwMDgyMDIzNywxMDA4MjI0OTQsMTAwODI3OTc1QgJJTg%3D%3D&skid=4872bc57-e890-4a19-b775-65b9f625f72f"
+                                        target="_blank" rel="noopener noreferrer">
+                                        B1, The Blank State, Dharmbhumi 3 Rasta, Narolgam, Ahmedabad, Gujarat 382405
+                                        <span style="display: block; font-size: 0.8rem; color: var(--accent-gold); margin-top: 4px; font-weight: 600;">
+                                            Open in Google Maps &rarr;
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-detail-item">
+                            <span class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 0 20 15.3 15.3 0 0 1 0-20z"/></svg></span>
+                            <div>
+                                <span class="detail-label">OFFICIAL WEBSITE</span>
+                                <div class="detail-val">
+                                    <a href="https://theblankstate.com">THEBLANKSTATE.COM</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="whatsapp-direct-box">
+                        <a href="https://wa.me/918511410817?text=Hi%20The%20Blank%20State%2C%20I%20would%20like%20to%20schedule%20a%20consultation%20for%20my%20business."
+                            target="_blank" class="btn btn-whatsapp-full">
+                            <svg class="icon-whatsapp" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.15c-1.49 0-2.95-.4-4.22-1.16l-.3-.18-3.13.82.83-3.05-.2-.31a8.17 8.17 0 0 1-1.25-4.36c0-4.54 3.7-8.24 8.27-8.24 2.2 0 4.28.86 5.84 2.42a8.217 8.217 0 0 1 2.42 5.83c0 4.55-3.7 8.23-8.26 8.23zm4.53-6.17c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.79.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.16.04-.31-.02-.43s-.56-1.35-.77-1.85c-.2-.48-.41-.42-.56-.43h-.48c-.16 0-.43.06-.66.31-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.16 1.73 2.64 4.2 3.7.59.25 1.05.4 1.41.51.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.11-.23-.17-.48-.3z" />
+                            </svg>
+                            <span>Chat Directly on WhatsApp (+91 85114 10817)</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-side">
+                    <h3 class="form-title">Request a Growth Consultation</h3>
+                    <p class="form-sub">Fill out the quick details below and our team will get back to you within 2 hours.</p>
+
+                    <form id="consultationForm" class="consultation-form">
+                        <div class="form-group">
+                            <label for="clientName">Full Name *</label>
+                            <input type="text" id="clientName" required placeholder="e.g., Rajesh Patel">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="clientCompany">Business / Company Name *</label>
+                            <input type="text" id="clientCompany" required placeholder="e.g., Patel Textiles & Apparels">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="clientPhone">Phone Number *</label>
+                                <input type="tel" id="clientPhone" required placeholder="e.g., 9876543210">
+                            </div>
+                            <div class="form-group">
+                                <label for="clientEmail">Email Address</label>
+                                <input type="email" id="clientEmail" placeholder="e.g., rajesh@company.com">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Services You Are Interested In:</label>
+                            <div class="service-checkbox-grid">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="services" value="Web & Software">
+                                    <span>Web & Software</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="services" value="E-Commerce & Marketplaces">
+                                    <span>E-Commerce / Marketplaces</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="services" value="Meta & Google Ads" checked>
+                                    <span>Performance Marketing (Ads)</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="services" value="Social Media & Reels" checked>
+                                    <span>Social Media (₹12K Retainer)</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="services" value="SEO & Google Maps">
+                                    <span>SEO & Google Maps</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="clientMessage">Tell Us About Your Goals</label>
+                            <textarea id="clientMessage" rows="3" placeholder="Briefly describe what you would like to achieve..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block btn-lg">
+                            <span>Submit Inquiry via WhatsApp</span>
+                            <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <!-- Dev Opus-style mega nav -->
+            <nav class="footer-mega-nav" aria-label="Footer navigation">
+                <a href="#about" class="mega-link"><span class="mega-link-text">About</span><span class="mega-link-num">01</span></a>
+                <a href="#services" class="mega-link"><span class="mega-link-text">Services</span><span class="mega-link-num">02</span></a>
+                <a href="#process" class="mega-link"><span class="mega-link-text">Process</span><span class="mega-link-num">03</span></a>
+                <a href="#quotation" class="mega-link"><span class="mega-link-text">Pricing</span><span class="mega-link-num">04</span></a>
+                <a href="#contact" class="mega-link"><span class="mega-link-text">Contact Us</span><span class="mega-link-num">05</span></a>
+            </nav>
+
+            <div class="footer-cta-row">
+                <h4 class="footer-cta-line">Itni Dur Aaye Ho Toh… <span>Ab Saath Chalne Hi Takdeer Hai.</span></h4>
+                <a href="https://wa.me/918511410817?text=Hi%20The%20Blank%20State%2C%20I%20would%20like%20to%20discuss%20digital%20growth%20services."
+                    target="_blank" class="btn btn-primary btn-lg footer-cta-btn">
+                    <span>Let's Connect!</span>
+                </a>
+            </div>
+
+            <svg class="doodle doodle-squiggle" viewBox="0 0 320 44" aria-hidden="true" focusable="false">
+                <path class="dl" pathLength="1" d="M8,28 C42,8 64,42 98,24 S158,6 192,26 S252,44 296,16"/>
+                <path class="dl accent" pathLength="1" d="M296,16 l-15,1 M296,16 l-3,13"/>
+                <circle class="dot accent2" cx="312" cy="34" r="3"/>
+            </svg>
+
+            <div class="footer-top-row">
+                <div class="footer-brand-col">
+                    <div class="footer-brand-logo">
+                        <span class="logo-name">THE BLANK STATE</span>
+                        <span class="logo-tag">DIGITAL GROWTH COMPANY</span>
+                    </div>
+                    <p class="footer-about-text">
+                        WE BUILD. WE MARKET. WE GROW.
+                        <br>A dependable digital growth partner for modern manufacturers, retailers, and high-growth brands.
+                    </p>
+                    <div class="footer-contact-fast">
+                        <div><strong>Phone & WhatsApp:</strong> <a href="tel:+918511410817" style="color: #FFFFFF;">+91 85114 10817</a></div>
+                        <div><strong>Email:</strong> theblankstateteam@gmail.com</div>
+                        <div><strong>Office:</strong> <a href="https://www.google.com/maps/place/REA+DIGITAL+SEVA,+Dharmbhumi,+3+rasta,+Narolgam,+Ahmedabad,+Gujarat+382405/data=!4m2!3m1!1s0x395e8fdd2fb1693d:0xcd2723d610aa2731!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjI4LjMYACCenQoqqQEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwODI1MDI1LDEwMDgyMDIzNywxMDA4MjI0OTQsMTAwODI3OTc1QgJJTg%3D%3D&skid=4872bc57-e890-4a19-b775-65b9f625f72f" target="_blank" rel="noopener noreferrer" style="color: var(--text-light-muted);">B1, The Blank State, Dharmbhumi 3 Rasta, Narolgam, Ahmedabad 382405 (Google Maps)</a></div>
+                    </div>
+                </div>
+
+                <div class="footer-links-col">
+                    <h4>The Four Pillars</h4>
+                    <ul>
+                        <li><a href="#tab-build">01. Build (Web & Software)</a></li>
+                        <li><a href="#tab-sell">02. Sell (Marketplaces)</a></li>
+                        <li><a href="#tab-advertise">03. Advertise (Meta & Google)</a></li>
+                        <li><a href="#tab-seo">04. Grow (SEO & Maps)</a></li>
+                        <li><a href="#tab-social">05. Social Media Management</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-col">
+                    <h4>Monthly Retainers</h4>
+                    <ul>
+                        <li><a href="#quotation">Social Media (₹12,000/mo)</a></li>
+                        <li><a href="#quotation">Performance Marketing (₹10,000/mo)</a></li>
+                        <li><a href="#quotation">E-Commerce Retainer</a></li>
+                        <li><a href="#quotation">Custom Business Software</a></li>
+                        <li><a href="#clients">Our Trusted Clients</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About The Blank State</a></li>
+                        <li><a href="#process">How We Work</a></li>
+                        <li><a href="#why-us">Why Us</a></li>
+                        <li><a href="#contact">Contact & Inquiry</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom-bar">
+                <p>&copy; <span id="currentYear">2026</span> The Blank State. All rights reserved.</p>
+                <p class="footer-sub-tag">The Blank State • Ahmedabad, Gujarat, India</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Quick Actions -->
+    <div class="floating-actions">
+        <a href="tel:+918511410817" class="floating-call-btn" aria-label="Call us">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            <span class="floating-tooltip">Call Us</span>
+        </a>
+        <a href="https://wa.me/918511410817?text=Hi%20The%20Blank%20State%2C%20I%20am%20interested%20in%20your%20digital%20growth%20services."
+            target="_blank" class="floating-whatsapp-btn" aria-label="Chat on WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.15c-1.49 0-2.95-.4-4.22-1.16l-.3-.18-3.13.82.83-3.05-.2-.31a8.17 8.17 0 0 1-1.25-4.36c0-4.54 3.7-8.24 8.27-8.24 2.2 0 4.28.86 5.84 2.42a8.217 8.217 0 0 1 2.42 5.83c0 4.55-3.7 8.23-8.26 8.23zm4.53-6.17c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.79.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.16.04-.31-.02-.43s-.56-1.35-.77-1.85c-.2-.48-.41-.42-.56-.43h-.48c-.16 0-.43.06-.66.31-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.16 1.73 2.64 4.2 3.7.59.25 1.05.4 1.41.51.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.11-.23-.17-.48-.3z" />
+            </svg>
+            <span class="floating-tooltip">Chat with Us</span>
+        </a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
