@@ -5,7 +5,7 @@
    element in its finished state, so if these CDNs are unreachable the hero
    still reads exactly as designed.
    ------------------------------------------------------------------------- */
-import { animate, inView, scroll, stagger } from 'https://cdn.jsdelivr.net/npm/motion@11.11.13/+esm';
+import { animate, inView, stagger } from 'https://cdn.jsdelivr.net/npm/motion@11.11.13/+esm';
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.min.js';
 
 const REDUCED = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -257,14 +257,13 @@ function initHero3D() {
 const playTitle = initHeroTitle();
 const playField = initHeroField();
 
-if ('IntersectionObserver' in window && 'animate' in window === false) {
-    // no-op; motion is imported, not global
-}
-
+let played = false;
 inView('.hero', () => {
+    if (played) return;
+    played = true;
     playTitle();
     playField();
-}).filter(() => true);
+});
 
 initPointerParallax();
 initHero3D();

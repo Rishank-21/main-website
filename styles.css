@@ -4197,3 +4197,135 @@ body { background: var(--bg-page); letter-spacing: -0.011em; }
     .hero-canvas { display: none; }
     .hero-char { transform: none !important; }
 }
+
+/* ============================================================================
+   SERVICES TABS + DETAIL PANEL v2 — light segmented control, hairline panel
+   Replaces the black pill nav and the black highlight box.
+   ========================================================================== */
+
+/* accent text must stay a flat colour: the heading splitter moves glyphs into
+   nested inline-blocks, which empties a background-clip:text parent */
+.text-accent {
+    background: none;
+    -webkit-text-fill-color: currentColor;
+    color: var(--ms-flame);
+}
+
+.service-tabs-wrapper { margin-top: 4px; }
+
+.service-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 6px;
+    background: var(--ms-surface);
+    border: 0.8px solid var(--ms-line);
+    border-radius: 14px;
+}
+
+.service-tab {
+    flex: 1 1 auto;
+    padding: .72rem 1.05rem;
+    border: 0.8px solid transparent;
+    border-radius: 9px;
+    background: transparent;
+    color: var(--ms-ink-mute);
+    font-family: 'Inter', sans-serif;
+    font-size: .8rem;
+    font-weight: 500;
+    letter-spacing: -.005em;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: color .2s ease, background-color .2s ease, border-color .2s ease;
+}
+
+.service-tab:hover {
+    color: var(--ms-ink);
+    background: rgba(21, 21, 36, .045);
+}
+
+.service-tab.active {
+    background: #FFFFFF;
+    border-color: var(--ms-line);
+    color: var(--ms-ink);
+    font-weight: 600;
+    box-shadow: 0 1px 2px rgba(21, 21, 36, .05);
+}
+
+.tab-panel {
+    margin-top: 18px;
+    padding: clamp(26px, 3.2vw, 46px);
+    background: var(--ms-page);
+    border: 0.8px solid var(--ms-line);
+    border-radius: 18px;
+    box-shadow: none;
+}
+
+.service-pill-tag {
+    display: inline-flex;
+    width: auto;
+    padding: .38rem .8rem;
+    background: #FFFFFF;
+    border: 0.8px solid var(--ms-line);
+    border-radius: 999px;
+    color: var(--ms-ink-mute);
+    font-size: .64rem;
+    font-weight: 600;
+    letter-spacing: .1em;
+}
+
+.service-panel-title {
+    color: var(--ms-ink);
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    letter-spacing: -.02em;
+}
+
+.service-panel-intro { color: var(--ms-ink-soft); }
+
+.service-feature-card {
+    background: #FFFFFF;
+    border: 0.8px solid var(--ms-line);
+    border-radius: 14px;
+    box-shadow: none;
+    transition: border-color .25s ease, transform .25s ease;
+}
+
+.service-feature-card:hover {
+    border-color: var(--ms-line-strong);
+    transform: translateY(-2px);
+    box-shadow: none;
+}
+
+.service-feature-card h4 { color: var(--ms-ink); }
+
+/* highlight box: warm surface instead of black */
+.service-highlight-box {
+    background: var(--ms-surface);
+    border: 0.8px solid var(--ms-line);
+    border-radius: 16px;
+    box-shadow: none;
+}
+
+.service-highlight-box h4 { color: var(--ms-ink); }
+.service-highlight-box p { color: var(--ms-ink-soft); }
+.service-highlight-box .highlight-bullets li { color: var(--ms-ink-mute); }
+.service-highlight-box .highlight-bullets li strong { color: var(--ms-ink); }
+.service-highlight-box .highlight-divider { background: var(--ms-line); }
+
+.service-highlight-box .highlight-icon {
+    color: var(--ms-flame);
+    background: rgba(242, 101, 34, .1);
+    border: 0.8px solid rgba(242, 101, 34, .22);
+    border-radius: 11px;
+}
+
+@media (max-width: 768px) {
+    .service-tab { flex: 1 1 auto; font-size: .74rem; padding: .62rem .7rem; white-space: normal; }
+    .service-tabs { border-radius: 12px; }
+}
+
+/* the tall feature list leaves the highlight box stranded: let it follow */
+@media (min-width: 1025px) {
+    .service-panel-side { position: sticky; top: 92px; }
+}
