@@ -36,7 +36,8 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
   await send('Page.navigate', { url: URL });
   await sleep(2600);
   await ev(`(() => { document.querySelectorAll('.reveal-on-scroll,.service-row,.pillar-card,.process-step-item,.quote-card,.why-card,.eco-node,.work-card,.ecosystem-container,.doodle,.hero-kicker,.hero-headline,.hero-lead,.hero-actions,.strings-stage').forEach(e=>e.classList.add('is-visible','is-live','drawn','split-done','pop')); return 1; })()`);
-  await sleep(700);
+  await ev(`(() => { const el=document.querySelector(${JSON.stringify(SEL)}); if(el) el.scrollIntoView({block:'start'}); return 1; })()`);
+  await sleep(1500);
   const rect = await ev(`(() => { const el=document.querySelector(${JSON.stringify(SEL)}); if(!el) return 'null'; const r=el.getBoundingClientRect(); return JSON.stringify({x:0, y:Math.max(0, Math.round(r.top+window.scrollY)), width:window.innerWidth, height:Math.min(Math.round(r.height), 3000), scale:1}); })()`);
   if (rect === 'null') { console.log('selector not found'); }
   else {

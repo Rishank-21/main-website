@@ -1,0 +1,10 @@
+2026/10/25-13:05:23.458 2f3c Creating DB C:\Users\Rishank\OneDrive\Desktop\java tutorial\test\_audit\_purl\Default\IndexedDB\https_plusmarkboards.com_0.indexeddb.leveldb since it was missing.
+2026/10/25-13:05:23.473 2f3c Reusing MANIFEST C:\Users\Rishank\OneDrive\Desktop\java tutorial\test\_audit\_purl\Default\IndexedDB\https_plusmarkboards.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/10/25-13:05:23.491 4e2c Level-0 table #5: started
+2026/10/25-13:05:23.498 4e2c Level-0 table #5: 671 bytes OK
+2026/10/25-13:05:23.502 4e2c Delete type=0 #3
+2026/10/25-13:05:23.503 6e1c Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/10/25-13:05:23.510 4e2c Level-0 table #7: started
+2026/10/25-13:05:23.515 4e2c Level-0 table #7: 746 bytes OK
+2026/10/25-13:05:23.521 4e2c Delete type=0 #4
+2026/10/25-13:05:23.522 4e2c Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

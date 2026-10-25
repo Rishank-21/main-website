@@ -126,21 +126,35 @@ function initServiceTabs() {
 
     if (!tabButtons.length || !tabPanels.length) return;
 
-    tabButtons.forEach(btn => {
-        btn.addEventListener('click', () => {
-            const targetTab = btn.getAttribute('data-tab');
+    const activate = (btn) => {
+        const targetTab = btn.getAttribute('data-tab');
 
-            // Deactivate all buttons
-            tabButtons.forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
+        tabButtons.forEach(b => {
+            const isCurrent = b === btn;
+            b.classList.toggle('active', isCurrent);
+            b.setAttribute('aria-selected', String(isCurrent));
+            b.setAttribute('tabindex', isCurrent ? '0' : '-1');
+        });
 
-            // Switch active panel
-            tabPanels.forEach(panel => {
-                panel.classList.remove('active');
-                if (panel.id === `tab-${targetTab}`) {
-                    panel.classList.add('active');
-                }
-            });
+        tabPanels.forEach(panel => {
+            panel.classList.toggle('active', panel.id === `tab-${targetTab}`);
+        });
+    };
+
+    tabButtons.forEach((btn, i) => {
+        btn.addEventListener('click', () => activate(btn));
+        btn.addEventListener('keydown', (e) => {
+            let idx = null;
+            if (e.key === 'ArrowRight' || e.key === 'ArrowDown') idx = (i + 1) % tabButtons.length;
+            else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') idx = (i - 1 + tabButtons.length) % tabButtons.length;
+            else if (e.key === 'Home') idx = 0;
+            else if (e.key === 'End') idx = tabButtons.length - 1;
+            if (idx !== null) {
+                e.preventDefault();
+                const next = tabButtons[idx];
+                next.focus();
+                activate(next);
+            }
         });
     });
 
@@ -218,15 +232,13 @@ function initActiveNavScroll() {
 
     if (!sections.length || !navLinks.length) return;
 
-    window.addEventListener('scroll', () => {
+    const updateActiveNav = () => {
         let currentSectionId = '';
-        const scrollPosition = window.scrollY + 120;
+        const probeLine = window.scrollY + window.innerHeight * 0.5;
 
         sections.forEach(section => {
-            const sectionTop = section.offsetTop;
-            const sectionHeight = section.offsetHeight;
-
-            if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+            const sectionTop = section.getBoundingClientRect().top + window.scrollY;
+            if (probeLine >= sectionTop) {
                 currentSectionId = section.getAttribute('id');
             }
         });
@@ -238,7 +250,11 @@ function initActiveNavScroll() {
                 link.classList.add('active');
             }
         });
-    });
+    };
+
+    window.addEventListener('scroll', updateActiveNav);
+    window.addEventListener('resize', updateActiveNav);
+    updateActiveNav();
 }
 
 /* --------------------------------------------------------------------------
@@ -298,9 +314,10 @@ function initShapeDividers() {
 
     const W = 1440, H = 104, BAND = 30;
 
-    // Smooth sine wave: sampled at high resolution so the crest reads as a curve
-    const wave = (amp = 24, cycles = 2.25, mid = 46) => {
-        const steps = 120;
+    // Smooth sine wave: whole cycles only, so both ends sit at the same height
+    // and the gradient band closes seamlessly across the full width.
+    const wave = (amp = 18, cycles = 2, mid = 40) => {
+        const steps = 160;
         const pts = [];
         for (let i = 0; i <= steps; i++) {
             const x = (i / steps) * W;
@@ -329,11 +346,12 @@ function initShapeDividers() {
         return d + ` L${W},${H} L0,${H} Z`;
     };
 
+    // Upward semicircular bumps sitting on the fill edge (complete scallop wave)
     const scallop = () => {
         const count = 12, r = W / count;
-        let d = `M0,54`;
+        let d = `M0,66`;
         for (let i = 0; i < count; i++) {
-            d += ` A${r / 2},${r / 2} 0 0,${i % 2 === 0 ? 1 : 0} ${(i + 1) * r},54`;
+            d += ` A${r / 2},${r / 2} 0 0,1 ${((i + 1) * r).toFixed(1)},66`;
         }
         return d + ` L${W},${H} L0,${H} Z`;
     };
@@ -465,8 +483,11 @@ function initWorkFilters() {
     buttons.forEach(btn => {
         btn.addEventListener('click', () => {
             const filter = btn.getAttribute('data-filter');
-            buttons.forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
+            buttons.forEach(b => {
+                const isCurrent = b === btn;
+                b.classList.toggle('active', isCurrent);
+                b.setAttribute('aria-pressed', String(isCurrent));
+            });
             cards.forEach(card => {
                 const match = filter === 'all' || card.getAttribute('data-cat') === filter;
                 card.classList.toggle('is-hidden', !match);
@@ -501,24 +522,33 @@ function initEcosystem() {
                 x: r.left - box.left + r.width / 2,
                 y: r.top - box.top + r.height / 2,
                 top: r.top - box.top,
-                bottom: r.bottom - box.top
+                bottom: r.bottom - box.top,
+                width: r.width
             };
         };
         const hubPt = center(hub);
+        const hubR = hubPt.width / 2 + 10;
 
         nodes.forEach((node, i) => {
             const pt = center(node);
+            const dx = pt.x - hubPt.x, dy = pt.y - hubPt.y;
+            const dist = Math.hypot(dx, dy) || 1;
+            const ux = dx / dist, uy = dy / dist;
+            const nodeR = Math.max(node.offsetWidth, 44) / 2.4;
             const line = document.createElementNS(NS, 'line');
-            line.setAttribute('x1', hubPt.x.toFixed(1));
-            line.setAttribute('y1', hubPt.bottom.toFixed(1));
-            line.setAttribute('x2', pt.x.toFixed(1));
-            line.setAttribute('y2', Math.max(pt.top, hubPt.top).toFixed(1));
+            line.setAttribute('x1', (hubPt.x + ux * hubR).toFixed(1));
+            line.setAttribute('y1', (hubPt.y + uy * hubR).toFixed(1));
+            line.setAttribute('x2', (pt.x - ux * nodeR).toFixed(1));
+            line.setAttribute('y2', (pt.y - uy * nodeR).toFixed(1));
             line.style.animationDelay = `${i * 0.16}s`;
             svg.appendChild(line);
         });
     };
 
     draw();
+    // Absolute-positioned eco layout can settle after first paint — redraw late.
+    requestAnimationFrame(draw);
+    window.addEventListener('load', () => setTimeout(draw, 150));
     let raf = null;
     window.addEventListener('resize', () => {
         cancelAnimationFrame(raf);

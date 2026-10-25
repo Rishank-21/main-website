@@ -1,3 +1,4 @@
-2026/10/24-22:30:58.413 860 Reusing MANIFEST C:\Users\Rishank\OneDrive\Desktop\java tutorial\test\_audit\_p3\Default\Local Storage\leveldb/MANIFEST-000001
-2026/10/24-22:30:58.415 860 Recovering log #3
-2026/10/24-22:30:58.427 860 Reusing old log C:\Users\Rishank\OneDrive\Desktop\java tutorial\test\_audit\_p3\Default\Local Storage\leveldb/000003.log 
+2026/10/25-15:52:26.656 45c8 Reusing MANIFEST C:\Users\Rishank\OneDrive\Desktop\java tutorial\test\_audit\_p3\Default\Local Storage\leveldb/MANIFEST-000001
+2026/10/25-15:52:26.657 45c8 Recovering log #3
+2026/10/25-15:52:26.657 45c8 (ignoring error) C:\Users\Rishank\OneDrive\Desktop\java tutorial\test\_audit\_p3\Default\Local Storage\leveldb/000003.log: dropping 251 bytes; Corruption: checksum mismatch
+2026/10/25-15:52:26.664 45c8 Reusing old log C:\Users\Rishank\OneDrive\Desktop\java tutorial\test\_audit\_p3\Default\Local Storage\leveldb/000003.log 
