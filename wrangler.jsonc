@@ -6,13 +6,6 @@
     "enabled": true
   },
   "assets": {
-    "directory": ".",
-    "exclude": [
-      "_audit/**",
-      "state/**",
-      "*.bak",
-      "_*.js",
-      "_audit_run2.txt"
-    ]
+    "directory": "."
   }
 }
