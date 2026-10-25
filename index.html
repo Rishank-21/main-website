@@ -83,107 +83,210 @@
         ]
     }
     </script>
+    <link rel="stylesheet" href="mascot-hero.css?v=hero-controls-3">
 </head>
 
 <body>
     <a class="skip-link" href="#main">Skip to main content</a>
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar" aria-label="Primary">
-        <div class="container nav-container">
-            <a href="#home" class="brand-logo">
-                <span class="logo-mark">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
-                        <rect x="3" y="3" width="18" height="18" rx="4" />
-                        <line x1="3" y1="9" x2="21" y2="9" />
-                        <line x1="9" y1="21" x2="9" y2="9" />
-                    </svg>
-                </span>
-                <div class="logo-text-group">
-                    <span class="logo-name">THE BLANK STATE</span>
-                </div>
-            </a>
+    <!-- Hero Section: 3D velvet mascot stage -->
+    <div id="hero-stage">
+    <span id="home" class="hero-anchor" aria-hidden="true"></span>
 
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#work">Our Work</a></li>
-                <li><a href="#pillars">Pillars</a></li>
-                <li><a href="#process">How We Work</a></li>
-                <li><a href="#clients">Clients</a></li>
-                <li><a href="#quotation">Pricing</a></li>
-                <li><a href="#why-us">Why Us</a></li>
-                <li class="nav-mobile-cta">
-                    <a href="https://wa.me/918511410817?text=Hi%20The%20Blank%20State%2C%20I%20would%20like%20to%20discuss%20digital%20growth%20services."
-                        target="_blank" class="btn btn-primary btn-sm">
-                        WhatsApp Us
-                    </a>
-                </li>
-            </ul>
-
-            <div class="nav-actions">
-                <a href="https://wa.me/918511410817?text=Hi%20The%20Blank%20State%2C%20I%20would%20like%20to%20discuss%20digital%20growth%20services%20for%20my%20business."
-                    target="_blank" class="btn btn-primary nav-cta-btn">
-                    <svg class="icon-whatsapp" viewBox="0 0 24 24" fill="currentColor">
-                        <path
-                            d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.15c-1.49 0-2.95-.4-4.22-1.16l-.3-.18-3.13.82.83-3.05-.2-.31a8.17 8.17 0 0 1-1.25-4.36c0-4.54 3.7-8.24 8.27-8.24 2.2 0 4.28.86 5.84 2.42a8.217 8.217 0 0 1 2.42 5.83c0 4.55-3.7 8.23-8.26 8.23zm4.53-6.17c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.79.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.16.04-.31-.02-.43s-.56-1.35-.77-1.85c-.2-.48-.41-.42-.56-.43h-.48c-.16 0-.43.06-.66.31-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.16 1.73 2.64 4.2 3.7.59.25 1.05.4 1.41.51.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.11-.23-.17-.48-.3z" />
-                    </svg>
-                    <span>Talk to Us</span>
-                </a>
-                <button class="mobile-menu-btn" id="mobileMenuBtn" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section: Mistral sentence-centre stage -->
-    <header class="hero" id="home">
-        <canvas class="hero-canvas" id="heroCanvas" aria-hidden="true"></canvas>
-
-        <div class="hero-field" aria-hidden="true">
-            <span class="hero-ring hero-ring-a"></span>
-            <span class="hero-ring hero-ring-b"></span>
-
-            <div class="hero-col hero-col-a">
-                <span class="hero-dot"></span>
-                <span class="hero-tile" style="--tile:#FFAF01"></span>
-                <span class="hero-tile hero-tile-sm" style="--tile:#FF5229"></span>
-            </div>
-            <div class="hero-col hero-col-b">
-                <span class="hero-tile" style="--tile:#FF8204"></span>
-                <span class="hero-dot"></span>
-            </div>
-            <div class="hero-col hero-col-c">
-                <span class="hero-dot"></span>
-                <span class="hero-tile hero-tile-sm" style="--tile:#E51300"></span>
-            </div>
-            <div class="hero-col hero-col-d">
-                <span class="hero-tile" style="--tile:#FFAF01"></span>
-                <span class="hero-tile hero-tile-sm" style="--tile:#FF5229"></span>
-                <span class="hero-dot"></span>
-            </div>
-        </div>
-
-        <div class="hero-frame">
-            <h1 class="hero-title js-title">Turn a blank state<br>into <span class="hero-accent">momentum.</span></h1>
-
-            <p class="hero-lead">Websites, software &amp; growth systems that help ambitious businesses build, sell and scale &mdash; all under one roof.</p>
-
-            <div class="hero-actions">
-                <a href="#contact" class="btn btn-primary btn-lg">
-                    <span>Start a project</span>
-                    <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M5 12h14M12 5l7 7-7 7" />
-                    </svg>
-                </a>
-                <a href="#work" class="btn btn-ghost btn-lg">
-                    <span>See our work</span>
-                </a>
-            </div>
-        </div>
+    <!-- ==================== Z-INDEX 50: TOP ARCHITECTURAL NAVBAR ==================== -->
+    <header class="top-navbar">
+      <div class="nav-group">
+        <a class="nav-cell nav-brand" href="#home"><span>The Blank State</span></a>
+        <a class="nav-cell" href="#services">Services</a>
+        <a class="nav-cell" href="#work">Our Work</a>
+        <a class="nav-cell" href="#process">How We Work</a>
+        <a class="nav-cell" href="#about">About</a>
+      </div>
+      <div class="nav-group">
+        <a class="nav-cell nav-cell-right nav-cta-dark" href="#contact">Get in touch</a>
+      </div>
     </header>
+
+    <!-- ==================== Z-INDEX 1: ARCHITECTURAL DOT-MATRIX, ENGINEERING LINES & ARCS ==================== -->
+    <div class="engineering-bg">
+      <div class="dot-matrix"></div>
+
+      <!-- 5 Vertical 1px Engineering Grid Lines -->
+      <div class="eng-line-v" style="left: 14%;"></div>
+      <div class="eng-line-v" style="left: 28%;"></div>
+      <div class="eng-line-v" style="left: 50%;"></div>
+      <div class="eng-line-v" style="left: 72%;"></div>
+      <div class="eng-line-v" style="left: 86%;"></div>
+
+      <!-- 2 Horizontal 1px Engineering Guide Lines -->
+      <div class="eng-line-h" style="top: 22%;"></div>
+      <div class="eng-line-h" style="bottom: 18%;"></div>
+
+      <!-- Engineering Crosshair '+' Markers at Intersections -->
+      <div class="eng-crosshair" style="left: 14%; top: 22%;"></div>
+      <div class="eng-crosshair" style="left: 28%; top: 22%;"></div>
+      <div class="eng-crosshair" style="left: 50%; top: 22%;"></div>
+      <div class="eng-crosshair" style="left: 72%; top: 22%;"></div>
+      <div class="eng-crosshair" style="left: 86%; top: 22%;"></div>
+
+      <div class="eng-crosshair" style="left: 14%; bottom: 18%;"></div>
+      <div class="eng-crosshair" style="left: 28%; bottom: 18%;"></div>
+      <div class="eng-crosshair" style="left: 50%; bottom: 18%;"></div>
+      <div class="eng-crosshair" style="left: 72%; bottom: 18%;"></div>
+      <div class="eng-crosshair" style="left: 86%; bottom: 18%;"></div>
+
+      <!-- Mistral-Inspired Technical Orbital SVG Arcs -->
+      <svg class="eng-arcs-svg" viewBox="0 0 1440 900" fill="none" preserveAspectRatio="none">
+        <!-- Top-Left Solid & Dashed Orbital Arcs -->
+        <path d="M 0 420 A 420 420 0 0 0 420 0" stroke="#cbd5e1" stroke-width="1.35" />
+        <path d="M 0 330 A 330 330 0 0 0 330 0" stroke="#94a3b8" stroke-width="1.15" stroke-dasharray="5 5" />
+        <!-- Bottom-Right Solid & Dashed Orbital Arcs -->
+        <path d="M 1440 480 A 420 420 0 0 0 1020 900" stroke="#cbd5e1" stroke-width="1.35" />
+        <path d="M 1440 560 A 340 340 0 0 0 1100 900" stroke="#94a3b8" stroke-width="1.15" stroke-dasharray="5 5" />
+        <!-- Subtle Center Technical Ring -->
+        <circle cx="720" cy="415" r="245" stroke="#e2e8f0" stroke-width="1.15" stroke-dasharray="4 6" />
+      </svg>
+    </div>
+
+    <!-- ==================== Z-INDEX 30: DYNAMIC EXTENDING TOP MECHANICAL CLAW HOOK ==================== -->
+    <div id="claw-rig" onclick="triggerClawGrabSequence(undefined, event)" title="Click Hook to Grab & Relocate a Pet!">
+      <div class="claw-carriage">
+        <div class="claw-rail-mount">
+          <span class="claw-bolt"></span>
+          <span class="claw-bolt"></span>
+          <span class="claw-bolt"></span>
+        </div>
+        <div id="claw-cable"></div>
+        <div id="claw-assembly">
+          <div class="claw-head-top">
+            <span id="claw-status-led"></span>
+          </div>
+          <div class="claw-head-mid"></div>
+          <div class="claw-prongs-row">
+            <div id="claw-prong-left"></div>
+            <div class="claw-core-gem"></div>
+            <div id="claw-prong-right"></div>
+          </div>
+        </div>
+        <div class="claw-hover-badge">🪝 Click Hook to Grab Pet or Steal Poster!</div>
+      </div>
+    </div>
+
+    <!-- ==================== Z-INDEX 10: PASTEL 2D GEOMETRIC BLOCK STACKS & STEPPING STONES ==================== -->
+    <div class="blocks-layer">
+      <!-- 1. Left Stack (#block-1 + base + #step-1) - Violet Kitty Perch -->
+      <div id="block-1-base" class="geo-block"></div>
+      <div id="block-1" class="geo-block"></div>
+      <div id="step-1" class="geo-block"></div>
+
+      <!-- 2. Lower-Left Block (#block-2 + #step-2 + Mini Pixel Factory Deco) - Magenta Bunny Perch -->
+      <div id="block-2" class="geo-block"></div>
+      <div id="step-2" class="geo-block"></div>
+      <svg class="mini-pixel-deco-left" viewBox="0 0 32 32" fill="none">
+        <rect x="4" y="16" width="24" height="16" fill="#ff6b7b" stroke="#e04f5f" stroke-width="1.5"/>
+        <polygon points="4,16 12,10 12,16 20,10 20,16 28,10 28,16" fill="#ff8fa3"/>
+        <rect x="22" y="4" width="5" height="12" fill="#ffd166" stroke="#e04f5f" stroke-width="1.5"/>
+        <rect x="8" y="21" width="5" height="5" fill="#ffffff"/>
+        <rect x="17" y="21" width="5" height="5" fill="#ffffff"/>
+      </svg>
+
+      <!-- 3. Lower-Right Block (#block-3 + #step-3 + Tilted Diamond) - Coral Puppy Perch -->
+      <div id="step-3" class="geo-block"></div>
+      <div id="diamond-right-low" class="geo-block"></div>
+      <div id="block-3" class="geo-block"></div>
+
+      <!-- 4. Right Stack (#block-4 + base + #step-4 + Top Tilted Diamond) - Minty Cub Perch -->
+      <div id="step-4" class="geo-block"></div>
+      <div id="block-4-base" class="geo-block"></div>
+      <div id="block-4" class="geo-block"></div>
+      <div id="diamond-right-high" class="geo-block"></div>
+    </div>
+
+    <!-- ==================== Z-INDEX 15: CENTER 2-LINE HERO HEADLINE ==================== -->
+    <main class="center-hero-content">
+      <h1 class="hero-title">
+        <span class="hero-title-line1">
+          <span>We</span>
+          <span class="hero-flag-icon">
+            <svg viewBox="0 0 48 48" width="100%" height="100%" fill="none">
+              <rect x="8" y="40" width="14" height="4" fill="#3B82F6"/>
+              <rect x="12" y="8" width="4" height="32" fill="#60A5FA"/>
+              <rect x="16" y="8" width="24" height="10" fill="#FF5D73"/>
+              <rect x="16" y="18" width="20" height="8" fill="#FF8FA3"/>
+            </svg>
+          </span>
+          <span>build #1</span>
+        </span>
+        <br />
+        <span>Digital Growth.</span>
+      </h1>
+      <p class="mascot-hero-copy">Websites, software &amp; growth systems that help ambitious businesses build, sell and scale &mdash; all under one roof.</p>
+      <div class="mascot-hero-actions">
+        <a href="#contact">Start a project <span aria-hidden="true">→</span></a>
+        <a href="#work">See our work</a>
+      </div>
+    </main>
+
+    <!-- ==================== Z-INDEX 20: BOTTOM FLOOR RULER BAR ==================== -->
+    <div class="floor-ruler-bar">
+      <div class="floor-tick"></div>
+      <div class="floor-tick"></div>
+      <div class="floor-tick"></div>
+      <div class="floor-tick"></div>
+      <div class="floor-tick"></div>
+    </div>
+
+    <!-- ==================== Z-INDEX 25: 100% TRANSPARENT THREE.JS WEBGL CANVAS ==================== -->
+    <canvas id="webgl-canvas" aria-label="3D Velvet Plush Mascots climbing blocks, getting lifted and relocated by the top hook, and holding clean white service posters"></canvas>
+    <button class="canvas-sound-toggle audio-toggle" id="audio-toggle" type="button" aria-pressed="true" aria-label="Turn sound off" data-sound-state="on">
+      <svg class="speaker-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path class="speaker-body" d="M4 10v4h4l5 4V6l-5 4H4Z"></path>
+        <path class="speaker-wave speaker-wave-one" d="M16 9.5a4 4 0 0 1 0 5"></path>
+        <path class="speaker-wave speaker-wave-two" d="M18.5 7a7.5 7.5 0 0 1 0 10"></path>
+        <path class="speaker-slash" d="m4 4 16 16"></path>
+      </svg>
+    </button>
+
+    <!-- ==================== Z-INDEX 35: HIGH-CONTRAST DOM COMIC THOUGHT BUBBLES OVERLAY ==================== -->
+    <div id="thought-bubbles-layer" aria-live="polite">
+      <div id="thought-bubble-0" class="pet-thought-wrapper">
+        <div id="thought-cloud-0" class="pet-thought-cloud">
+          <span class="thought-dot-badge" style="background: #7b2cbf;"></span>
+          <span id="thought-text-0">Code compile ho gaya! 💻✨</span>
+        </div>
+        <div class="pet-thought-dot-lg"></div>
+        <div class="pet-thought-dot-sm"></div>
+      </div>
+
+      <div id="thought-bubble-1" class="pet-thought-wrapper">
+        <div id="thought-cloud-1" class="pet-thought-cloud">
+          <span class="thought-dot-badge" style="background: #e5178f;"></span>
+          <span id="thought-text-1">Top Websites! 🎨✨</span>
+        </div>
+        <div class="pet-thought-dot-lg"></div>
+        <div class="pet-thought-dot-sm"></div>
+      </div>
+
+      <div id="thought-bubble-2" class="pet-thought-wrapper">
+        <div id="thought-cloud-2" class="pet-thought-cloud">
+          <span class="thought-dot-badge" style="background: #ff5d73;"></span>
+          <span id="thought-text-2">10x Ads ROI! 🚀🔥</span>
+        </div>
+        <div class="pet-thought-dot-lg"></div>
+        <div class="pet-thought-dot-sm"></div>
+      </div>
+
+      <div id="thought-bubble-3" class="pet-thought-wrapper">
+        <div id="thought-cloud-3" class="pet-thought-cloud">
+          <span class="thought-dot-badge" style="background: #40916c;"></span>
+          <span id="thought-text-3">#1 on Google! 📈🏆</span>
+        </div>
+        <div class="pet-thought-dot-lg"></div>
+        <div class="pet-thought-dot-sm"></div>
+      </div>
+    </div>
+
+  </div>
+
 
     <main id="main">
     <!-- Brands That Trust Us -->
@@ -2089,252 +2192,8 @@
 
     <!-- Scripts -->
     <script src="script.js"></script>
-    <script type="module">
-        /* Hero motion layer — Motion (the vanilla sibling of Framer Motion,
-           the same timeline library Mistral ships) + Three.js depth field.
-           Inlined because file:// pages block external module scripts via CORS.
-           Progressive enhancement: the CSS leaves every element in its final
-           state, so if these CDN modules are unreachable the hero still reads
-           exactly as designed. */
-        import { animate, inView, stagger } from 'https://cdn.jsdelivr.net/npm/motion@11.11.13/+esm';
-        import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.min.js';
-
-        const REDUCED = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-        const FLAME = [0xffaf01, 0xff8204, 0xff5229, 0xe51300];
-
-        function splitIntoChars(title) {
-            const lines = [];
-            let line = [];
-            const pushWord = (text, accent) => {
-                text.split(/\s+/).filter(Boolean).forEach(word => {
-                    const wrap = document.createElement('span');
-                    wrap.className = 'hero-word' + (accent ? ' hero-accent' : '');
-                    [...word].forEach(ch => {
-                        const c = document.createElement('span');
-                        c.className = 'hero-char';
-                        c.textContent = ch;
-                        wrap.appendChild(c);
-                    });
-                    line.push(wrap);
-                    line.push(document.createTextNode(' '));
-                });
-            };
-            title.childNodes.forEach(node => {
-                if (node.nodeType === Node.TEXT_NODE) {
-                    pushWord(node.textContent, false);
-                } else if (node.nodeName === 'BR') {
-                    if (line.length) lines.push(line);
-                    line = [];
-                } else if (node.nodeType === Node.ELEMENT_NODE) {
-                    pushWord(node.textContent, node.classList.contains('hero-accent'));
-                }
-            });
-            if (line.length) lines.push(line);
-            title.textContent = '';
-            lines.forEach(tokens => {
-                const row = document.createElement('span');
-                row.className = 'hero-line';
-                tokens.forEach(t => row.appendChild(t));
-                title.appendChild(row);
-            });
-            return [...title.querySelectorAll('.hero-char')];
-        }
-
-        function initHeroTitle() {
-            const title = document.querySelector('.hero-title');
-            if (!title) return () => {};
-            const chars = splitIntoChars(title);
-            return () => {
-                if (REDUCED || !chars.length) return;
-                animate(chars, { y: ['115%', '0%'] }, {
-                    duration: 1,
-                    delay: stagger(.028, { start: .15 }),
-                    easing: [.45, .05, .15, 1]
-                });
-            };
-        }
-
-        function initHeroCopy() {
-            const els = [...document.querySelectorAll('.hero-lead, .hero-actions')];
-            if (!els.length) return () => {};
-            return () => {
-                if (REDUCED) return;
-                animate(els, { opacity: [0, 1], y: [18, 0] }, {
-                    duration: .85,
-                    delay: stagger(.14, { start: .95 }),
-                    easing: [.22, .61, .21, 1]
-                });
-            };
-        }
-
-        function initHeroField() {
-            const tiles = [...document.querySelectorAll('.hero-tile')];
-            const dots = [...document.querySelectorAll('.hero-dot')];
-            if (!tiles.length) return () => {};
-            const targets = tiles.map(t => getComputedStyle(t).width);
-            return () => {
-                if (REDUCED) return;
-                tiles.forEach((t, i) => {
-                    t.style.width = '0px';
-                    animate(t, { width: ['0px', targets[i]] }, {
-                        duration: 1.05,
-                        delay: .4 + i * .11,
-                        easing: [.19, 1, .22, 1]
-                    });
-                });
-                animate(dots, { opacity: [0, 1] }, { duration: .5, delay: stagger(.09, { start: .55 }) });
-                animate('.hero-ring', { opacity: [0, 1], scale: [.96, 1] }, {
-                    duration: 1.4, easing: [.19, 1, .22, 1]
-                });
-            };
-        }
-
-        function initPointerParallax() {
-            if (REDUCED) return;
-            const hero = document.querySelector('.hero');
-            const frame = document.querySelector('.hero-frame');
-            const field = document.querySelector('.hero-field');
-            if (!hero || !frame || !field) return;
-            let tx = 0, ty = 0, cx = 0, cy = 0;
-            hero.addEventListener('pointermove', e => {
-                const r = hero.getBoundingClientRect();
-                tx = (e.clientX - r.left) / r.width - .5;
-                ty = (e.clientY - r.top) / r.height - .5;
-            });
-            hero.addEventListener('pointerleave', () => { tx = 0; ty = 0; });
-            (function tick() {
-                cx += (tx - cx) * .06;
-                cy += (ty - cy) * .06;
-                field.style.transform = `translate3d(${cx * -26}px, ${cy * -16}px, 0)`;
-                frame.style.transform = `translate3d(${cx * 9}px, ${cy * 6}px, 0)`;
-                requestAnimationFrame(tick);
-            })();
-        }
-
-        function roundedRect(w, h, r) {
-            const s = new THREE.Shape();
-            s.moveTo(-w / 2 + r, -h / 2);
-            s.lineTo(w / 2 - r, -h / 2);
-            s.quadraticCurveTo(w / 2, -h / 2, w / 2, -h / 2 + r);
-            s.lineTo(w / 2, h / 2 - r);
-            s.quadraticCurveTo(w / 2, h / 2, w / 2 - r, h / 2);
-            s.lineTo(-w / 2 + r, h / 2);
-            s.quadraticCurveTo(-w / 2, h / 2, -w / 2, h / 2 - r);
-            s.lineTo(-w / 2, -h / 2 + r);
-            s.quadraticCurveTo(-w / 2, -h / 2, -w / 2 + r, -h / 2);
-            return s;
-        }
-
-        function initHero3D() {
-            const canvas = document.getElementById('heroCanvas');
-            const hero = document.querySelector('.hero');
-            if (!canvas || !hero || REDUCED) return;
-            let renderer;
-            try {
-                renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true, powerPreference: 'low-power' });
-            } catch (err) {
-                return;
-            }
-            renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
-            const scene = new THREE.Scene();
-            const camera = new THREE.PerspectiveCamera(48, 1, .1, 100);
-            camera.position.z = 12;
-            scene.add(new THREE.AmbientLight(0xffffff, 1.15));
-            const key = new THREE.DirectionalLight(0xffffff, 1.6);
-            key.position.set(4, 6, 9);
-            scene.add(key);
-            const tiles = [];
-            const layout = [
-                [-7.4, 2.9, 1.9], [7.2, -2.4, 2.1], [-5.6, -3.4, 1.3],
-                [5.9, 3.4, 1.5], [-8.2, -.6, 1.0], [8.4, .8, 1.1],
-                [-3.9, 4.2, .85], [3.7, -4.6, .95]
-            ];
-            layout.forEach((p, i) => {
-                const size = .9 + (i % 3) * .34;
-                const geo = new THREE.ExtrudeGeometry(roundedRect(size, size, size * .17), {
-                    depth: .18, bevelEnabled: true, bevelSize: .035, bevelThickness: .035, bevelSegments: 2
-                });
-                const mat = new THREE.MeshStandardMaterial({
-                    color: FLAME[i % FLAME.length],
-                    roughness: .42,
-                    metalness: .05,
-                    transparent: true,
-                    opacity: .9
-                });
-                const mesh = new THREE.Mesh(geo, mat);
-                mesh.position.set(p[0], p[1], p[2]);
-                mesh.userData = { base: [...p], spin: (i % 2 ? -1 : 1) * (.12 + i * .014), bob: i * 1.7 };
-                scene.add(mesh);
-                tiles.push(mesh);
-            });
-            const ringGeo = new THREE.TorusGeometry(5.6, .012, 3, 128);
-            const ringMat = new THREE.MeshBasicMaterial({ color: 0xd8d7d2, transparent: true, opacity: .55 });
-            const ring = new THREE.Mesh(ringGeo, ringMat);
-            ring.position.set(0, 0, -3);
-            scene.add(ring);
-            let px = 0, py = 0, cpx = 0, cpy = 0, drift = 0;
-            hero.addEventListener('pointermove', e => {
-                const r = hero.getBoundingClientRect();
-                px = (e.clientX - r.left) / r.width - .5;
-                py = (e.clientY - r.top) / r.height - .5;
-            });
-            const resize = () => {
-                const r = hero.getBoundingClientRect();
-                const w = Math.max(1, Math.round(r.width));
-                const h = Math.max(1, Math.round(r.height));
-                renderer.setSize(w, h, false);
-                camera.aspect = w / h;
-                camera.updateProjectionMatrix();
-            };
-            resize();
-            window.addEventListener('resize', resize);
-            let visible = true;
-            if ('IntersectionObserver' in window) {
-                new IntersectionObserver(entries => {
-                    visible = entries.some(e => e.isIntersecting);
-                }, { threshold: 0 }).observe(hero);
-            }
-            const clock = new THREE.Clock();
-            (function loop() {
-                requestAnimationFrame(loop);
-                if (!visible) return;
-                const t = clock.getElapsedTime();
-                cpx += (px - cpx) * .05;
-                cpy += (py - cpy) * .05;
-                drift = window.scrollY * .0016;
-                camera.position.x = cpx * 1.9;
-                camera.position.y = -cpy * 1.3 - drift;
-                camera.lookAt(0, -drift * .6, 0);
-                tiles.forEach(m => {
-                    const d = m.userData;
-                    m.rotation.x = Math.sin(t * .34 + d.bob) * .34 + cpy * .5;
-                    m.rotation.y = t * d.spin * .5 + cpx * .7;
-                    m.position.y = d.base[1] + Math.sin(t * .5 + d.bob) * .26;
-                    m.position.x = d.base[0] + cpx * .5;
-                });
-                ring.rotation.x = .34 + cpy * .3;
-                ring.rotation.y = cpx * .4;
-                renderer.render(scene, camera);
-            })();
-            requestAnimationFrame(() => canvas.classList.add('is-live'));
-        }
-
-        const playTitle = initHeroTitle();
-        const playCopy = initHeroCopy();
-        const playField = initHeroField();
-
-        let played = false;
-        inView('.hero', () => {
-            if (played) return;
-            played = true;
-            playTitle();
-            playCopy();
-            playField();
-        });
-
-        initPointerParallax();
-        initHero3D();
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="mascot-hero.js?v=hero-controls-3"></script>
 </body>
 
 </html>

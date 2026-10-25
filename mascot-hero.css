@@ -1,0 +1,897 @@
+
+    /* ==========================================================================
+       1. PURE SELF-CONTAINED CSS RESET & STAGE LAYOUT
+       ========================================================================== */
+    #hero-stage, #hero-stage * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    #hero-stage {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #ffffff;
+      color: #0f172a;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    #hero-stage {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      background-color: #ffffff;
+    }
+
+    /* ==========================================================================
+       2. Z-INDEX 50: TOP ARCHITECTURAL NAVBAR (60PX HEIGHT, 1PX GRID CELLS)
+       ========================================================================== */
+    .top-navbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 60px;
+      background-color: rgba(255, 255, 255, 0.96);
+      border-bottom: 1px solid #e2e8f0;
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      z-index: 50;
+      font-size: 13px;
+      font-weight: 500;
+      color: #1e293b;
+    }
+
+    .nav-group {
+      display: flex;
+      align-items: stretch;
+      overflow-x: auto;
+    }
+
+    .nav-cell {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 0 18px;
+      background: transparent;
+      border: none;
+      border-right: 1px solid #e2e8f0;
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 500;
+      color: #334155;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background-color 0.15s ease, color 0.15s ease;
+    }
+
+    .nav-cell:hover {
+      background-color: #f8fafc;
+      color: #0f172a;
+    }
+
+    .nav-brand {
+      font-weight: 800;
+      color: #0f172a;
+      font-size: 17px;
+      letter-spacing: -0.03em;
+      padding: 0 30px;
+      min-width: 190px;
+    }
+
+    .brand-cube {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 22px;
+      height: 22px;
+      border-radius: 5px;
+      background: linear-gradient(135deg, #ff5d73, #ff8fa3);
+      border: 1.5px solid #e04f5f;
+      color: #ffffff;
+      font-size: 11px;
+      font-weight: 900;
+      box-shadow: 0 2px 4px rgba(255, 93, 115, 0.25);
+    }
+
+    .nav-cell-right {
+      border-right: none;
+      border-left: 1px solid #e2e8f0;
+      font-weight: 600;
+    }
+
+    .nav-cell-hook {
+      background-color: #fff0f3;
+      color: #e11d48;
+      font-weight: 700;
+    }
+
+    .nav-cell-hook:hover {
+      background-color: #ffe4e9;
+      color: #be123c;
+    }
+
+    .nav-cell-poster-hook {
+      background-color: #f3e8ff;
+      color: #7e22ce;
+      font-weight: 700;
+    }
+
+    .nav-cell-poster-hook:hover {
+      background-color: #e9d5ff;
+      color: #6b21a8;
+    }
+
+    .nav-cta-dark {
+      background-color: #0f172a;
+      color: #ffffff;
+      padding: 0 22px;
+    }
+
+    .nav-cta-dark:hover {
+      background-color: #1e293b;
+      color: #ffffff;
+    }
+
+    /* ==========================================================================
+       3. Z-INDEX 1: ARCHITECTURAL DOT-MATRIX, ENGINEERING LINES, CROSSHAIRS & ARCS
+       ========================================================================== */
+    .engineering-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+      pointer-events: none;
+      overflow: hidden;
+    }
+
+    .dot-matrix {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: radial-gradient(#cbd5e1 1.15px, transparent 1.15px);
+      background-size: 24px 24px;
+      opacity: 0.78;
+    }
+
+    .eng-line-v {
+      position: absolute;
+      top: 60px;
+      bottom: 16px;
+      width: 1px;
+      background-color: #e2e8f0;
+    }
+
+    .eng-line-h {
+      position: absolute;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background-color: #e2e8f0;
+    }
+
+    .eng-crosshair {
+      position: absolute;
+      width: 11px;
+      height: 11px;
+      transform: translate(-5px, -5px);
+    }
+
+    .eng-crosshair::before {
+      content: '';
+      position: absolute;
+      top: 5px;
+      left: 0;
+      width: 11px;
+      height: 1.5px;
+      background-color: #94a3b8;
+    }
+
+    .eng-crosshair::after {
+      content: '';
+      position: absolute;
+      left: 5px;
+      top: 0;
+      width: 1.5px;
+      height: 11px;
+      background-color: #94a3b8;
+    }
+
+    .eng-arcs-svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    /* ==========================================================================
+       4. Z-INDEX 30: DYNAMIC EXTENDING TOP MECHANICAL CLAW HOOK (#claw-rig)
+       ========================================================================== */
+    #claw-rig {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      z-index: 30;
+      cursor: pointer;
+      will-change: transform;
+      transform: translate3d(380px, 0, 0);
+    }
+
+    .claw-carriage {
+      position: relative;
+      left: -50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transform-origin: top center;
+    }
+
+    .claw-rail-mount {
+      width: 44px;
+      height: 10px;
+      background: linear-gradient(90deg, #475569, #1e293b, #475569);
+      border: 2px solid #0f172a;
+      border-top: none;
+      border-radius: 0 0 5px 5px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 0 4px;
+      box-shadow: 0 3px 8px rgba(15, 23, 42, 0.14);
+    }
+
+    .claw-bolt {
+      width: 4px;
+      height: 4px;
+      border-radius: 999px;
+      background-color: #cbd5e1;
+    }
+
+    #claw-cable {
+      width: 4px;
+      height: 26px;
+      background: repeating-linear-gradient(
+        180deg,
+        #334155 0px,
+        #334155 4px,
+        #64748b 4px,
+        #64748b 8px
+      );
+      border-left: 1px solid #0f172a;
+      border-right: 1px solid #0f172a;
+      will-change: height;
+    }
+
+    #claw-assembly {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transform-origin: top center;
+      will-change: transform;
+    }
+
+    .claw-head-top {
+      width: 38px;
+      height: 15px;
+      background: linear-gradient(180deg, #ff5d73, #e04f5f);
+      border: 2px solid #0f172a;
+      border-radius: 6px 6px 2px 2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 3px 8px rgba(15, 23, 42, 0.15);
+    }
+
+    #claw-status-led {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background-color: #22c55e;
+      border: 1.5px solid #0f172a;
+      box-shadow: 0 0 6px #22c55e;
+      transition: background-color 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    #claw-status-led.is-active {
+      background-color: #ef4444;
+      box-shadow: 0 0 10px #ef4444;
+    }
+
+    .claw-head-mid {
+      width: 24px;
+      height: 10px;
+      background-color: #ffd166;
+      border-left: 2px solid #0f172a;
+      border-right: 2px solid #0f172a;
+      border-bottom: 2px solid #0f172a;
+    }
+
+    .claw-prongs-row {
+      position: relative;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      width: 52px;
+      margin-top: -2px;
+    }
+
+    #claw-prong-left {
+      width: 16px;
+      height: 28px;
+      border-left: 4px solid #0f172a;
+      border-bottom: 4px solid #0f172a;
+      border-radius: 0 0 0 12px;
+      background: linear-gradient(135deg, rgba(241, 245, 249, 0.95), rgba(203, 213, 225, 0.9));
+      transform-origin: top right;
+      transform: rotate(14deg);
+      transition: transform 0.12s ease-out;
+    }
+
+    #claw-prong-right {
+      width: 16px;
+      height: 28px;
+      border-right: 4px solid #0f172a;
+      border-bottom: 4px solid #0f172a;
+      border-radius: 0 0 12px 0;
+      background: linear-gradient(225deg, rgba(241, 245, 249, 0.95), rgba(203, 213, 225, 0.9));
+      transform-origin: top left;
+      transform: rotate(-14deg);
+      transition: transform 0.12s ease-out;
+    }
+
+    .claw-core-gem {
+      width: 11px;
+      height: 11px;
+      border-radius: 999px;
+      background-color: #e5178f;
+      border: 2px solid #0f172a;
+      margin-top: 2px;
+    }
+
+    .claw-hover-badge {
+      position: absolute;
+      top: 10px;
+      left: 28px;
+      background: #0f172a;
+      color: #ffffff;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 9px;
+      border-radius: 999px;
+      white-space: nowrap;
+      opacity: 0;
+      transform: translateY(-4px);
+      transition: opacity 0.18s ease, transform 0.18s ease;
+      pointer-events: none;
+      box-shadow: 0 4px 12px rgba(15, 23, 42, 0.18);
+    }
+
+    #claw-rig:hover .claw-hover-badge {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ==========================================================================
+       5. Z-INDEX 10: PASTEL 2D GEOMETRIC BLOCK STACKS & STEPPING STONES
+       ========================================================================== */
+    .blocks-layer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 10;
+      pointer-events: none;
+    }
+
+    .geo-block {
+      position: absolute;
+      box-shadow: 0 6px 18px rgba(15, 23, 42, 0.05);
+      animation: blockDropIn 0.72s cubic-bezier(0.22, 1, 0.36, 1) backwards;
+    }
+
+    @keyframes blockDropIn {
+      0% {
+        transform: translateY(-90vh) rotate(var(--rot, 0deg));
+        opacity: 0;
+      }
+      78% {
+        transform: translateY(0) rotate(var(--rot, 0deg));
+        opacity: 1;
+      }
+      90% {
+        transform: translateY(-5px) rotate(var(--rot, 0deg));
+      }
+      100% {
+        transform: translateY(0) rotate(var(--rot, 0deg));
+        opacity: 1;
+      }
+    }
+
+    /* --- 1. LEFT STACK (#block-1 + base + #step-1) --- */
+    #block-1-base {
+      left: 0;
+      bottom: 16px;
+      width: 148px;
+      height: 126px;
+      background-color: #FF6B7B;
+      border: 2px solid #E04F5F;
+      border-radius: 0 6px 0 0;
+      animation-delay: 0.05s;
+    }
+
+    #block-1 {
+      left: 0;
+      bottom: 142px;
+      width: 148px;
+      height: 126px;
+      background-color: #FFD6E5;
+      border: 2px solid #F497B6;
+      border-radius: 0 6px 0 0;
+      animation-delay: 0.14s;
+    }
+
+    #step-1 {
+      left: 148px;
+      bottom: 16px;
+      width: 54px;
+      height: 88px;
+      background-color: #FFE5EE;
+      border: 2px solid #F497B6;
+      border-radius: 0 6px 0 0;
+      animation-delay: 0.22s;
+    }
+
+    /* --- 2. LOWER-LEFT BLOCK (#block-2 + #step-2 + decorative factory) --- */
+    #block-2 {
+      left: 236px;
+      bottom: 16px;
+      width: 108px;
+      height: 92px;
+      background-color: #C7F9CC;
+      border: 2px solid #74C69D;
+      border-radius: 6px 6px 0 0;
+      animation-delay: 0.18s;
+    }
+
+    #step-2 {
+      left: 344px;
+      bottom: 16px;
+      width: 46px;
+      height: 50px;
+      background-color: #E2FBE5;
+      border: 2px solid #74C69D;
+      border-radius: 0 6px 0 0;
+      animation-delay: 0.26s;
+    }
+
+    .mini-pixel-deco-left {
+      position: absolute;
+      left: 398px;
+      bottom: 16px;
+      width: 34px;
+      height: 34px;
+      z-index: 11;
+    }
+
+    /* --- 3. LOWER-RIGHT BLOCK (#block-3 + #step-3 + tilted diamond) --- */
+    #step-3 {
+      right: 344px;
+      bottom: 16px;
+      width: 46px;
+      height: 50px;
+      background-color: #FFCCD5;
+      border: 2px solid #E56B81;
+      border-radius: 6px 0 0 0;
+      animation-delay: 0.28s;
+    }
+
+    #diamond-right-low {
+      right: 214px;
+      bottom: 58px;
+      width: 78px;
+      height: 78px;
+      background-color: #FF5D73;
+      border: 2px solid #D93850;
+      border-radius: 4px;
+      --rot: 45deg;
+      transform: rotate(45deg);
+      animation-delay: 0.32s;
+    }
+
+    #block-3 {
+      right: 236px;
+      bottom: 16px;
+      width: 108px;
+      height: 92px;
+      background-color: #FF8FA3;
+      border: 2px solid #E56B81;
+      border-radius: 6px 6px 0 0;
+      animation-delay: 0.20s;
+    }
+
+    /* --- 4. RIGHT STACK (#block-4 + base + #step-4 + top tilted diamond) --- */
+    #step-4 {
+      right: 148px;
+      bottom: 16px;
+      width: 54px;
+      height: 88px;
+      background-color: #FFE0E9;
+      border: 2px solid #F2849E;
+      border-radius: 6px 0 0 0;
+      animation-delay: 0.24s;
+    }
+
+    #block-4-base {
+      right: 0;
+      bottom: 16px;
+      width: 148px;
+      height: 126px;
+      background-color: #FF758F;
+      border: 2px solid #D9536F;
+      border-radius: 6px 0 0 0;
+      animation-delay: 0.08s;
+    }
+
+    #block-4 {
+      right: 0;
+      bottom: 142px;
+      width: 148px;
+      height: 126px;
+      background-color: #FFC2D1;
+      border: 2px solid #F2849E;
+      border-radius: 6px 0 0 0;
+      animation-delay: 0.16s;
+    }
+
+    #diamond-right-high {
+      right: 28px;
+      bottom: 288px;
+      width: 84px;
+      height: 84px;
+      background-color: #FF6B7B;
+      border: 2px solid #E04F5F;
+      border-radius: 4px;
+      --rot: 45deg;
+      transform: rotate(45deg);
+      animation-delay: 0.36s;
+    }
+
+    /* Responsive adjustments for smaller screens */
+    @media (max-width: 900px) {
+      #block-1-base, #block-1, #block-4-base, #block-4 { width: 106px; height: 104px; }
+      #block-1, #block-4 { bottom: 120px; }
+      #step-1 { left: 106px; width: 40px; height: 70px; }
+      #step-4 { right: 106px; width: 40px; height: 70px; }
+      #block-2 { left: 158px; width: 82px; height: 74px; }
+      #step-2 { left: 240px; width: 34px; height: 42px; }
+      #block-3 { right: 158px; width: 82px; height: 74px; }
+      #step-3 { right: 240px; width: 34px; height: 42px; }
+      #diamond-right-low { right: 145px; bottom: 44px; width: 58px; height: 58px; }
+      #diamond-right-high { right: 18px; bottom: 240px; width: 62px; height: 62px; }
+      .mini-pixel-deco-left { display: none; }
+    }
+
+    /* ==========================================================================
+       6. Z-INDEX 15: CENTER MISTRAL-STYLE 2-LINE HERO HEADLINE
+       ========================================================================== */
+    .center-hero-content {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      bottom: 90px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 15;
+      pointer-events: none;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .hero-title {
+      font-family: 'Inter', sans-serif;
+      font-size: clamp(38px, 5.6vw, 76px);
+      font-weight: 800;
+      letter-spacing: -0.035em;
+      line-height: 1.05;
+      color: #0f172a;
+      margin-bottom: 12px;
+    }
+
+    .hero-title-line1 {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .hero-flag-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: clamp(36px, 4.5vw, 54px);
+      height: clamp(36px, 4.5vw, 54px);
+      vertical-align: middle;
+    }
+
+    /* ==========================================================================
+       7. Z-INDEX 40: BOTTOM FLOATING ACTION PILL & Z-INDEX 20 FLOOR BAR
+       ========================================================================== */
+    .bottom-pill-container {
+      position: absolute;
+      left: 50%;
+      bottom: 32px;
+      transform: translateX(-50%);
+      z-index: 40;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      white-space: nowrap;
+    }
+
+    .bottom-explore-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 9px 16px;
+      background-color: rgba(255, 255, 255, 0.96);
+      border: 1.5px solid #cbd5e1;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(15, 23, 42, 0.06);
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 600;
+      color: #1e293b;
+      cursor: pointer;
+      transition: all 0.18s ease;
+    }
+
+    .bottom-explore-pill:hover {
+      border-color: #64748b;
+      background-color: #f8fafc;
+      transform: translateY(-2px);
+      box-shadow: 0 12px 24px rgba(15, 23, 42, 0.10);
+    }
+
+    .pill-paw-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 26px;
+      height: 26px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #ffd6e5, #ff8fa3, #c7f9cc);
+      border: 1px solid #f497b6;
+      font-size: 13.5px;
+    }
+
+    .pill-arrow {
+      color: #64748b;
+      font-weight: 800;
+      transition: transform 0.18s ease;
+    }
+
+    .bottom-explore-pill:hover .pill-arrow {
+      transform: translateX(3px);
+      color: #0f172a;
+    }
+
+    .floor-ruler-bar {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 16px;
+      background-color: #ffffff;
+      border-top: 1.5px solid #cbd5e1;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 14%;
+      z-index: 20;
+      pointer-events: none;
+    }
+
+    .floor-tick {
+      width: 1px;
+      height: 100%;
+      background-color: #cbd5e1;
+    }
+
+    /* ==========================================================================
+       8. Z-INDEX 25: TRANSPARENT THREE.JS WEBGL CANVAS OVERLAY
+       ========================================================================== */
+    #webgl-canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 25;
+      background: transparent !important;
+      pointer-events: none;
+      display: block;
+    }
+
+    /* ==========================================================================
+       9. Z-INDEX 35: HIGH-CONTRAST DOM COMIC THOUGHT BUBBLES OVERLAY
+       ========================================================================== */
+    #thought-bubbles-layer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 35;
+      pointer-events: none;
+      overflow: hidden;
+    }
+
+    .pet-thought-wrapper {
+      position: absolute;
+      left: 0;
+      top: 0;
+      transform: translate(-50%, -100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      pointer-events: none;
+      transition: opacity 0.18s ease;
+      will-change: transform, opacity;
+      opacity: 0;
+    }
+
+    .pet-thought-cloud {
+      position: relative;
+      background: #ffffff;
+      border: 2px solid #0f172a;
+      border-radius: 999px;
+      padding: 5px 13px;
+      font-family: 'Fredoka', 'Plus Jakarta Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      color: #0f172a;
+      white-space: nowrap;
+      box-shadow: 0 4px 0 #0f172a, 0 8px 16px rgba(15, 23, 42, 0.12);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      animation: thoughtFloat 2.4s ease-in-out infinite;
+    }
+
+    .pet-thought-cloud.is-burst {
+      background: #fff3b0;
+      border-color: #d90429;
+      color: #b91c1c;
+      box-shadow: 0 4px 0 #991b1b, 0 10px 20px rgba(217, 4, 41, 0.22);
+    }
+
+    .pet-thought-cloud.is-scream {
+      background: #ffccd5;
+      border: 2.5px solid #d90429;
+      color: #9b001a;
+      font-size: 14.5px;
+      font-weight: 700;
+      padding: 7px 16px;
+      box-shadow: 0 5px 0 #9b001a, 0 12px 26px rgba(217, 4, 41, 0.35);
+      animation: panicScreamShake 0.24s ease-in-out infinite;
+    }
+
+    .pet-thought-cloud.is-sad {
+      background: #e0f2fe;
+      border-color: #1d4ed8;
+      color: #1e3a8a;
+      box-shadow: 0 4px 0 #1e3a8a, 0 8px 16px rgba(29, 78, 216, 0.16);
+    }
+
+    .thought-dot-badge {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      flex-shrink: 0;
+    }
+
+    .pet-thought-dot-lg {
+      width: 8px;
+      height: 8px;
+      background: #ffffff;
+      border: 2px solid #0f172a;
+      border-radius: 999px;
+      margin-top: 4px;
+      box-shadow: 0 2px 0 #0f172a;
+    }
+
+    .pet-thought-dot-sm {
+      width: 5px;
+      height: 5px;
+      background: #ffffff;
+      border: 1.5px solid #0f172a;
+      border-radius: 999px;
+      margin-top: 2px;
+      margin-left: 6px;
+    }
+
+    @keyframes thoughtFloat {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-4px); }
+    }
+
+    @keyframes panicScreamShake {
+      0%, 100% { transform: translate(0, 0) rotate(-2deg) scale(1.04); }
+      25% { transform: translate(-3px, -2px) rotate(2deg) scale(1.07); }
+      50% { transform: translate(3px, 1px) rotate(-1.5deg) scale(1.05); }
+      75% { transform: translate(-2px, 2px) rotate(2.5deg) scale(1.08); }
+    }
+  
+/* Integration overrides */
+#hero-stage { min-height: min(860px, 100vh); height: min(860px, 100vh); width: 100%; }
+#hero-stage .top-navbar { position: absolute; }
+#hero-stage .nav-cell { padding-left: 24px; padding-right: 24px; }
+#hero-stage .nav-brand { padding-left: 30px; padding-right: 30px; }
+#hero-stage .center-hero-content { pointer-events: none; }
+#hero-stage .mascot-hero-copy { max-width: 650px; margin: 16px auto 0; font-size: clamp(14px, 1.35vw, 18px); line-height: 1.55; color: #475569; }
+#hero-stage .mascot-hero-actions { display: flex; justify-content: center; align-items: center; gap: 12px; margin-top: 24px; pointer-events: auto; }
+#hero-stage .mascot-hero-actions a { display: inline-flex; align-items: center; gap: 8px; padding: 12px 18px; border-radius: 999px; border: 1px solid #cbd5e1; background: rgba(255,255,255,.96); color: #0f172a; font: 700 13px/1 Inter, sans-serif; text-decoration: none; box-shadow: 0 8px 20px rgba(15,23,42,.08); }
+#hero-stage .mascot-hero-actions a:first-child { background: #0f172a; color: #fff; border-color: #0f172a; }
+#hero-stage .mascot-hero-actions a:hover { transform: translateY(-2px); }
+#hero-stage .canvas-sound-toggle {
+  position: absolute;
+  top: 78px;
+  left: 18px;
+  z-index: 40;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, .96);
+  color: #0f172a;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, .12);
+  cursor: pointer;
+  transition: background-color .18s ease, border-color .18s ease, color .18s ease, box-shadow .18s ease, transform .18s ease;
+}
+#hero-stage .canvas-sound-toggle:hover {
+  border-color: #94a3b8;
+  box-shadow: 0 8px 22px rgba(15, 23, 42, .16);
+  transform: translateY(-1px);
+}
+#hero-stage .speaker-icon { width: 23px; height: 23px; overflow: visible; }
+#hero-stage .speaker-icon path { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.8; }
+#hero-stage .speaker-body { fill: currentColor !important; stroke: none !important; }
+#hero-stage .speaker-slash { display: none; }
+#hero-stage .canvas-sound-toggle[data-sound-state="off"] {
+  background: #f8fafc;
+  color: #64748b;
+}
+#hero-stage .canvas-sound-toggle[data-sound-state="off"] .speaker-wave { display: none; }
+#hero-stage .canvas-sound-toggle[data-sound-state="off"] .speaker-slash { display: block; }
+@media (max-width: 760px) {
+  #hero-stage { height: min(760px, 100svh); min-height: 640px; }
+  #hero-stage .top-navbar { height: 64px; }
+  #hero-stage .nav-group:first-child .nav-cell:nth-child(4),
+  #hero-stage .nav-group:first-child .nav-cell:nth-child(5) { display: none; }
+  #hero-stage .nav-group:last-child .nav-cell:not(.audio-toggle):not(.nav-cta-dark) { display: none; }
+  #hero-stage .nav-brand { min-width: 150px; padding: 0 16px; font-size: 15px; }
+  #hero-stage .nav-cell { padding-left: 16px; padding-right: 16px; }
+  #hero-stage .mascot-hero-copy { max-width: 330px; }
+  #hero-stage .mascot-hero-actions { flex-direction: column; gap: 8px; }
+  #hero-stage .mascot-hero-actions a { width: 190px; justify-content: center; }
+}
