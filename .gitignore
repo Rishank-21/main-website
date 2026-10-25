@@ -1,0 +1,7 @@
+_audit/
+state/
+*.bak
+_audit_run2.txt
+_*.js
+.wrangler/
+node_modules/
