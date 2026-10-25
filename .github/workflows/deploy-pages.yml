@@ -28,17 +28,7 @@ jobs:
       - name: Prepare clean static bundle
         run: |
           mkdir dist
-          rsync -a \
-            --exclude='.git/' \
-            --exclude='.github/' \
-            --exclude='dist/' \
-            --exclude='_audit/' \
-            --exclude='state/' \
-            --exclude='*.bak' \
-            --exclude='_*.js' \
-            --exclude='_audit_run2.txt' \
-            --exclude='wrangler.jsonc' \
-            ./ dist/
+          rsync -a public/ dist/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
