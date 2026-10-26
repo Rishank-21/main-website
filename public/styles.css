@@ -5527,7 +5527,6 @@ html, body { overflow-x: clip; }
     background-image: linear-gradient(var(--ms-line, #e4e3de) 0.8px, transparent 0.8px), linear-gradient(90deg, var(--ms-line, #e4e3de) 0.8px, transparent 0.8px);
     background-size: 22px 22px; background-position: center;
 }
-.bp-glyph { width: 46px; height: 46px; color: var(--ms-line-strong, #c9c9c4); }
 .bp-note { font-family: ui-monospace, "JetBrains Mono", Menlo, Consolas, monospace; font-size: .64rem; letter-spacing: .05em; text-transform: uppercase; color: var(--ms-ink-mute, #6f6f75); }
 
 .work-meta { padding: 20px 22px 22px !important; }
@@ -5779,4 +5778,21 @@ select:focus-visible,
 
 @media (prefers-reduced-motion: reduce) {
     .brand-band-row { animation: none; }
+}
+
+/* ---------- Work draft cards: illustrative blueprint thumbnails ---------- */
+.bp-illo {
+    width: 168px;
+    height: auto;
+    color: #b9bdbf;
+    transition: transform .35s ease, color .35s ease;
+}
+
+.work-card:hover .bp-illo { transform: translateY(-3px); color: #94a3b8; }
+
+.bp-illo .bp-accent { stroke: var(--ms-flame, #f26522); }
+.bp-illo .bp-accent2 { stroke: #4285F4; }
+
+@media (max-width: 640px) {
+    .bp-illo { width: 148px; }
 }
