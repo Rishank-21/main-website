@@ -299,84 +299,18 @@ function initYear() {
 
 
 /* --------------------------------------------------------------------------
-   Section shape dividers (wave / zigzag / diagonal / steps / scallop)
+   Section dividers — hero-style hairline engineering rules with crosshair
+   nodes and a flame marker (replaces the old colourful wave bands).
    -------------------------------------------------------------------------- */
 function initShapeDividers() {
     const dividers = document.querySelectorAll('.section-divider[data-shape]');
-    if (!dividers.length) return;
-
-    // Match the neighbouring sections' own background so no seam line shows
-    const solidBg = el => {
-        if (!el) return null;
-        const c = getComputedStyle(el).backgroundColor;
-        return (!c || c === 'transparent' || c === 'rgba(0, 0, 0, 0)') ? null : c;
-    };
-
-    const W = 1440, H = 104, BAND = 30;
-
-    // Smooth sine wave: whole cycles only, so both ends sit at the same height
-    // and the gradient band closes seamlessly across the full width.
-    const wave = (amp = 18, cycles = 2, mid = 40) => {
-        const steps = 160;
-        const pts = [];
-        for (let i = 0; i <= steps; i++) {
-            const x = (i / steps) * W;
-            const y = mid + amp * Math.sin((i / steps) * Math.PI * 2 * cycles - Math.PI / 2);
-            pts.push(`${x.toFixed(1)},${y.toFixed(1)}`);
-        }
-        return `M${pts.join(' L')} L${W},${H} L0,${H} Z`;
-    };
-
-    const zigzag = () => {
-        const count = 18, step = W / count;
-        const pts = [];
-        for (let i = 0; i <= count; i++) pts.push(`${(i * step).toFixed(1)},${i % 2 === 0 ? 58 : 22}`);
-        return `M${pts.join(' L')} L${W},${H} L0,${H} Z`;
-    };
-
-    const diagonal = () => `M0,64 L${W},18 L${W},${H} L0,${H} Z`;
-
-    const steps = () => {
-        const count = 7, step = W / count;
-        let d = `M0,72`;
-        for (let i = 1; i <= count; i++) {
-            const y = 72 - i * 7;
-            d += ` L${((i - 1) * step).toFixed(1)},${y} L${(i * step).toFixed(1)},${y}`;
-        }
-        return d + ` L${W},${H} L0,${H} Z`;
-    };
-
-    // Upward semicircular bumps sitting on the fill edge (complete scallop wave)
-    const scallop = () => {
-        const count = 12, r = W / count;
-        let d = `M0,66`;
-        for (let i = 0; i < count; i++) {
-            d += ` A${r / 2},${r / 2} 0 0,1 ${((i + 1) * r).toFixed(1)},66`;
-        }
-        return d + ` L${W},${H} L0,${H} Z`;
-    };
-
-    const SHAPES = { wave, zigzag, diagonal, steps, scallop };
-
-    dividers.forEach((el, index) => {
-        const build = SHAPES[el.dataset.shape] || wave;
-        const path = build();
-        const bg = solidBg(el.previousElementSibling) || el.dataset.bg || '#ffffff';
-        const fill = solidBg(el.nextElementSibling) || el.dataset.fill || bg;
-        const c1 = el.dataset.c1 || '#FF8950';
-        const c2 = el.dataset.c2 || '#C191FF';
-        const gid = `dv-grad-${index}`;
-
-        el.style.background = bg;
+    dividers.forEach(el => {
         el.innerHTML =
-            `<svg viewBox="0 0 ${W} ${H + BAND}" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">` +
-            `<defs><linearGradient id="${gid}" x1="0" y1="0" x2="1" y2="0">` +
-            `<stop offset="0%" stop-color="${c1}"/><stop offset="100%" stop-color="${c2}"/>` +
-            `</linearGradient></defs>` +
-            `<path d="${path}" fill="url(#${gid})" opacity="0.9"/>` +
-            `<path d="${path}" fill="url(#${gid})" opacity="0.28" transform="translate(0,7)"/>` +
-            `<path d="${path}" fill="${fill}" transform="translate(0,${BAND})"/>` +
-            `</svg>`;
+            '<span class="dv-node" style="left:14%"></span>' +
+            '<span class="dv-node" style="left:28%"></span>' +
+            '<span class="dv-node" style="left:72%"></span>' +
+            '<span class="dv-node" style="left:86%"></span>' +
+            '<span class="dv-flame"></span>';
     });
 }
 
@@ -621,11 +555,21 @@ function initBrandBand() {
     const row = document.querySelector('.brand-band-row');
     if (!row) return;
 
-    Array.from(row.querySelectorAll('.brand-cell')).forEach(cell => {
-        const clone = cell.cloneNode(true);
-        clone.classList.add('is-clone');
-        clone.setAttribute('aria-hidden', 'true');
-        clone.querySelectorAll('a, button').forEach(el => el.setAttribute('tabindex', '-1'));
-        row.appendChild(clone);
-    });
+    const cells = Array.from(row.children);
+    const originalWidth = row.getBoundingClientRect().width;
+    const band = row.parentElement;
+    const viewport = (band && band.getBoundingClientRect().width) || window.innerWidth;
+
+    row.style.setProperty('--bb-delta', `-${originalWidth}px`);
+    let cloneSets = 0;
+    while (cloneSets * originalWidth < viewport * 1.25 && cloneSets < 4) {
+        cells.forEach(cell => {
+            const clone = cell.cloneNode(true);
+            clone.classList.add('is-clone');
+            clone.setAttribute('aria-hidden', 'true');
+            clone.querySelectorAll('a, button').forEach(el => el.setAttribute('tabindex', '-1'));
+            row.appendChild(clone);
+        });
+        cloneSets++;
+    }
 }

@@ -1384,6 +1384,16 @@
       };
     }
 
+    // Shrink the plush pets on narrow screens so the four mascots don't
+    // crowd each other on phones.
+    function responsivePetScale() {
+      const w = getHeroViewport().width;
+      if (w < 480) return 0.58;
+      if (w < 640) return 0.7;
+      if (w < 900) return 0.88;
+      return 1;
+    }
+
     function screenPixelToWorld3D(screenX, screenY) {
       const viewport = getHeroViewport();
       const ndcX = (screenX / viewport.width) * 2 - 1;
@@ -2467,6 +2477,7 @@
 
       MASCOT_CONFIGS.forEach((cfg) => {
         const mascot = createVelvetMascot3D(cfg);
+        mascot.scale.setScalar(responsivePetScale());
         scene.add(mascot);
         mascots.push(mascot);
       });
@@ -2514,7 +2525,9 @@
       renderer.setSize(viewport.width, viewport.height, false);
       computeSlotWorldCoordinates();
 
+      const petScale = responsivePetScale();
       mascots.forEach((m) => {
+        m.scale.setScalar(petScale);
         if (m.userData.state === 'IDLE_ON_BLOCK') {
           const slot = slotPositions[m.userData.currentSlot];
           if (slot) m.position.copy(slot.perchWorld);

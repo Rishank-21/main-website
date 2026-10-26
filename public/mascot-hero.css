@@ -584,6 +584,19 @@
       .mini-pixel-deco-left { display: none; }
     }
 
+    /* Phone layout: spread the 4 perches edge-to-edge so pets never overlap */
+    @media (max-width: 640px) {
+      #block-1-base, #block-4-base { width: 76px; height: 76px; }
+      #block-1, #block-4 { width: 76px; height: 76px; bottom: 92px; }
+      #step-1 { left: 76px; width: 16px; height: 46px; }
+      #step-4 { right: 76px; width: 16px; height: 46px; }
+      #block-2 { left: 92px; width: 50px; height: 52px; }
+      #block-3 { right: 92px; width: 50px; height: 52px; }
+      #step-2 { left: 142px; width: 14px; height: 30px; }
+      #step-3 { right: 142px; width: 14px; height: 30px; }
+      #diamond-right-low, #diamond-right-high { display: none; }
+    }
+
     /* ==========================================================================
        6. Z-INDEX 15: CENTER MISTRAL-STYLE 2-LINE HERO HEADLINE
        ========================================================================== */

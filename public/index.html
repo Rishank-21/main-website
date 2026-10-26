@@ -83,11 +83,39 @@
         ]
     }
     </script>
-    <link rel="stylesheet" href="mascot-hero.css?v=hero-controls-3">
+    <link rel="stylesheet" href="mascot-hero.css?v=mobile-pets-1">
 </head>
 
 <body>
     <a class="skip-link" href="#main">Skip to main content</a>
+
+    <!-- Site-wide hero-matched engineering blueprint (dot-matrix, grid lines, crosshairs, arcs) -->
+    <div class="site-blueprint" aria-hidden="true">
+      <div class="dot-matrix"></div>
+      <div class="eng-line-v" style="left: 14%;"></div>
+      <div class="eng-line-v" style="left: 28%;"></div>
+      <div class="eng-line-v" style="left: 50%;"></div>
+      <div class="eng-line-v" style="left: 72%;"></div>
+      <div class="eng-line-v" style="left: 86%;"></div>
+      <div class="eng-line-h" style="top: 30%;"></div>
+      <div class="eng-line-h" style="top: 72%;"></div>
+      <div class="eng-crosshair" style="left: 14%; top: 30%;"></div>
+      <div class="eng-crosshair" style="left: 28%; top: 30%;"></div>
+      <div class="eng-crosshair" style="left: 50%; top: 30%;"></div>
+      <div class="eng-crosshair" style="left: 72%; top: 30%;"></div>
+      <div class="eng-crosshair" style="left: 86%; top: 30%;"></div>
+      <div class="eng-crosshair" style="left: 14%; top: 72%;"></div>
+      <div class="eng-crosshair" style="left: 28%; top: 72%;"></div>
+      <div class="eng-crosshair" style="left: 50%; top: 72%;"></div>
+      <div class="eng-crosshair" style="left: 72%; top: 72%;"></div>
+      <div class="eng-crosshair" style="left: 86%; top: 72%;"></div>
+      <svg class="eng-arcs-svg" viewBox="0 0 1440 900" fill="none" preserveAspectRatio="none">
+        <path d="M 0 420 A 420 420 0 0 0 420 0" stroke="#e2e8f0" stroke-width="1.1" />
+        <path d="M 1440 480 A 420 420 0 0 0 1020 900" stroke="#e2e8f0" stroke-width="1.1" />
+        <circle cx="720" cy="450" r="300" stroke="#eef2f6" stroke-width="1" stroke-dasharray="4 7" />
+      </svg>
+    </div>
+
     <!-- Hero Section: 3D velvet mascot stage -->
     <div id="hero-stage">
     <span id="home" class="hero-anchor" aria-hidden="true"></span>
@@ -314,46 +342,22 @@
             <div class="brand-band-row">
                 <div class="brand-cell">
                     <img class="brand-logo-img" src="assets/clients/nihar-creation.webp" alt="Nihar Creation logo" loading="lazy">
-                    <div class="brand-cell-meta">
-                        <strong>Nihar Creation™</strong>
-                        <span>Apparel & Textiles</span>
-                        <em class="brand-deliverable">Production Software</em>
-                    </div>
                 </div>
 
                 <div class="brand-cell">
-                    <img class="brand-logo-img" src="assets/clients/plusmark.png" alt="PLUSMARK logo" loading="lazy">
-                    <div class="brand-cell-meta">
-                        <strong><a href="https://plusmarkboards.com/" target="_blank" rel="noopener">PLUSMARK®</a></strong>
-                        <span>Writing & Display Systems</span>
-                        <em class="brand-deliverable">Website + App</em>
-                    </div>
+                    <a href="https://plusmarkboards.com/" target="_blank" rel="noopener" aria-label="PLUSMARK"><img class="brand-logo-img" src="assets/clients/plusmark.png" alt="PLUSMARK logo" loading="lazy"></a>
                 </div>
 
                 <div class="brand-cell">
-                    <img class="brand-logo-img" src="assets/clients/gajjar-furnitures.jpeg" alt="Gajjar Furnitures logo" loading="lazy">
-                    <div class="brand-cell-meta">
-                        <strong><a href="https://www.gajjarfurnitures.com/" target="_blank" rel="noopener">Gajjar Furnitures</a></strong>
-                        <span>Furniture Contractor</span>
-                        <em class="brand-deliverable">Website + App</em>
-                    </div>
+                    <a href="https://www.gajjarfurnitures.com/" target="_blank" rel="noopener" aria-label="Gajjar Furnitures"><img class="brand-logo-img" src="assets/clients/gajjar-furnitures.jpeg" alt="Gajjar Furnitures logo" loading="lazy"></a>
                 </div>
 
                 <div class="brand-cell">
                     <img class="brand-logo-img" src="assets/clients/komal-creation.png" alt="Komal Creation logo" loading="lazy">
-                    <div class="brand-cell-meta">
-                        <strong>Komal Creation</strong>
-                        <span>Apparel & Fashion</span>
-                    </div>
                 </div>
 
                 <div class="brand-cell">
-                    <img class="brand-logo-img himat" src="assets/clients/himat-textile.jpeg" alt="Himat Textile logo" loading="lazy">
-                    <div class="brand-cell-meta">
-                        <strong><a href="https://himattextile.com/" target="_blank" rel="noopener">Himat Textile</a></strong>
-                        <span>B2B Garment Supplier</span>
-                        <em class="brand-deliverable">Website + App</em>
-                    </div>
+                    <a href="https://himattextile.com/" target="_blank" rel="noopener" aria-label="Himat Textile"><img class="brand-logo-img himat" src="assets/clients/himat-textile.jpeg" alt="Himat Textile logo" loading="lazy"></a>
                 </div>
             </div>
         </div>
@@ -455,6 +459,11 @@
                                 <div class="mock-cards"><span></span><span></span><span></span></div>
                             </div>
                         </div>
+                        <div class="service-row-logos" aria-label="Web and software platforms">
+                            <span class="sr-logo"><img src="assets/platforms/software.png" alt="Custom Software" loading="lazy"></span>
+                            <span class="sr-logo"><img src="assets/platforms/apps.png" alt="Mobile Apps" loading="lazy"></span>
+                            <span class="sr-logo"><img src="assets/platforms/erp.png" alt="ERP &amp; CRM" loading="lazy"></span>
+                        </div>
                     </div>
                 </article>
 
@@ -477,6 +486,12 @@
                             <div class="mock-tile hot"><span class="mock-tile-img"></span><span class="mock-tile-line"></span><span class="mock-tile-price">₹</span></div>
                             <div class="mock-tile"><span class="mock-tile-img"></span><span class="mock-tile-line"></span><span class="mock-tile-price">₹</span></div>
                             <div class="mock-tile"><span class="mock-tile-img"></span><span class="mock-tile-line"></span><span class="mock-tile-price">₹</span></div>
+                        </div>
+                        <div class="service-row-logos" aria-label="Marketplace platforms">
+                            <span class="sr-logo"><img src="assets/platforms/amazon.png" alt="Amazon" loading="lazy"></span>
+                            <span class="sr-logo"><img src="assets/platforms/flipkart.png" alt="Flipkart" loading="lazy"></span>
+                            <span class="sr-logo"><img src="assets/platforms/meesho.png" alt="Meesho" loading="lazy"></span>
+                            <span class="sr-logo"><img src="assets/platforms/myntra.png" alt="Myntra" loading="lazy"></span>
                         </div>
                     </div>
                 </article>
@@ -501,6 +516,10 @@
                                 <span style="--h:32%"></span><span style="--h:48%"></span><span style="--h:40%"></span><span style="--h:66%"></span><span style="--h:58%"></span><span style="--h:82%"></span><span class="peak" style="--h:100%"></span>
                             </div>
                         </div>
+                        <div class="service-row-logos" aria-label="Ad platforms">
+                            <span class="sr-logo"><img src="assets/platforms/meta.png" alt="Meta Ads" loading="lazy"></span>
+                            <span class="sr-logo"><img src="assets/platforms/google-ads.png" alt="Google Ads" loading="lazy"></span>
+                        </div>
                     </div>
                 </article>
 
@@ -524,6 +543,10 @@
                             <div class="mock-result"><div><strong>Competitor 1</strong><span class="mock-line-dim"></span></div><em>#4</em></div>
                             <div class="mock-result"><div><strong>Competitor 2</strong><span class="mock-line-dim"></span></div><em>#7</em></div>
                         </div>
+                        <div class="service-row-logos" aria-label="Search platforms">
+                            <span class="sr-logo"><img src="assets/platforms/google-ads-mark.png" alt="Google" loading="lazy"></span>
+                            <span class="sr-logo"><img src="assets/platforms/maps.svg" alt="Google Maps" loading="lazy"></span>
+                        </div>
                     </div>
                 </article>
 
@@ -546,6 +569,12 @@
                             <div class="mock-phone-grid">
                                 <span></span><span class="hot"></span><span></span><span></span><span></span><span class="hot"></span><span></span><span></span><span class="hot"></span>
                             </div>
+                        </div>
+                        <div class="service-row-logos" aria-label="Social platforms">
+                            <span class="sr-logo"><img src="assets/platforms/instagram.png" alt="Instagram" loading="lazy"></span>
+                            <span class="sr-logo"><img src="assets/platforms/facebook.png" alt="Facebook" loading="lazy"></span>
+                            <span class="sr-logo"><img src="assets/platforms/linkedin.png" alt="LinkedIn" loading="lazy"></span>
+                            <span class="sr-logo"><img src="assets/platforms/youtube.png" alt="YouTube" loading="lazy"></span>
                         </div>
                     </div>
                 </article>
@@ -1289,438 +1318,6 @@
         </div>
     </section>
 
-    <!-- Service Quotations & Packages Section -->
-    <!-- Shape divider -->
-    <div class="section-divider" data-shape="wave" data-bg="#fafafa" data-fill="#ffffff" data-c1="#7C4B9B" data-c2="#C191FF" aria-hidden="true"></div>
-    <section class="section quotation-section" id="quotation">
-        <div class="container">
-            <div class="section-header-centered">
-                <h2 class="section-heading">Service Quotations & Packages</h2>
-                <p class="section-subheading">Clear starting estimates for development projects and predictable monthly growth retainers.</p>
-            </div>
-
-            <!-- Part 1: Website & Software Development Quotations -->
-            <div class="quote-sub-header">
-                <span class="sub-label">DEVELOPMENT QUOTATIONS</span>
-                <h3 class="sub-title">Websites & Custom Software</h3>
-            </div>
-
-            <!-- Estimate Disclaimer Box -->
-            <div class="estimate-disclaimer-box">
-                <span class="disclaimer-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><line x1="12" y1="11.5" x2="12" y2="17"/><circle cx="12" cy="7.6" r="0.9" fill="currentColor" stroke="none"/></svg></span>
-                <p>
-                    <strong>Estimate Disclaimer:</strong> All pricing listed below represents starting estimates. The final project investment will be tailored to your specific business requirements, custom features, design complexity, and operational scope.
-                </p>
-            </div>
-
-            <!-- Development Quotes Grid (4 Cards) -->
-    <svg class="doodle doodle-quote" viewBox="0 0 130 120" aria-hidden="true" focusable="false">
-        <path class="dl" pathLength="1" d="M26,12 h46 l22,22 v78 H26 Z"/>
-        <path class="dl" pathLength="1" d="M72,12 v22 h22"/>
-        <path class="dl" pathLength="1" d="M38,52 h46 M38,66 h46 M38,80 h28"/>
-        <g transform="rotate(-38 96 96)"><rect class="dl accent" pathLength="1" x="74" y="86" width="40" height="22" rx="5"/><circle class="dot accent" cx="82" cy="97" r="2.6"/></g>
-        <path class="dl accent2" pathLength="1" d="M14,30 l6,-6 M18,44 h8"/>
-    </svg>
-            <div class="web-quote-grid">
-                <!-- Web Package 1: Basic Intro Website -->
-                <div class="quote-card">
-                    <div class="quote-header">
-                        <div class="quote-badge">STARTER PRESENCE</div>
-                        <h4 class="quote-title">Basic Intro Website</h4>
-                        <div class="quote-price-wrap">
-                            <span class="currency">₹</span>
-                            <span class="amount">9,000</span>
-                            <span class="period">(Estimate)</span>
-                        </div>
-                        <p class="quote-deliverable-summary">
-                            <strong>3 to 4 Pages</strong> (Home, About, Services, Contact)
-                        </p>
-                    </div>
-
-                    <div class="quote-body">
-                        <h5 class="deliverables-heading">WHAT'S INCLUDED:</h5>
-                        <ul class="quote-checklist">
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>3–4 Clean Pages</strong>
-                                    <span>Professional corporate & business introduction</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>Mobile Responsive</strong>
-                                    <span>Smooth layout on smartphones, tablets, & laptops</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>Contact & WhatsApp Form</strong>
-                                    <span>Direct inquiry generation for leads</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>Fast Loading & Basic SEO</strong>
-                                    <span>Optimized meta tags and Google Maps embed</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="quote-footer">
-                        <a href="https://wa.me/918511410817?text=Hi%20The%20Blank%20State%2C%20I%20am%20interested%20in%20the%20Basic%20Intro%20Website%20(%E2%82%B99%2C000%20estimate)."
-                            target="_blank" class="btn btn-secondary btn-block">
-                            <span>Inquire for ₹9K Website</span>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Web Package 2: Interactive Website -->
-                <div class="quote-card featured-card">
-                    <div class="quote-header">
-                        <div class="quote-badge badge-accent">DYNAMIC & INTERACTIVE</div>
-                        <h4 class="quote-title">Interactive Website</h4>
-                        <div class="quote-price-wrap">
-                            <span class="currency">₹</span>
-                            <span class="amount" style="font-size: 2.15rem;">15K – 20K</span>
-                            <span class="period">(Estimate)</span>
-                        </div>
-                        <p class="quote-deliverable-summary">
-                            <strong>User Login, Media & Admin Panel</strong>
-                        </p>
-                    </div>
-
-                    <div class="quote-body">
-                        <h5 class="deliverables-heading">WHAT'S INCLUDED:</h5>
-                        <ul class="quote-checklist">
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>User Login & Accounts</strong>
-                                    <span>Secure customer/client authentication</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>Photos & Videos Showcase</strong>
-                                    <span>Interactive multimedia galleries & media views</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>Save / Bookmark Options</strong>
-                                    <span>Users can save favorite items, posts, or media</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>Dedicated Admin Dashboard</strong>
-                                    <span>Full control to upload, manage, & edit content</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="quote-footer">
-                        <a href="https://wa.me/918511410817?text=Hi%20The%20Blank%20State%2C%20I%20am%20interested%20in%20the%20Interactive%20Website%20with%20Login%20%26%20Admin%20Panel%20(%E2%82%B915K-20K%20estimate)."
-                            target="_blank" class="btn btn-primary btn-block">
-                            <span>Inquire for Interactive Site</span>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Web Package 3: Full E-Commerce -->
-                <div class="quote-card featured-card accent-card">
-                    <div class="quote-header">
-                        <div class="quote-badge">FULL ONLINE STORE</div>
-                        <h4 class="quote-title">Full E-Commerce</h4>
-                        <div class="quote-price-wrap">
-                            <span class="currency">₹</span>
-                            <span class="amount">40,000</span>
-                            <span class="period">(Estimate)</span>
-                        </div>
-                        <p class="quote-deliverable-summary">
-                            <strong>Complete Store with Full Admin</strong>
-                        </p>
-                    </div>
-
-                    <div class="quote-body">
-                        <h5 class="deliverables-heading">WHAT'S INCLUDED:</h5>
-                        <ul class="quote-checklist">
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>Full Product Catalogue</strong>
-                                    <span>Categories, variations, search & filters</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>Cart & Payment Gateway</strong>
-                                    <span>UPI, Cards, NetBanking (Razorpay/Stripe)</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>Complete Admin Panel</strong>
-                                    <span>Order processing, inventory & customer tracking</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>Coupons & Discounts</strong>
-                                    <span>Promotional codes, invoices, & notifications</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="quote-footer">
-                        <a href="https://wa.me/918511410817?text=Hi%20The%20Blank%20State%2C%20I%20am%20interested%20in%20the%20Full%20E-Commerce%20Store%20(%E2%82%B940%2C000%20estimate)."
-                            target="_blank" class="btn btn-primary btn-block">
-                            <span>Inquire for ₹40K E-Commerce</span>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Web Package 4: Custom Software -->
-                <div class="quote-card">
-                    <div class="quote-header">
-                        <div class="quote-badge">CUSTOM BUSINESS TECH</div>
-                        <h4 class="quote-title">Custom Software</h4>
-                        <div class="quote-price-wrap">
-                            <span class="currency">₹</span>
-                            <span class="amount" style="font-size: 2.2rem;">15,000+</span>
-                            <span class="period">(Starts From)</span>
-                        </div>
-                        <p class="quote-deliverable-summary">
-                            <strong>Built According to Your Needs</strong>
-                        </p>
-                    </div>
-
-                    <div class="quote-body">
-                        <h5 class="deliverables-heading">WHAT'S INCLUDED:</h5>
-                        <ul class="quote-checklist">
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>ERP / CRM / Billing Systems</strong>
-                                    <span>Designed around your exact business workflow</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>Inventory & Order Tracking</strong>
-                                    <span>Stock monitoring, billing & dispatch systems</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>Role-Based User Permissions</strong>
-                                    <span>Admin, staff, manager, & accounts logins</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>Automated Reports & Exports</strong>
-                                    <span>Excel/PDF reports and analytics dashboards</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="quote-footer">
-                        <a href="https://wa.me/918511410817?text=Hi%20The%20Blank%20State%2C%20I%20need%20custom%20business%20software%20(starts%20at%20%E2%82%B915%2C000%20estimate)."
-                            target="_blank" class="btn btn-secondary btn-block">
-                            <span>Get Software Estimate</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Part 2: Monthly Marketing Retainers -->
-            <div class="quote-sub-header">
-                <span class="sub-label">MONTHLY GROWTH RETAINERS</span>
-                <h3 class="sub-title">Performance Marketing & Social Media</h3>
-            </div>
-
-            <!-- Quotation Cards Grid -->
-            <div class="quotation-grid">
-                <!-- Package 1: Social Media Management -->
-                <div class="quote-card featured-card">
-                    <div class="quote-header">
-                        <div class="quote-badge">ORGANIC GROWTH</div>
-                        <h3 class="quote-title">1. Social Media Management</h3>
-                        <div class="quote-price-wrap">
-                            <span class="currency">₹</span>
-                            <span class="amount">12,000</span>
-                            <span class="period">/ month</span>
-                        </div>
-                        <p class="quote-deliverable-summary">
-                            <strong>18 Organic Content Pieces / Month</strong> (10 Reels + 8 Feed Posts)
-                        </p>
-                    </div>
-
-                    <div class="quote-body">
-                        <h5 class="deliverables-heading">WHAT'S INCLUDED:</h5>
-                        <ul class="quote-checklist">
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>10 Reels / Month</strong>
-                                    <span>High-quality video concepts, hooks, and trend integration</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>8 Social Media Posts / Month</strong>
-                                    <span>Carousels, product showcases, and branding graphics</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>Captions + Hashtag Research</strong>
-                                    <span>Included with optimized reach keywords</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>Monthly Content Planning</strong>
-                                    <span>Included strategic calendar aligned to business goals</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>Reel Editing & Designing</strong>
-                                    <span>Included with professional pacing and sound design</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>Posting & Scheduling</strong>
-                                    <span>Included at peak audience engagement hours</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="quote-footer">
-                        <a href="https://wa.me/918511410817?text=Hi%20The%20Blank%20State%2C%20I%20want%20to%20get%20started%20with%20the%20Social%20Media%20Management%20package%20(%E2%82%B912%2C000%2Fmonth)."
-                            target="_blank" class="btn btn-primary btn-block">
-                            <span>Get Started With Social Media</span>
-                            <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M5 12h14M12 5l7 7-7 7" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Package 2: Performance Marketing -->
-                <div class="quote-card featured-card accent-card">
-                    <div class="quote-header">
-                        <div class="quote-badge badge-accent">PAID ACQUISITION</div>
-                        <h3 class="quote-title">2. Performance Marketing</h3>
-                        <div class="quote-price-wrap">
-                            <span class="currency">₹</span>
-                            <span class="amount">10,000</span>
-                            <span class="period">/ month</span>
-                        </div>
-                        <p class="quote-deliverable-summary">
-                            <strong>3–5 Creative Ads / Month + Meta Ads Management</strong>
-                        </p>
-                    </div>
-
-                    <div class="quote-body">
-                        <h5 class="deliverables-heading">WHAT'S INCLUDED:</h5>
-                        <ul class="quote-checklist">
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>3–5 Creative Ads / Month</strong>
-                                    <span>Engineered for conversions and low cost per acquisition</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>Meta Ads Setup & Pixel</strong>
-                                    <span>Included tracking setup, CAPI, and custom events</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>Audience Targeting</strong>
-                                    <span>Included interest, demographic, and lookalike profiling</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>Continuous Ad Testing</strong>
-                                    <span>Included creative A/B testing and angle iteration</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>Monitoring & Optimization</strong>
-                                    <span>Included daily budget pacing and ROAS management</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="check-icon">✓</span>
-                                <div>
-                                    <strong>Performance Reporting</strong>
-                                    <span>Included transparent bi-weekly & monthly breakdowns</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="quote-footer">
-                        <a href="https://wa.me/918511410817?text=Hi%20The%20Blank%20State%2C%20I%20want%20to%20get%20started%20with%20the%20Performance%20Marketing%20package%20(%E2%82%B910%2C000%2Fmonth)."
-                            target="_blank" class="btn btn-primary btn-block">
-                            <span>Get Started With Performance Ads</span>
-                            <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M5 12h14M12 5l7 7-7 7" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Important Terms & Bundling Notice -->
-            <div class="quote-notes-box">
-                <div class="note-item">
-                    <span class="note-bullet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4.2L6 21z"/></svg></span>
-                    <p><strong>Ad Budget Notice:</strong> Meta Ads Budget is separate from the ₹10,000 Performance Marketing fee. The client will pay the actual advertising spend directly to Meta.</p>
-                </div>
-                <div class="note-item">
-                    <span class="note-bullet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 7h3a5 5 0 0 1 0 10h-3"/><path d="M9 17H6A5 5 0 0 1 6 7h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></span>
-                    <p><strong>Combined Power:</strong> Social Media Management and Performance Marketing are separate services and can be taken individually or together for full-funnel digital dominance.</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Why The Blank State Section -->
     <!-- Shape divider -->
@@ -2096,8 +1693,7 @@
                 <a href="#about" class="mega-link"><span class="mega-link-text">About</span><span class="mega-link-num">01</span></a>
                 <a href="#services" class="mega-link"><span class="mega-link-text">Services</span><span class="mega-link-num">02</span></a>
                 <a href="#process" class="mega-link"><span class="mega-link-text">Process</span><span class="mega-link-num">03</span></a>
-                <a href="#quotation" class="mega-link"><span class="mega-link-text">Pricing</span><span class="mega-link-num">04</span></a>
-                <a href="#contact" class="mega-link"><span class="mega-link-text">Contact Us</span><span class="mega-link-num">05</span></a>
+                <a href="#contact" class="mega-link"><span class="mega-link-text">Contact Us</span><span class="mega-link-num">04</span></a>
             </nav>
 
             <div class="footer-cta-row">
@@ -2143,23 +1739,13 @@
                 </div>
 
                 <div class="footer-links-col">
-                    <h4>Monthly Retainers</h4>
-                    <ul>
-                        <li><a href="#quotation">Social Media (₹12,000/mo)</a></li>
-                        <li><a href="#quotation">Performance Marketing (₹10,000/mo)</a></li>
-                        <li><a href="#quotation">E-Commerce Retainer</a></li>
-                        <li><a href="#quotation">Custom Business Software</a></li>
-                        <li><a href="#clients">Our Trusted Clients</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-links-col">
                     <h4>Quick Links</h4>
                     <ul>
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About The Blank State</a></li>
                         <li><a href="#process">How We Work</a></li>
                         <li><a href="#why-us">Why Us</a></li>
+                        <li><a href="#clients">Our Trusted Clients</a></li>
                         <li><a href="#contact">Contact & Inquiry</a></li>
                     </ul>
                 </div>
@@ -2193,7 +1779,7 @@
     <!-- Scripts -->
     <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="mascot-hero.js?v=hero-controls-3"></script>
+    <script src="mascot-hero.js?v=mobile-pets-1"></script>
 </body>
 
 </html>

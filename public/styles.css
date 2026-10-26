@@ -1,34 +1,34 @@
 /* ==========================================================================
    THE BLANK STATE — Digital Growth Company
    Design System & Main Stylesheet
-   Palette: Warm Sand / Linen / Obsidian / Warm Gold
-   Theme: Borderless, Pure Smooth Rounded Corners & Elevated Soft Surfaces
+   Palette: Hero Blueprint — Paper / Slate Ink / Flame Orange (matches #hero-stage)
+   Theme: Engineering dot-matrix, hairline grid, crosshairs & orbital arcs
    ========================================================================== */
 
 :root {
     /* Color Palette */
-    --bg-page: #FAF8F5;
+    --bg-page: #fbfbf8;
     --bg-surface: #FFFFFF;
-    --bg-sand: #F4EFE6;
-    --bg-sand-light: #F9F6F0;
-    --bg-sand-dark: #ECE4D6;
+    --bg-sand: #f5f4ef;
+    --bg-sand-light: #f8f8f5;
+    --bg-sand-dark: #ebe9e0;
     --bg-card: #FFFFFF;
-    --bg-dark: #141210;
-    --bg-dark-surface: #1E1B18;
-    --bg-dark-card: #282420;
+    --bg-dark: #12121c;
+    --bg-dark-surface: #1c1c28;
+    --bg-dark-card: #262633;
 
     /* Text Colors */
-    --text-primary: #181614;
-    --text-secondary: #58534E;
-    --text-muted: #8E877E;
-    --text-light: #FAF8F5;
-    --text-light-muted: #BDB6AB;
+    --text-primary: #151524;
+    --text-secondary: #3f3f46;
+    --text-muted: #6f6f75;
+    --text-light: #fbfbf8;
+    --text-light-muted: #a1a1aa;
 
     /* Brand Accents */
-    --accent-gold: #C29D59;
-    --accent-gold-dark: #9F7E3C;
-    --accent-gold-light: #F7EFE0;
-    --accent-gold-glow: rgba(194, 157, 89, 0.22);
+    --accent-gold: #F26522;
+    --accent-gold-dark: #d9531a;
+    --accent-gold-light: #fdece2;
+    --accent-gold-glow: rgba(242, 101, 34, 0.22);
 
     /* Borderless Architecture: all borders transparent / 0 */
     --border-subtle: transparent;
@@ -36,15 +36,15 @@
     --border-dark: transparent;
 
     /* Soft Elevated Shadows */
-    --shadow-subtle: 0 4px 16px rgba(24, 22, 20, 0.04);
-    --shadow-card: 0 8px 28px rgba(24, 22, 20, 0.06);
-    --shadow-hover: 0 16px 40px rgba(24, 22, 20, 0.12);
-    --shadow-gold: 0 12px 36px rgba(194, 157, 89, 0.25);
+    --shadow-subtle: 0 4px 16px rgba(21, 21, 36, 0.05);
+    --shadow-card: 0 8px 28px rgba(21, 21, 36, 0.07);
+    --shadow-hover: 0 16px 40px rgba(21, 21, 36, 0.12);
+    --shadow-gold: 0 12px 36px rgba(242, 101, 34, 0.25);
     --shadow-dark-card: 0 10px 30px rgba(0, 0, 0, 0.25);
 
     /* Typography */
-    --font-primary: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-    --font-display: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-display: 'Space Grotesk', 'Inter', -apple-system, sans-serif;
 
     /* Transitions */
     --transition-fast: 160ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -4868,8 +4868,8 @@ html, body { overflow-x: clip; }
 
 .nav-links { max-width: calc(100vw - 2rem); }
 
-/* ---------- 7. Brand band faster auto-scroll ---------- */
-.brand-band-row { animation-duration: 18s !important; }
+/* ---------- 7. Brand band auto-scroll speed ---------- */
+.brand-band-row { animation-duration: 30s; }
 
 /* ---------- 8. Client quote banner — strip box + background ---------- */
 .client-quote-banner {
@@ -5601,4 +5601,182 @@ select:focus-visible,
     .dl-all, .dash-list-head a { min-height: 40px; display: inline-flex; align-items: center; }
     .brand-cell a { min-height: 40px; display: inline-flex; align-items: center; }
     .nav-links a { min-height: 44px; display: inline-flex; align-items: center; }
+}
+
+/* ============================================================================
+   LAYER 21 — SITE-WIDE HERO BLUEPRINT
+   Extends the #hero-stage design system (engineering dot-matrix, 1px grid
+   lines, crosshairs, orbital arcs + hairline section rules) to every section
+   below the fold. Light sections become transparent so the blueprint reads
+   through; dark bands stay opaque. Service-row illustrations keep their own
+   accent colours untouched.
+   ========================================================================== */
+.site-blueprint {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.site-blueprint .dot-matrix { opacity: 0.42; }
+
+.site-blueprint .eng-line-v { top: 0; bottom: 0; opacity: 0.7; }
+.site-blueprint .eng-line-h { opacity: 0.7; }
+.site-blueprint .eng-crosshair { opacity: 0.85; }
+
+.site-blueprint .eng-arcs-svg { opacity: 0.55; }
+
+#main {
+    position: relative;
+    z-index: 1;
+}
+
+/* Light sections let the blueprint show through */
+#main > .section {
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+/* Hairline engineering rule between sections (replaces colourful waves) */
+.section-divider {
+    position: relative;
+    height: 1px;
+    margin: 0 auto;
+    max-width: 1440px;
+    background: transparent;
+    overflow: visible;
+}
+
+.section-divider::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--ms-line, #e4e3de);
+}
+
+.section-divider .dv-node {
+    position: absolute;
+    top: 0;
+    width: 11px;
+    height: 11px;
+    transform: translate(-5px, -5px);
+}
+
+.section-divider .dv-node::before,
+.section-divider .dv-node::after {
+    content: '';
+    position: absolute;
+    background: #94a3b8;
+}
+
+.section-divider .dv-node::before { top: 5px; left: 0; width: 11px; height: 1.5px; }
+.section-divider .dv-node::after { left: 5px; top: 0; width: 1.5px; height: 11px; }
+
+.section-divider .dv-flame {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    transform: translate(-50%, -3px);
+    background: var(--ms-flame, #f26522);
+    box-shadow: 0 0 0 4px rgba(242, 101, 34, 0.14);
+}
+
+/* ---------- Service-row platform logo strips (illustrations untouched) ------ */
+.svc-rows .service-row-visual { flex-direction: column; }
+
+.service-row-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+    padding-top: 14px;
+    border-top: 0.8px solid var(--ms-line, #e4e3de);
+    width: 100%;
+}
+
+.service-row-logos .sr-logo {
+    display: inline-flex;
+    align-items: center;
+    height: 34px;
+    padding: 0 6px;
+    background: none;
+    border: 0;
+    border-radius: 0;
+    transition: transform 0.2s ease;
+}
+
+.service-row-logos .sr-logo:hover {
+    transform: translateY(-2px);
+}
+
+.service-row-logos .sr-logo img {
+    height: 22px;
+    width: auto;
+    max-width: 92px;
+    object-fit: contain;
+}
+
+@media (max-width: 640px) {
+    .site-blueprint .eng-line-v { display: none; }
+    .site-blueprint .eng-crosshair { display: none; }
+}
+
+/* ==========================================================================
+   LAYER 22 — BRAND BAND: logos-only, larger, auto-scroll marquee
+   ========================================================================== */
+@keyframes brandBandScroll {
+    from { transform: translate3d(0, 0, 0); }
+    to   { transform: translate3d(var(--bb-delta, -50%), 0, 0); }
+}
+
+.brand-band { margin-top: 26px; }
+
+.brand-band-row {
+    animation: brandBandScroll 30s linear infinite;
+    will-change: transform;
+}
+
+.brand-cell {
+    flex: 0 0 clamp(210px, 24vw, 320px);
+    width: clamp(210px, 24vw, 320px);
+    box-sizing: border-box;
+    padding: clamp(34px, 4vw, 52px) clamp(24px, 3.4vw, 44px);
+    gap: 0;
+}
+
+.brand-cell .brand-logo-img {
+    max-width: 230px;
+    max-height: 88px;
+    opacity: .85;
+}
+
+.brand-cell .brand-logo-img.himat { max-height: 110px; }
+
+.brand-cell:hover .brand-logo-img {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.brand-band:hover .brand-band-row,
+.brand-band:focus-within .brand-band-row { animation-play-state: paused; }
+
+.brand-cell.is-clone { pointer-events: none; }
+
+.brand-cell a { display: inline-flex; align-items: center; justify-content: center; }
+
+@media (max-width: 768px) {
+    .brand-cell { padding: 30px 22px; }
+    .brand-cell .brand-logo-img { max-width: 168px; max-height: 62px; }
+    .brand-cell .brand-logo-img.himat { max-height: 78px; }
+    .brand-band-row { animation-duration: 22s; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .brand-band-row { animation: none; }
 }
