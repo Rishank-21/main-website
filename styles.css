@@ -5262,13 +5262,12 @@ html, body { overflow-x: clip; }
    10. PLATFORM LOGO CHIPS (tab panels)
    ============================ */
 .chip-logo {
-    width: 20px;
-    height: 20px;
-    border-radius: 6px;
-    object-fit: cover;
-    object-position: center;
-    background: #fff;
-    border: 0.8px solid var(--ms-line);
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    background: none;
+    border: 0;
+    border-radius: 0;
     flex: none;
 }
 
@@ -5796,3 +5795,6 @@ select:focus-visible,
 @media (max-width: 640px) {
     .bp-illo { width: 148px; }
 }
+
+/* ---------- Global hide utility (team section hidden for now) ---------- */
+.is-hidden { display: none !important; }

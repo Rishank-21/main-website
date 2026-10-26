@@ -1,18 +1,34 @@
     let audioCtx = null;
     let audioEnabled = true;
+    let heroVisible = true;
+
+    function watchHeroAudioScope() {
+      const stage = document.getElementById('hero-stage');
+      if (!stage || !('IntersectionObserver' in window)) return;
+      new IntersectionObserver((entries) => {
+        heroVisible = entries.some(e => e.isIntersecting);
+        if (!audioCtx) return;
+        if (!heroVisible && audioCtx.state === 'running') {
+          audioCtx.suspend().catch(() => {});
+        } else if (heroVisible && audioEnabled && audioCtx.state === 'suspended') {
+          audioCtx.resume().catch(() => {});
+        }
+      }, { threshold: 0.1 }).observe(stage);
+    }
+
     function getAudioCtx() {
       if (!audioCtx) {
         const AudioContextClass = window.AudioContext || window.webkitAudioContext;
         if (AudioContextClass) audioCtx = new AudioContextClass();
       }
-      if (audioCtx && audioCtx.state === 'suspended') {
+      if (audioCtx && audioCtx.state === 'suspended' && heroVisible) {
         audioCtx.resume().catch(() => {});
       }
       return audioCtx;
     }
 
     function playCartoonSound(type) {
-      if (!audioEnabled) return;
+      if (!audioEnabled || !heroVisible) return;
       try {
         const ctx = getAudioCtx();
         if (!ctx) return;
@@ -3218,4 +3234,7 @@
       });
     }
 
-    window.addEventListener('DOMContentLoaded', initMascotAudioToggle);
+    window.addEventListener('DOMContentLoaded', () => {
+      initMascotAudioToggle();
+      watchHeroAudioScope();
+    });
